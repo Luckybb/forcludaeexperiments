@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.bncapparel.site/sitemap.xml
