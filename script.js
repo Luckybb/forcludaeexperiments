@@ -63,50 +63,179 @@ if (!reduce && typeof Lenis !== "undefined") {
   );
 }
 
-// ---------- 3D portfolio ring hero ----------
+// ---------- 3D T-shirt hero ----------
 const heroState = { scroll: 0 };
-(function ring() {
-  const ringEl = document.getElementById("ring");
-  const cards = [...ringEl.children];
-  const n = cards.length, step = 360 / n;
-  let radius = 0, rot = 0, tiltX = -6, tiltY = 0, tx = -6, ty = 0, hover = false;
-  function layout() {
-    const w = cards[0].offsetWidth;
-    radius = Math.round((w / 2) / Math.tan(Math.PI / n) * 1.28);
-    cards.forEach((c, i) => (c.style.transform = `rotateY(${i * step}deg) translateZ(${radius}px)`));
+(function tee() {
+  const stage = document.getElementById("teeStage");
+  const canvas = document.getElementById("teeGl");
+  if (typeof THREE === "undefined") { stage.classList.add("no-gl"); return; }
+  let renderer;
+  try { renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true }); }
+  catch (e) { stage.classList.add("no-gl"); return; }
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.outputEncoding = THREE.sRGBEncoding;
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 50);
+  camera.position.set(0, 0.1, 10.5);
+
+  // Lights: soft studio with an orange rim
+  scene.add(new THREE.HemisphereLight(0xffffff, 0x2a2622, 0.75));
+  const key = new THREE.DirectionalLight(0xffffff, 0.9); key.position.set(-3, 4, 6); scene.add(key);
+  const rim = new THREE.DirectionalLight(0xff4a1c, 1.1); rim.position.set(4, 1, -4); scene.add(rim);
+  const fill = new THREE.DirectionalLight(0xc7d6ff, 0.35); fill.position.set(3, -2, 5); scene.add(fill);
+
+  // Tee silhouette (same outline as the site's tee icon), puffed up with a deep bevel
+  const s = new THREE.Shape();
+  s.moveTo(70, -26); s.quadraticCurveTo(100, -46, 130, -26);
+  s.lineTo(166, -42); s.quadraticCurveTo(178, -58, 190, -84); s.lineTo(160, -98); s.lineTo(150, -84);
+  s.lineTo(151, -182); s.quadraticCurveTo(100, -192, 49, -182);
+  s.lineTo(50, -84); s.lineTo(40, -98); s.lineTo(10, -84); s.quadraticCurveTo(22, -58, 34, -42);
+  s.closePath();
+  const geo = new THREE.ExtrudeGeometry(s, { depth: 10, bevelEnabled: true, bevelThickness: 11, bevelSize: 7, bevelSegments: 10, curveSegments: 28 });
+  geo.center();
+  geo.scale(0.02, 0.02, 0.02);
+  geo.computeBoundingBox();
+  const front = geo.boundingBox.max.z;
+
+  // Knit texture used as a bump map so the cotton catches light
+  const knit = document.createElement("canvas"); knit.width = knit.height = 128;
+  const k = knit.getContext("2d");
+  k.fillStyle = "#808080"; k.fillRect(0, 0, 128, 128);
+  for (let x = 0; x < 128; x += 4) { k.fillStyle = x % 8 ? "#6a6a6a" : "#9a9a9a"; k.fillRect(x, 0, 2, 128); }
+  for (let i = 0; i < 1400; i++) { k.fillStyle = `rgba(${Math.random() > .5 ? 255 : 0},0,0,.08)`; k.fillRect(Math.random() * 128, Math.random() * 128, 1, 1); }
+  const knitTex = new THREE.CanvasTexture(knit);
+  knitTex.wrapS = knitTex.wrapT = THREE.RepeatWrapping; knitTex.repeat.set(0.09, 0.09);
+
+  const cloth = new THREE.MeshStandardMaterial({ color: 0x1b1b1a, roughness: 0.92, metalness: 0, bumpMap: knitTex, bumpScale: 0.012 });
+  const shirt = new THREE.Mesh(geo, cloth);
+
+  // Rib collar
+  const collar = new THREE.Mesh(new THREE.TorusGeometry(0.6, 0.06, 12, 40, Math.PI), cloth);
+  collar.rotation.z = Math.PI; collar.scale.set(1, 0.42, 1);
+  collar.position.set(0, (-26 + 109) * 0.02 - 0.02, front - 0.08);
+
+  // Print: a transparent canvas decal on the chest
+  const pc = document.createElement("canvas"); pc.width = pc.height = 512;
+  const pctx = pc.getContext("2d");
+  const printTex = new THREE.CanvasTexture(pc); printTex.encoding = THREE.sRGBEncoding; printTex.anisotropy = 4;
+  const decal = new THREE.Mesh(new THREE.PlaneGeometry(1.45, 1.45), new THREE.MeshStandardMaterial({ map: printTex, transparent: true, roughness: 0.8, polygonOffset: true, polygonOffsetFactor: -2 }));
+  decal.position.set(0, (-92 + 109) * 0.02, front + 0.004);
+
+  // Neck label
+  const label = new THREE.Mesh(new THREE.PlaneGeometry(0.26, 0.14), new THREE.MeshStandardMaterial({ color: 0xff4a1c, roughness: 0.6 }));
+  label.position.set(0, (-40 + 109) * 0.02, front - 0.05);
+
+  // Hanger
+  const metal = new THREE.MeshStandardMaterial({ color: 0xd9d6cf, roughness: 0.25, metalness: 0.9 });
+  const hanger = new THREE.Group();
+  const bar = (x1, y1, x2, y2) => {
+    const len = Math.hypot(x2 - x1, y2 - y1);
+    const m = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, len, 10), metal);
+    m.position.set((x1 + x2) / 2, (y1 + y2) / 2, 0);
+    m.rotation.z = Math.atan2(y2 - y1, x2 - x1) - Math.PI / 2;
+    return m;
+  };
+  const shoulderY = (-40 + 109) * 0.02;
+  hanger.add(bar(-1.55, shoulderY - 0.2, 0, shoulderY + 0.45), bar(0, shoulderY + 0.45, 1.55, shoulderY - 0.2));
+  const hook = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.035, 10, 30, Math.PI * 1.4), metal);
+  hook.position.set(0.02, shoulderY + 0.78, 0); hook.rotation.z = -0.5;
+  hanger.add(hook, bar(0, shoulderY + 0.45, 0, shoulderY + 0.62));
+  hanger.position.z = -0.05;
+
+  const group = new THREE.Group();
+  group.add(shirt, collar, decal, label, hanger);
+  group.position.y = -0.15;
+  scene.add(group);
+
+  // Prints (original BNC designs drawn on canvas)
+  let ink = "#ece8dd";
+  const display = '800 150px "Bricolage Grotesque", "Arial Black", Arial, sans-serif';
+  const prints = [
+    () => { // Wordmark
+      pctx.fillStyle = ink; pctx.textAlign = "center"; pctx.textBaseline = "middle";
+      pctx.font = display; pctx.fillText("BNC", 256, 220);
+      pctx.font = '500 30px "JetBrains Mono", monospace'; pctx.fillText("APPAREL STUDIO", 256, 320);
+      pctx.fillStyle = "#ff4a1c"; pctx.fillRect(166, 360, 180, 8);
+    },
+    () => { // Badge
+      pctx.strokeStyle = ink; pctx.lineWidth = 8;
+      pctx.beginPath(); pctx.arc(256, 256, 200, 0, Math.PI * 2); pctx.stroke();
+      pctx.beginPath(); pctx.arc(256, 256, 130, 0, Math.PI * 2); pctx.stroke();
+      const txt = "WE BUILD CLOTHING BRANDS THAT SELL • ";
+      pctx.fillStyle = ink; pctx.font = '600 30px "JetBrains Mono", monospace'; pctx.textAlign = "center"; pctx.textBaseline = "middle";
+      for (let i = 0; i < txt.length; i++) {
+        const ang = (i / txt.length) * Math.PI * 2 - Math.PI / 2;
+        pctx.save(); pctx.translate(256 + Math.cos(ang) * 166, 256 + Math.sin(ang) * 166); pctx.rotate(ang + Math.PI / 2);
+        pctx.fillText(txt[i], 0, 0); pctx.restore();
+      }
+      pctx.fillStyle = "#ff4a1c"; pctx.font = '800 96px "Bricolage Grotesque", Arial, sans-serif'; pctx.fillText("B", 256, 262);
+    },
+    () => { // Script
+      pctx.fillStyle = "#ff4a1c"; pctx.textAlign = "center"; pctx.textBaseline = "middle";
+      pctx.font = 'italic 400 190px "Instrument Serif", Georgia, serif'; pctx.fillText("sell.", 250, 230);
+      pctx.strokeStyle = ink; pctx.lineWidth = 7; pctx.lineCap = "round";
+      pctx.beginPath(); pctx.moveTo(110, 330); pctx.bezierCurveTo(200, 300, 320, 360, 410, 318); pctx.stroke();
+      pctx.fillStyle = ink; pctx.font = '500 26px "JetBrains Mono", monospace'; pctx.fillText("BUILT BY BNC", 256, 400);
+    },
+  ];
+  let printIdx = 0;
+  function drawPrint() { pctx.clearRect(0, 0, 512, 512); prints[printIdx](); printTex.needsUpdate = true; }
+  if (document.fonts) document.fonts.ready.then(drawPrint);
+
+  function setColor(hex) {
+    cloth.color.set(hex).convertSRGBToLinear();
+    const c = new THREE.Color(hex);
+    ink = (c.r * 0.299 + c.g * 0.587 + c.b * 0.114) > 0.55 ? "#141312" : "#ece8dd";
+    drawPrint();
   }
-  function draw() {
-    ringEl.style.transform = `translateZ(${-radius}px) rotateX(${tiltX}deg) rotateY(${rot}deg)`;
-    cards.forEach((c, i) => {
-      const a = ((i * step + rot) % 360 + 360) % 360;
-      const facing = Math.cos(a * Math.PI / 180);
-      c.style.setProperty("--f", facing.toFixed(3));
-      c.style.zIndex = Math.round(facing * 100) + 100;
-    });
+  setColor("#1b1b1a");
+  label.material.color.convertSRGBToLinear();
+  stage.querySelectorAll(".swatch").forEach((b) => b.addEventListener("click", () => {
+    stage.querySelectorAll(".swatch").forEach((x) => x.classList.toggle("is-on", x === b));
+    setColor(b.dataset.color); spin += 0.9;
+  }));
+  stage.querySelectorAll(".print").forEach((b) => b.addEventListener("click", () => {
+    stage.querySelectorAll(".print").forEach((x) => x.classList.toggle("is-on", x === b));
+    printIdx = +b.dataset.print; drawPrint(); spin += 0.9;
+  }));
+
+  function resize() {
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h;
+    camera.position.z = w < 420 ? 12.5 : 10.5;
+    camera.updateProjectionMatrix();
   }
-  layout();
-  addEventListener("resize", () => { layout(); draw(); });
-  const stage = ringEl.parentElement;
-  stage.addEventListener("pointerenter", () => (hover = true));
-  stage.addEventListener("pointerleave", () => { hover = false; tx = -6; ty = 0; });
-  document.getElementById("hero").addEventListener("pointermove", (e) => {
-    tx = -6 - (e.clientY / innerHeight - 0.5) * 12;
-    ty = (e.clientX / innerWidth - 0.5) * 30;
-  });
-  if (reduce) { rot = -20; draw(); return; }
-  let last = performance.now(), visible = true;
-  new IntersectionObserver(([en]) => (visible = en.isIntersecting)).observe(document.getElementById("hero"));
-  (function loop(now) {
-    const dt = Math.min(50, now - last); last = now;
-    if (visible) {
-      rot -= dt * (hover ? 0.006 : 0.018) * (1 + heroState.scroll * 6);
-      tiltX += (tx - tiltX) * 0.06;
-      tiltY += (ty - tiltY) * 0.06;
-      ringEl.parentElement.style.transform = `rotateY(${tiltY * 0.3}deg)`;
-      draw();
+  resize(); addEventListener("resize", resize);
+
+  // Drag to spin, otherwise a gentle sway like it's hanging on a rail
+  let rotY = -0.35, velocity = 0, dragging = false, lastX = 0, spin = 0, mx = 0, my = 0;
+  canvas.addEventListener("pointerdown", (e) => { dragging = true; lastX = e.clientX; canvas.setPointerCapture(e.pointerId); });
+  canvas.addEventListener("pointermove", (e) => { if (!dragging) return; velocity = (e.clientX - lastX) * 0.012; rotY += velocity; lastX = e.clientX; });
+  const stop = () => (dragging = false);
+  canvas.addEventListener("pointerup", stop); canvas.addEventListener("pointercancel", stop);
+  document.getElementById("hero").addEventListener("pointermove", (e) => { mx = e.clientX / innerWidth - 0.5; my = e.clientY / innerHeight - 0.5; });
+
+  let visible = true;
+  new IntersectionObserver(([en]) => (visible = en.isIntersecting)).observe(stage);
+  const clock = new THREE.Clock();
+  function frame() {
+    const t = clock.getElapsedTime();
+    if (!dragging) {
+      velocity *= 0.94;
+      const sway = Math.sin(t * 0.7) * 0.45 + mx * 0.5;
+      spin *= 0.95;
+      rotY += velocity + (sway - rotY) * 0.03 + spin * 0.12;
     }
-    requestAnimationFrame(loop);
-  })(last);
+    group.rotation.y = rotY + heroState.scroll * Math.PI;
+    group.rotation.z = Math.sin(t * 0.9) * 0.025;
+    group.rotation.x = -my * 0.15;
+    group.position.y = -0.15 + Math.sin(t * 1.3) * 0.06;
+    renderer.render(scene, camera);
+  }
+  if (reduce) { frame(); stage.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => requestAnimationFrame(frame))); return; }
+  (function loop() { if (visible) frame(); requestAnimationFrame(loop); })();
 })();
 
 // ---------- Garment art (original SVG illustrations) ----------
@@ -172,7 +301,7 @@ document.querySelectorAll(".wcard__art[data-img]").forEach((el) => {
   const track = document.getElementById("workTrack");
   track.addEventListener("pointerdown", (e) => { downX = e.clientX; dragged = false; });
   track.addEventListener("pointerup", (e) => { dragged = Math.abs(e.clientX - downX) > 8; });
-  document.querySelectorAll(".wcard[data-full], .ring__card").forEach((card) => {
+  document.querySelectorAll(".wcard[data-full]").forEach((card) => {
     card.addEventListener("click", () => {
       if (dragged) return;
       img.src = card.dataset.full;

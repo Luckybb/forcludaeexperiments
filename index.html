@@ -91,19 +91,24 @@
             <li>Brand identity</li><li>T-shirt design</li><li>Shopify &amp; POD</li><li>Marketing</li>
           </ul>
         </div>
-        <div class="hero__stage">
-          <div class="ring" id="ring">
-          <button class="ring__card" data-full="images/work/dream-in-defiance-full.webp" data-cursor="Open" aria-label="Open Dream in Defiance brand board"><img src="images/work/dream-in-defiance.webp" alt="Dream in Defiance brand board" width="720" height="1080" /><span>Dream in Defiance</span></button>
-          <button class="ring__card" data-full="images/work/hamrah-full.webp" data-cursor="Open" aria-label="Open Hamrah brand board"><img src="images/work/hamrah.webp" alt="Hamrah brand board" width="720" height="1080" /><span>Hamrah</span></button>
-          <button class="ring__card" data-full="images/work/apex-full.webp" data-cursor="Open" aria-label="Open Apex Apparel brand board"><img src="images/work/apex.webp" alt="Apex Apparel brand board" width="720" height="1080" /><span>Apex Apparel</span></button>
-          <button class="ring__card" data-full="images/work/paragon-full.webp" data-cursor="Open" aria-label="Open Paragon brand board"><img src="images/work/paragon.webp" alt="Paragon brand board" width="720" height="1080" /><span>Paragon</span></button>
-          <button class="ring__card" data-full="images/work/slash-32-full.webp" data-cursor="Open" aria-label="Open Slash-32 brand board"><img src="images/work/slash-32.webp" alt="Slash-32 brand board" width="720" height="1080" /><span>Slash-32</span></button>
-          <button class="ring__card" data-full="images/work/stillski-full.webp" data-cursor="Open" aria-label="Open Stillski brand board"><img src="images/work/stillski.webp" alt="Stillski brand board" width="720" height="1080" /><span>Stillski</span></button>
-          <button class="ring__card" data-full="images/work/gretchen-am-strand-full.webp" data-cursor="Open" aria-label="Open Gretchen am Strand brand board"><img src="images/work/gretchen-am-strand.webp" alt="Gretchen am Strand brand board" width="720" height="1080" /><span>Gretchen am Strand</span></button>
-          <button class="ring__card" data-full="images/work/streetwear-graphics-full.webp" data-cursor="Open" aria-label="Open Streetwear Graphics brand board"><img src="images/work/streetwear-graphics.webp" alt="Streetwear Graphics brand board" width="720" height="1080" /><span>Streetwear Graphics</span></button>
-          </div>
+        <div class="hero__stage" id="teeStage">
+          <canvas id="teeGl" aria-label="3D T-shirt you can spin and restyle"></canvas>
           <div class="hero__floor" aria-hidden="true"></div>
-          <p class="hero__hint" aria-hidden="true">Real client work · click a board</p>
+          <div class="tee-ui">
+            <div class="tee-ui__row" role="group" aria-label="Shirt color">
+              <button class="swatch is-on" data-color="#1b1b1a" style="--s:#1b1b1a" aria-label="Black"></button>
+              <button class="swatch" data-color="#ece8dd" style="--s:#ece8dd" aria-label="Bone"></button>
+              <button class="swatch" data-color="#ff4a1c" style="--s:#ff4a1c" aria-label="Signal orange"></button>
+              <button class="swatch" data-color="#5f6e34" style="--s:#5f6e34" aria-label="Olive"></button>
+              <button class="swatch" data-color="#8fb4ff" style="--s:#8fb4ff" aria-label="Sky blue"></button>
+            </div>
+            <div class="tee-ui__row" role="group" aria-label="Print">
+              <button class="print is-on" data-print="0">Wordmark</button>
+              <button class="print" data-print="1">Badge</button>
+              <button class="print" data-print="2">Script</button>
+            </div>
+          </div>
+          <p class="hero__hint" aria-hidden="true">Drag to spin · pick a color and print</p>
         </div>
       </div>
       <div class="hero__scroll" aria-hidden="true"><span>SCROLL</span><i></i></div>
@@ -460,6 +465,7 @@
 
   <a href="#audit" class="sticky-cta" id="stickyCta">Get my free audit ↗</a>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
