@@ -1,9 +1,10 @@
-// ===== SETTINGS: edit these two lines =====
-// 1. Your booking link (Calendly, WhatsApp, etc). Every "Book a free audit call" button uses it.
-const BOOKING_URL = "";
-// 2. Your contact email, used for the footer link.
-const CONTACT_EMAIL = "hello@bncapparel.site";
-// ==========================================
+// ===== SETTINGS =====
+// Where audit requests are emailed. The first submission sends a one-time activation email
+// from FormSubmit to this address: click "Activate" in it and every lead after that arrives.
+const LEAD_EMAIL = "info@bncproductionz.com";
+const CALENDLY_URL = "https://calendly.com/burhannazir";
+const WHATSAPP_URL = "https://wa.me/17473364515?text=" + encodeURIComponent("Hi BNC, I'd like a free audit for my clothing brand.");
+// ======================
 
 const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const isTouch = window.matchMedia("(hover: none), (pointer: coarse)").matches;
@@ -12,13 +13,7 @@ const hasGsap = typeof gsap !== "undefined" && typeof ScrollTrigger !== "undefin
 if (reduce) document.documentElement.classList.add("reduce");
 
 document.getElementById("year").textContent = new Date().getFullYear();
-document.getElementById("footerEmail").href = "mailto:" + CONTACT_EMAIL;
-if (BOOKING_URL) {
-  const book = document.getElementById("bookBtn");
-  book.href = BOOKING_URL;
-  book.target = "_blank";
-  book.rel = "noopener";
-}
+
 
 // ---------- Loader ----------
 const loader = document.getElementById("loader");
@@ -623,6 +618,95 @@ function updateCheck() {
   checkCta.textContent = cta;
 }
 boxes.forEach((b) => b.addEventListener("change", updateCheck));
+
+// ---------- Lead form (free audit) ----------
+const form = document.getElementById("auditForm");
+const statusEl = document.getElementById("formStatus");
+
+// Rough lead score so the best leads stand out in your inbox subject line.
+function leadPriority(d) {
+  let s = 0;
+  const stage = d.stage || "", budget = d.budget || "";
+  if (/grow|collection|Scaling/.test(stage)) s += 2;
+  if (/few sales/.test(stage)) s += 1;
+  if (/\$1,000|\$3,000\+/.test(budget)) s += 2;
+  if (/\$300 to/.test(budget)) s += 1;
+  if (/\.|@/.test(d.link || "")) s += 1;
+  return s >= 4 ? "HOT" : s >= 2 ? "WARM" : "COLD";
+}
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  statusEl.className = "form__status";
+  statusEl.textContent = "";
+  let firstBad = null;
+  form.querySelectorAll("[required]").forEach((el) => {
+    const bad = !el.checkValidity();
+    el.classList.toggle("invalid", bad);
+    if (bad && !firstBad) firstBad = el;
+  });
+  if (firstBad) {
+    statusEl.className = "form__status err";
+    statusEl.textContent = "Please fill in the highlighted fields.";
+    firstBad.focus();
+    return;
+  }
+  if (form._honey.value) return;
+
+  const fd = new FormData(form);
+  const d = Object.fromEntries(fd.entries());
+  d.need = fd.getAll("need").join(", ") || "Not specified";
+  const priority = leadPriority(d);
+  const payload = {
+    Priority: priority,
+    Name: d.name, Email: d.email, Brand: d.brand, Link: d.link,
+    Stage: d.stage, Budget: d.budget, Needs: d.need, Message: d.message || "",
+    Page: location.href,
+    _subject: `[${priority}] Free audit request: ${d.brand}`,
+    _replyto: d.email, _template: "table", _captcha: "false",
+  };
+
+  const btn = form.querySelector("button[type=submit]");
+  btn.disabled = true;
+  btn.textContent = "Sending…";
+  let sent = false;
+  try {
+    const res = await fetch("https://formsubmit.co/ajax/" + LEAD_EMAIL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(payload),
+    });
+    sent = res.ok;
+  } catch (err) { sent = false; }
+
+  if (!sent) {
+    btn.disabled = false;
+    btn.textContent = "Get my free audit ↗";
+    const body = Object.entries(payload).filter(([k]) => !k.startsWith("_")).map(([k, v]) => `${k}: ${v}`).join("\n");
+    statusEl.className = "form__status err";
+    statusEl.innerHTML = `That didn't go through. <a href="mailto:${LEAD_EMAIL}?subject=${encodeURIComponent(payload._subject)}&body=${encodeURIComponent(body)}">Send it by email</a> or <a href="${WHATSAPP_URL}" target="_blank" rel="noopener">message me on WhatsApp</a>.`;
+    return;
+  }
+
+  // Funnel step 2: turn the request into a booked call while intent is highest
+  const first = escapeHtml((d.name || "").split(" ")[0]);
+  const cal = CALENDLY_URL + "?name=" + encodeURIComponent(d.name || "") + "&email=" + encodeURIComponent(d.email || "");
+  form.classList.add("form--done");
+  form.innerHTML = `
+    <div class="form__steps" aria-hidden="true"><span>1. Your brand</span><span class="on">2. Your audit</span><span>3. Quick call</span></div>
+    <h3>Got it, <em>${first}</em>.</h3>
+    <p>I'll review <b>${escapeHtml(d.brand)}</b> and email your top fixes within 48 hours.</p>
+    <p class="muted">Want them faster? Grab a 15 minute slot and I'll walk you through the audit live.</p>
+    <div class="done__btns">
+      <a class="pill pill--accent pill--lg" href="${cal}" target="_blank" rel="noopener">Book my audit call ↗</a>
+      <a class="pill pill--wa" href="${WHATSAPP_URL}" target="_blank" rel="noopener">WhatsApp instead ↗</a>
+    </div>
+    <p class="form__note">While you wait: open your homepage on your phone. Can a stranger tell who it's for in 5 seconds?</p>`;
+  try { window.dataLayer && window.dataLayer.push({ event: "generate_lead", lead_priority: priority }); } catch (_) {}
+});
 
 // ---------- Mobile sticky CTA: hidden on hero and on the form ----------
 const sticky = document.getElementById("stickyCta");

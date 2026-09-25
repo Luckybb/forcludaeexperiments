@@ -510,3 +510,41 @@ button.wcard { font: inherit; color: inherit; text-align: left; border: 0; paddi
   .tee-ui { gap: 8px; }
   .hero__tags span:nth-child(n+2) { display: none; }
 }
+
+/* ===== Lead funnel ===== */
+.audit__left .label-tag { margin: 8px 0; }
+.form__steps { display: flex; gap: 6px; flex-wrap: wrap; font-family: var(--mono); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
+.form__steps span { padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(237,235,228,.2); color: rgba(237,235,228,.55); }
+.form__steps span.on { background: var(--accent); border-color: var(--accent); color: var(--ink); }
+.form--done { text-align: left; padding: clamp(28px, 4vw, 44px); display: grid; gap: 14px; }
+.form--done h3 { font-size: clamp(2.2rem, 4vw, 3.2rem); margin: 6px 0 0; }
+.form--done .muted { color: rgba(237,235,228,.65); }
+.done__btns { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0; }
+.form__status a { color: var(--accent); }
+
+.pill--wa { --bg: #25d366; --fg: #06210f; border-color: #25d366; }
+.pill--wa::before { background: var(--ink); }
+.pill--wa:hover { color: #25d366; }
+
+.alt-contact { display: grid; gap: 12px; padding: 22px 24px; border-radius: 22px; background: rgba(13,13,12,.08); border: 1px solid rgba(13,13,12,.18); }
+.alt-contact .tag { color: rgba(13,13,12,.65); }
+.alt-contact__btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.alt-contact__mail { font-family: var(--mono); font-size: .85rem; text-decoration: none; justify-self: start; border-bottom: 1px solid currentColor; }
+.alt-contact__mail:hover { color: var(--bone); }
+.audit__right { gap: 20px; justify-items: stretch; }
+
+.wa-float {
+  position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); z-index: 95;
+  display: flex; align-items: center; gap: 10px; padding: 12px 18px 12px 12px; border-radius: 999px;
+  background: #25d366; color: #06210f; text-decoration: none; font-weight: 700; font-size: .9rem;
+  box-shadow: 0 16px 34px -12px rgba(0,0,0,.55); transition: transform .4s var(--ease);
+}
+.wa-float svg { width: 28px; height: 28px; }
+.wa-float:hover { transform: translateY(-3px) scale(1.03); }
+@media (max-width: 760px) {
+  .wa-float { right: 16px; bottom: calc(84px + env(safe-area-inset-bottom, 0px)); padding: 12px; }
+  .wa-float span { display: none; }
+  .sticky-cta { right: 16px; }
+  .alt-contact__btns .pill { flex: 1 1 100%; }
+}
+@media (max-width: 760px) { .audit__left .label-tag { display: none; } }
