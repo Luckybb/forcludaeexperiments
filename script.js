@@ -1,8 +1,7 @@
 // ===== SETTINGS: edit these two lines =====
-// 1. Create a free form at https://formspree.io, paste its endpoint here (e.g. "https://formspree.io/f/abcdwxyz").
-//    Leads then land in your inbox automatically.
-const FORM_ENDPOINT = "";
-// 2. Your contact email. Used for the footer link and as a fallback if FORM_ENDPOINT is empty.
+// 1. Your booking link (Calendly, WhatsApp, etc). Every "Book a free audit call" button uses it.
+const BOOKING_URL = "";
+// 2. Your contact email, used for the footer link.
 const CONTACT_EMAIL = "hello@bncapparel.site";
 // ==========================================
 
@@ -14,6 +13,12 @@ if (reduce) document.documentElement.classList.add("reduce");
 
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("footerEmail").href = "mailto:" + CONTACT_EMAIL;
+if (BOOKING_URL) {
+  const book = document.getElementById("bookBtn");
+  book.href = BOOKING_URL;
+  book.target = "_blank";
+  book.rel = "noopener";
+}
 
 // ---------- Loader ----------
 const loader = document.getElementById("loader");
@@ -220,6 +225,37 @@ garmentStyle.textContent = `
   .wcard__art .p { font: 800 15px "Bricolage Grotesque", Arial, sans-serif; letter-spacing: -.5px; fill: rgba(255,255,255,.85); text-anchor: middle; }`;
 document.head.appendChild(garmentStyle);
 
+// Real portfolio photos: if images/work/<name>.webp exists it replaces the illustration.
+document.querySelectorAll(".wcard__art[data-img]").forEach((el) => {
+  const img = new Image();
+  img.alt = el.closest(".wcard").querySelector("h3").textContent + " portfolio work";
+  img.loading = "lazy";
+  img.onload = () => { el.innerHTML = ""; el.appendChild(img); el.classList.add("has-img"); };
+  img.src = el.dataset.img;
+});
+
+// ---------- Collections hover preview ----------
+(function collections() {
+  const prev = document.getElementById("cpreview");
+  if (isTouch) return;
+  let px = 0, py = 0, x = 0, y = 0, running = false;
+  function follow() {
+    x += (px - x) * 0.15; y += (py - y) * 0.15;
+    prev.style.transform = `translate(${x - 130}px, ${y - 130}px) scale(${prev.classList.contains("on") ? 1 : 0.6}) rotate(${(px - x) * 0.05}deg)`;
+    if (running) requestAnimationFrame(follow);
+  }
+  document.querySelectorAll("#clist li").forEach((li) => {
+    li.addEventListener("pointerenter", () => {
+      prev.style.setProperty("--sw", getComputedStyle(li).getPropertyValue("--sw"));
+      prev.classList.add("on");
+      if (!running) { running = true; follow(); }
+    });
+    li.addEventListener("pointerleave", () => prev.classList.remove("on"));
+  });
+  document.getElementById("clist").addEventListener("pointerleave", () => { setTimeout(() => (running = false), 500); });
+  addEventListener("pointermove", (e) => { px = e.clientX; py = e.clientY; });
+})();
+
 // ---------- Cursor + magnetic ----------
 if (!isTouch && !reduce) {
   const cursor = document.getElementById("cursor");
@@ -319,7 +355,7 @@ if (hasGsap && !reduce) {
   });
 
   // Section reveals
-  gsap.utils.toArray(".big, .huge, .prow, .fit__col, .faq details, .checklist label").forEach((el) => {
+  gsap.utils.toArray(".big, .huge, .prow, .fit__col, .faq details, .checklist label, .clist li, .quote__text").forEach((el) => {
     gsap.from(el, { y: 60, opacity: 0, duration: 1.1, ease: "expo.out", scrollTrigger: { trigger: el, start: "top 90%" } });
   });
   gsap.from(".label-tag", { rotate: -18, y: 80, duration: 1.4, ease: "elastic.out(1, .6)", scrollTrigger: { trigger: ".label-tag", start: "top 90%" } });
@@ -370,81 +406,6 @@ function updateCheck() {
 }
 boxes.forEach((b) => b.addEventListener("change", updateCheck));
 
-// ---------- Lead form ----------
-const form = document.getElementById("auditForm");
-const statusEl = document.getElementById("formStatus");
-
-// Rough lead score so the best leads stand out in your inbox.
-function leadPriority(data) {
-  let s = 0;
-  const stage = data.get("stage") || "";
-  const budget = data.get("budget") || "";
-  if (/grow|collection|Scaling/.test(stage)) s += 2;
-  if (/few sales/.test(stage)) s += 1;
-  if (/\$1,000|\$3,000\+/.test(budget)) s += 2;
-  if (/\$300 to/.test(budget)) s += 1;
-  if (/Shopify/.test(data.get("platform") || "")) s += 1;
-  if (data.get("social")) s += 1;
-  return s >= 5 ? "HOT" : s >= 3 ? "WARM" : "COLD";
-}
-
-form.addEventListener("submit", async (e) => {
-  e.preventDefault();
-  statusEl.className = "form__status";
-  statusEl.textContent = "";
-
-  let firstBad = null;
-  form.querySelectorAll("[required]").forEach((el) => {
-    const bad = !el.checkValidity();
-    el.classList.toggle("invalid", bad);
-    if (bad && !firstBad) firstBad = el;
-  });
-  if (firstBad) {
-    statusEl.className = "form__status err";
-    statusEl.textContent = "Please fill in the highlighted fields.";
-    firstBad.focus();
-    return;
-  }
-  if (form._gotcha.value) return;
-
-  const data = new FormData(form);
-  const focus = data.getAll("focus").join(", ") || "Not specified";
-  data.delete("focus");
-  data.set("focus", focus);
-  const priority = leadPriority(data);
-  data.set("priority", priority);
-  data.set("_subject", `[${priority}] Free audit request: ${data.get("brand")}`);
-
-  const btn = form.querySelector("button[type=submit]");
-  btn.disabled = true;
-  btn.textContent = "Sending…";
-
-  try {
-    if (FORM_ENDPOINT) {
-      const res = await fetch(FORM_ENDPOINT, { method: "POST", body: data, headers: { Accept: "application/json" } });
-      if (!res.ok) throw new Error("Request failed");
-    } else {
-      const lines = [];
-      for (const [k, v] of data.entries()) if (!k.startsWith("_") && v) lines.push(`${k}: ${v}`);
-      window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(data.get("_subject"))}&body=${encodeURIComponent(lines.join("\n"))}`;
-    }
-    form.classList.add("form--done");
-    form.innerHTML = `
-      <h3>Got it, <em>${escapeHtml(data.get("name").split(" ")[0])}</em>.</h3>
-      <p>I'll take a proper look at <b>${escapeHtml(data.get("brand"))}</b> and send your top fixes within 48 hours.</p>
-      <p class="form__note">While you wait: open your homepage on your phone. Can a stranger tell who it's for in 5 seconds?</p>`;
-  } catch (err) {
-    btn.disabled = false;
-    btn.textContent = "Send me my free audit ↗";
-    statusEl.className = "form__status err";
-    statusEl.innerHTML = `That didn't send. Email me directly at <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.`;
-  }
-});
-
-function escapeHtml(s) {
-  return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-}
-
 // ---------- Mobile sticky CTA: hidden on hero and on the form ----------
 const sticky = document.getElementById("stickyCta");
 if ("IntersectionObserver" in window) {
@@ -455,4 +416,11 @@ if ("IntersectionObserver" in window) {
   }, { threshold: 0.05 });
   io.observe(document.getElementById("hero"));
   io.observe(document.getElementById("audit"));
+}
+
+// Nav CTA turns dark while over the orange audit section
+if ("IntersectionObserver" in window) {
+  const nav = document.querySelector(".nav");
+  new IntersectionObserver(([en]) => nav.classList.toggle("on-accent", en.isIntersecting), { rootMargin: "0px 0px -92% 0px" })
+    .observe(document.getElementById("audit"));
 }
