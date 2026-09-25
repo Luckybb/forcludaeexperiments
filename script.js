@@ -63,121 +63,50 @@ if (!reduce && typeof Lenis !== "undefined") {
   );
 }
 
-// ---------- 3D fabric hero ----------
-const heroState = { mouse: { x: 0, y: 0 }, target: { x: 0, y: 0 }, scroll: 0 };
-(function fabric() {
-  const canvas = document.getElementById("gl");
-  const hero = document.getElementById("hero");
-  if (typeof THREE === "undefined") { hero.classList.add("no-gl"); return; }
-  let renderer;
-  try {
-    renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: false });
-  } catch (e) { hero.classList.add("no-gl"); return; }
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-  renderer.setClearColor(0x0d0d0c, 1);
-
-  const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 100);
-  camera.position.set(0, 0, 7.5);
-
-  const seg = isMobile() ? 110 : 200;
-  const geo = new THREE.PlaneGeometry(12, 8, seg, seg);
-  const mat = new THREE.ShaderMaterial({
-    uniforms: {
-      uTime: { value: 0 },
-      uMouse: { value: new THREE.Vector2(0, 0) },
-      uScroll: { value: 0 },
-      uAccent: { value: new THREE.Color("#ff4a1c") },
-    },
-    vertexShader: `
-      uniform float uTime; uniform vec2 uMouse; uniform float uScroll;
-      varying vec3 vN; varying vec2 vUv; varying vec3 vView;
-      float h(vec2 p){
-        float t = uTime;
-        float d = sin(p.x*1.1 + t*0.55)*0.42
-                + sin(p.y*1.6 - t*0.75)*0.32
-                + sin((p.x*0.8 + p.y)*2.5 + t*1.05)*0.14
-                + sin((p.x - p.y*1.3)*4.3 - t*0.9)*0.05;
-        float md = length(p - uMouse);
-        d += sin(md*4.5 - t*3.2) * 0.22 * exp(-md*0.8);
-        d += uScroll * sin(p.x*2.2 + p.y + t) * 0.6;
-        return d;
-      }
-      void main(){
-        vUv = uv;
-        vec3 p = position;
-        float e = 0.03;
-        float z = h(p.xy);
-        float zx = h(p.xy + vec2(e, 0.0));
-        float zy = h(p.xy + vec2(0.0, e));
-        vec3 n = normalize(vec3(-(zx - z)/e, -(zy - z)/e, 1.0));
-        p.z += z;
-        vN = normalize(normalMatrix * n);
-        vec4 mv = modelViewMatrix * vec4(p, 1.0);
-        vView = normalize(-mv.xyz);
-        gl_Position = projectionMatrix * mv;
-      }`,
-    fragmentShader: `
-      uniform float uTime; uniform vec3 uAccent;
-      varying vec3 vN; varying vec2 vUv; varying vec3 vView;
-      void main(){
-        vec3 n = normalize(vN);
-        vec3 v = normalize(vView);
-        vec3 r = reflect(-v, n);
-        float y = r.y * 0.5 + 0.5;
-        vec3 env = mix(vec3(0.02), vec3(0.93, 0.92, 0.89), smoothstep(0.42, 0.8, y));
-        env += vec3(1.0) * smoothstep(0.035, 0.0, abs(r.y - 0.5)) * 0.9;
-        env += vec3(1.0) * smoothstep(0.02, 0.0, abs(r.x + 0.35)) * 0.35;
-        env = mix(env, uAccent, smoothstep(0.05, 0.6, -r.y) * 0.95);
-        float fres = pow(1.0 - max(dot(n, v), 0.0), 2.5);
-        vec3 irid = 0.5 + 0.5 * cos(6.2831 * (fres * 1.4 + vec3(0.0, 0.33, 0.67)) + uTime * 0.25);
-        vec3 col = env + irid * fres * 0.4;
-        float w = sin(vUv.x * 1400.0) * sin(vUv.y * 1400.0);
-        col *= 0.93 + 0.07 * w;
-        float edge = smoothstep(0.0, 0.22, vUv.x) * smoothstep(1.0, 0.78, vUv.x)
-                   * smoothstep(0.0, 0.22, vUv.y) * smoothstep(1.0, 0.78, vUv.y);
-        gl_FragColor = vec4(mix(vec3(0.051, 0.051, 0.047), col, edge), 1.0);
-      }`,
-  });
-  const mesh = new THREE.Mesh(geo, mat);
-  mesh.rotation.set(-0.75, 0.15, 0.35);
-  scene.add(mesh);
-
-  function resize() {
-    const w = hero.clientWidth, h = hero.clientHeight;
-    renderer.setSize(w, h, false);
-    camera.aspect = w / h;
-    camera.position.z = w < 760 ? 10 : 7.5;
-    camera.updateProjectionMatrix();
+// ---------- 3D portfolio ring hero ----------
+const heroState = { scroll: 0 };
+(function ring() {
+  const ringEl = document.getElementById("ring");
+  const cards = [...ringEl.children];
+  const n = cards.length, step = 360 / n;
+  let radius = 0, rot = 0, tiltX = -6, tiltY = 0, tx = -6, ty = 0, hover = false;
+  function layout() {
+    const w = cards[0].offsetWidth;
+    radius = Math.round((w / 2) / Math.tan(Math.PI / n) * 1.28);
+    cards.forEach((c, i) => (c.style.transform = `rotateY(${i * step}deg) translateZ(${radius}px)`));
   }
-  resize();
-  window.addEventListener("resize", resize);
-
-  hero.addEventListener("pointermove", (e) => {
-    const r = hero.getBoundingClientRect();
-    heroState.target.x = ((e.clientX - r.left) / r.width - 0.5) * 9;
-    heroState.target.y = -((e.clientY - r.top) / r.height - 0.5) * 6;
-  });
-
-  let visible = true;
-  new IntersectionObserver(([en]) => (visible = en.isIntersecting)).observe(hero);
-  const clock = new THREE.Clock();
-  function render() {
-    const t = clock.getElapsedTime();
-    heroState.mouse.x += (heroState.target.x - heroState.mouse.x) * 0.06;
-    heroState.mouse.y += (heroState.target.y - heroState.mouse.y) * 0.06;
-    mat.uniforms.uTime.value = reduce ? 2.0 : t;
-    mat.uniforms.uMouse.value.set(heroState.mouse.x, heroState.mouse.y);
-    mat.uniforms.uScroll.value = heroState.scroll;
-    mesh.rotation.z = 0.35 + heroState.mouse.x * 0.01;
-    mesh.rotation.x = -0.75 + heroState.scroll * 0.5;
-    renderer.render(scene, camera);
+  function draw() {
+    ringEl.style.transform = `translateZ(${-radius}px) rotateX(${tiltX}deg) rotateY(${rot}deg)`;
+    cards.forEach((c, i) => {
+      const a = ((i * step + rot) % 360 + 360) % 360;
+      const facing = Math.cos(a * Math.PI / 180);
+      c.style.setProperty("--f", facing.toFixed(3));
+      c.style.zIndex = Math.round(facing * 100) + 100;
+    });
   }
-  if (reduce) { render(); return; }
-  (function loop() {
-    if (visible) render();
+  layout();
+  addEventListener("resize", () => { layout(); draw(); });
+  const stage = ringEl.parentElement;
+  stage.addEventListener("pointerenter", () => (hover = true));
+  stage.addEventListener("pointerleave", () => { hover = false; tx = -6; ty = 0; });
+  document.getElementById("hero").addEventListener("pointermove", (e) => {
+    tx = -6 - (e.clientY / innerHeight - 0.5) * 12;
+    ty = (e.clientX / innerWidth - 0.5) * 30;
+  });
+  if (reduce) { rot = -20; draw(); return; }
+  let last = performance.now(), visible = true;
+  new IntersectionObserver(([en]) => (visible = en.isIntersecting)).observe(document.getElementById("hero"));
+  (function loop(now) {
+    const dt = Math.min(50, now - last); last = now;
+    if (visible) {
+      rot -= dt * (hover ? 0.006 : 0.018) * (1 + heroState.scroll * 6);
+      tiltX += (tx - tiltX) * 0.06;
+      tiltY += (ty - tiltY) * 0.06;
+      ringEl.parentElement.style.transform = `rotateY(${tiltY * 0.3}deg)`;
+      draw();
+    }
     requestAnimationFrame(loop);
-  })();
+  })(last);
 })();
 
 // ---------- Garment art (original SVG illustrations) ----------
@@ -243,11 +172,11 @@ document.querySelectorAll(".wcard__art[data-img]").forEach((el) => {
   const track = document.getElementById("workTrack");
   track.addEventListener("pointerdown", (e) => { downX = e.clientX; dragged = false; });
   track.addEventListener("pointerup", (e) => { dragged = Math.abs(e.clientX - downX) > 8; });
-  document.querySelectorAll(".wcard[data-full]").forEach((card) => {
+  document.querySelectorAll(".wcard[data-full], .ring__card").forEach((card) => {
     card.addEventListener("click", () => {
       if (dragged) return;
       img.src = card.dataset.full;
-      img.alt = card.querySelector("h3").textContent + " full brand board";
+      img.alt = (card.querySelector("h3, span") || card).textContent + " full brand board";
       box.hidden = false;
       box.querySelector(".lightbox__scroll").scrollTop = 0;
       document.documentElement.style.overflow = "hidden";
@@ -337,15 +266,16 @@ const wordEls = mText.querySelectorAll(".w");
 function introHero() {
   if (!hasGsap || reduce) return;
   gsap.from(".hero__title .word", { yPercent: 115, rotate: 4, duration: 1.4, ease: "expo.out", stagger: 0.12 });
-  gsap.from(".hero__tags span, .hero__lead, .hero__cta > *", { y: 24, opacity: 0, duration: 1, ease: "expo.out", stagger: 0.06, delay: 0.3 });
+  gsap.from(".hero__stage", { opacity: 0, scale: 0.8, duration: 1.6, ease: "expo.out", delay: 0.2 });
+  gsap.from(".hero__tags span, .hero__lead, .hero__cta > *, .hero__chips li", { y: 24, opacity: 0, duration: 1, ease: "expo.out", stagger: 0.06, delay: 0.3 });
 }
 
 if (hasGsap && !reduce) {
   gsap.registerPlugin(ScrollTrigger);
 
   // Hero parallax + fabric reacts to scroll
-  gsap.to(".hero__title", { yPercent: -35, ease: "none", scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: true } });
-  gsap.to(".hero__bottom", { yPercent: -60, opacity: 0, ease: "none", scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: true } });
+  gsap.to(".hero__copy", { yPercent: -18, opacity: 0.2, ease: "none", scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: true } });
+  gsap.to(".hero__stage", { yPercent: 12, scale: 0.9, ease: "none", scrollTrigger: { trigger: ".hero", start: "top top", end: "bottom top", scrub: true } });
   ScrollTrigger.create({ trigger: ".hero", start: "top top", end: "bottom top", onUpdate: (s) => (heroState.scroll = s.progress) });
 
   // Manifesto words light up
