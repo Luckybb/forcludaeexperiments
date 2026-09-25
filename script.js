@@ -1,7 +1,8 @@
 // ===== SETTINGS =====
-// Where audit requests are emailed. The first submission sends a one-time activation email
-// from FormSubmit to this address: click "Activate" in it and every lead after that arrives.
-const LEAD_EMAIL = "info@bncproductionz.com";
+// Audit requests are handled by Netlify Forms. Set the email that receives them in the
+// Netlify dashboard (Forms > Form notifications), so the address never appears on the site.
+// Backup address for the "send it by email" link shown only if sending fails:
+const LEAD_EMAIL = ["info", "bncproductionz.com"].join("@");
 const CALENDLY_URL = "https://calendly.com/burhannazir";
 const WHATSAPP_URL = "https://wa.me/17473364515?text=" + encodeURIComponent("Hi BNC, I'd like a free audit for my clothing brand.");
 // ======================
@@ -643,13 +644,12 @@ form.addEventListener("submit", async (e) => {
   const d = Object.fromEntries(fd.entries());
   d.need = fd.getAll("need").join(", ") || "Not specified";
   const priority = leadPriority(d);
+  const subject = `[${priority}] Free audit request: ${d.brand}`;
+  form.querySelector('[name="priority"]').value = priority;
+  form.querySelector('[name="subject"]').value = subject;
   const payload = {
-    Priority: priority,
-    Name: d.name, Email: d.email, Brand: d.brand, Link: d.link,
+    Priority: priority, Name: d.name, Email: d.email, Brand: d.brand, Link: d.link,
     Stage: d.stage, Budget: d.budget, Needs: d.need, Message: d.message || "",
-    Page: location.href,
-    _subject: `[${priority}] Free audit request: ${d.brand}`,
-    _replyto: d.email, _template: "table", _captcha: "false",
   };
 
   const btn = form.querySelector("button[type=submit]");
@@ -657,20 +657,20 @@ form.addEventListener("submit", async (e) => {
   btn.textContent = "Sending…";
   let sent = false;
   try {
-    const res = await fetch("https://formsubmit.co/ajax/" + LEAD_EMAIL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify(payload),
-    });
-    sent = res.ok;
+    const body = new URLSearchParams(new FormData(form));
+    const res = await fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: body.toString() });
+    // Netlify answers with its own confirmation page. If the host just returns this site's
+    // HTML (a host without form handling), treat it as not sent so the backup options show.
+    const text = res.ok ? await res.text() : "";
+    sent = res.ok && !text.includes('id="auditForm"');
   } catch (err) { sent = false; }
 
   if (!sent) {
     btn.disabled = false;
     btn.textContent = "Get my free audit ↗";
-    const body = Object.entries(payload).filter(([k]) => !k.startsWith("_")).map(([k, v]) => `${k}: ${v}`).join("\n");
+    const body = Object.entries(payload).map(([k, v]) => `${k}: ${v}`).join("\n");
     statusEl.className = "form__status err";
-    statusEl.innerHTML = `That didn't go through. <a href="mailto:${LEAD_EMAIL}?subject=${encodeURIComponent(payload._subject)}&body=${encodeURIComponent(body)}">Send it by email</a> or <a href="${WHATSAPP_URL}" target="_blank" rel="noopener">message me on WhatsApp</a>.`;
+    statusEl.innerHTML = `That didn't go through. <a href="mailto:${LEAD_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}">Send it by email</a> or <a href="${WHATSAPP_URL}" target="_blank" rel="noopener">message me on WhatsApp</a>.`;
     return;
   }
 

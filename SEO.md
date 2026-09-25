@@ -12,16 +12,20 @@
 - All scripts deferred, images compressed to WebP and lazy loaded
 
 ## Target keywords
-Primary (homepage): clothing brand design, t-shirt design services, apparel brand identity, streetwear brand design
+Primary (homepage, US): clothing brand design agency, t-shirt design services, apparel brand identity, streetwear brand design, merch design for creators
 Secondary: print on demand store setup, Shopify clothing store design, clothing brand marketing agency, Printful Shopify setup, custom hoodie design, merch design for creators
 Long tail (future blog posts): how to start a clothing brand, how to launch merch as a YouTuber, Printful vs Printify, best Shopify theme for clothing brand, how to price t-shirts, clothing brand launch checklist
+
+## US targeting already set
+- Title and description say "clothing brand design agency for US apparel brands and creators"
+- hreflang en-us, og:locale en_US, US phone number in structured data, areaServed United States first
 
 ## Week 1 after launch
 1. Google Search Console: add the domain, submit https://www.bncapparel.site/sitemap.xml, request indexing of the homepage
 2. Bing Webmaster Tools: import from Search Console (also feeds ChatGPT search)
 3. Test structured data: https://search.google.com/test/rich-results with the homepage URL
 4. Test speed: https://pagespeed.web.dev (aim for green on mobile)
-5. Google Business Profile as a service area business (no public address needed), category "Graphic designer" plus "Marketing agency", link the site
+5. Google Business Profile as a service area business (no public address needed), set service areas to US states or "United States", category "Graphic designer" plus "Marketing agency", link the site
 
 ## Backlinks and mentions (highest impact, in order)
 1. Behance: add https://www.bncapparel.site to your profile and to every project description
