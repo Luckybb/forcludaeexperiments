@@ -63,7 +63,7 @@ if (!reduce && typeof Lenis !== "undefined") {
   );
 }
 
-// ---------- 3D T-shirt hero ----------
+// ---------- 3D T-shirt hero: real-time cloth simulation ----------
 const heroState = { scroll: 0 };
 (function tee() {
   const stage = document.getElementById("teeStage");
@@ -78,87 +78,36 @@ const heroState = { scroll: 0 };
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 50);
   camera.position.set(0, 0.1, 10.5);
-
-  // Lights: soft studio with an orange rim
-  scene.add(new THREE.HemisphereLight(0xffffff, 0x2a2622, 0.75));
-  const key = new THREE.DirectionalLight(0xffffff, 0.9); key.position.set(-3, 4, 6); scene.add(key);
-  const rim = new THREE.DirectionalLight(0xff4a1c, 1.1); rim.position.set(4, 1, -4); scene.add(rim);
+  scene.add(new THREE.HemisphereLight(0xffffff, 0x2a2622, 0.7));
+  const key = new THREE.DirectionalLight(0xffffff, 1.0); key.position.set(-3, 4, 6); scene.add(key);
+  const rim = new THREE.DirectionalLight(0xff4a1c, 1.2); rim.position.set(4, 1, -4); scene.add(rim);
+  const back = new THREE.DirectionalLight(0xff4a1c, 0.6); back.position.set(-4, 0, -5); scene.add(back);
   const fill = new THREE.DirectionalLight(0xc7d6ff, 0.35); fill.position.set(3, -2, 5); scene.add(fill);
 
-  // Tee silhouette (same outline as the site's tee icon), puffed up with a deep bevel
-  const s = new THREE.Shape();
-  s.moveTo(70, -26); s.quadraticCurveTo(100, -46, 130, -26);
-  s.lineTo(166, -42); s.quadraticCurveTo(178, -58, 190, -84); s.lineTo(160, -98); s.lineTo(150, -84);
-  s.lineTo(151, -182); s.quadraticCurveTo(100, -192, 49, -182);
-  s.lineTo(50, -84); s.lineTo(40, -98); s.lineTo(10, -84); s.quadraticCurveTo(22, -58, 34, -42);
-  s.closePath();
-  const geo = new THREE.ExtrudeGeometry(s, { depth: 10, bevelEnabled: true, bevelThickness: 11, bevelSize: 7, bevelSegments: 10, curveSegments: 28 });
-  geo.center();
-  geo.scale(0.02, 0.02, 0.02);
-  geo.computeBoundingBox();
-  const front = geo.boundingBox.max.z;
+  // Tee outline in 200x200 design units
+  const TEE = "M70 26 Q100 46 130 26 L166 42 Q178 58 190 84 L160 98 L150 84 L151 182 Q100 192 49 182 L50 84 L40 98 L10 84 Q22 58 34 42 Z";
+  const teePath = new Path2D(TEE);
+  const X0 = 10, X1 = 190, Y0 = 26, Y1 = 192, S = 0.02;
+  const wx = (x) => (x - 100) * S, wy = (y) => (109 - y) * S;
 
-  // Knit texture used as a bump map so the cotton catches light
-  const knit = document.createElement("canvas"); knit.width = knit.height = 128;
-  const k = knit.getContext("2d");
-  k.fillStyle = "#808080"; k.fillRect(0, 0, 128, 128);
-  for (let x = 0; x < 128; x += 4) { k.fillStyle = x % 8 ? "#6a6a6a" : "#9a9a9a"; k.fillRect(x, 0, 2, 128); }
-  for (let i = 0; i < 1400; i++) { k.fillStyle = `rgba(${Math.random() > .5 ? 255 : 0},0,0,.08)`; k.fillRect(Math.random() * 128, Math.random() * 128, 1, 1); }
-  const knitTex = new THREE.CanvasTexture(knit);
-  knitTex.wrapS = knitTex.wrapT = THREE.RepeatWrapping; knitTex.repeat.set(0.09, 0.09);
-
-  const cloth = new THREE.MeshStandardMaterial({ color: 0x1b1b1a, roughness: 0.92, metalness: 0, bumpMap: knitTex, bumpScale: 0.012 });
-  const shirt = new THREE.Mesh(geo, cloth);
-
-  // Rib collar
-  const collar = new THREE.Mesh(new THREE.TorusGeometry(0.6, 0.06, 12, 40, Math.PI), cloth);
-  collar.rotation.z = Math.PI; collar.scale.set(1, 0.42, 1);
-  collar.position.set(0, (-26 + 109) * 0.02 - 0.02, front - 0.08);
-
-  // Print: a transparent canvas decal on the chest
+  // Cloth texture: fabric color, knit ribs, stitching, collar band and the chest print, cut to the tee outline
+  const TS = 4, tex = document.createElement("canvas");
+  tex.width = (X1 - X0) * TS; tex.height = (Y1 - Y0) * TS;
+  const tctx = tex.getContext("2d");
+  const clothTex = new THREE.CanvasTexture(tex);
+  clothTex.encoding = THREE.sRGBEncoding; clothTex.anisotropy = 4;
   const pc = document.createElement("canvas"); pc.width = pc.height = 512;
   const pctx = pc.getContext("2d");
-  const printTex = new THREE.CanvasTexture(pc); printTex.encoding = THREE.sRGBEncoding; printTex.anisotropy = 4;
-  const decal = new THREE.Mesh(new THREE.PlaneGeometry(1.45, 1.45), new THREE.MeshStandardMaterial({ map: printTex, transparent: true, roughness: 0.8, polygonOffset: true, polygonOffsetFactor: -2 }));
-  decal.position.set(0, (-92 + 109) * 0.02, front + 0.004);
-
-  // Neck label
-  const label = new THREE.Mesh(new THREE.PlaneGeometry(0.26, 0.14), new THREE.MeshStandardMaterial({ color: 0xff4a1c, roughness: 0.6 }));
-  label.position.set(0, (-40 + 109) * 0.02, front - 0.05);
-
-  // Hanger
-  const metal = new THREE.MeshStandardMaterial({ color: 0xd9d6cf, roughness: 0.25, metalness: 0.9 });
-  const hanger = new THREE.Group();
-  const bar = (x1, y1, x2, y2) => {
-    const len = Math.hypot(x2 - x1, y2 - y1);
-    const m = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, len, 10), metal);
-    m.position.set((x1 + x2) / 2, (y1 + y2) / 2, 0);
-    m.rotation.z = Math.atan2(y2 - y1, x2 - x1) - Math.PI / 2;
-    return m;
-  };
-  const shoulderY = (-40 + 109) * 0.02;
-  hanger.add(bar(-1.55, shoulderY - 0.2, 0, shoulderY + 0.45), bar(0, shoulderY + 0.45, 1.55, shoulderY - 0.2));
-  const hook = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.035, 10, 30, Math.PI * 1.4), metal);
-  hook.position.set(0.02, shoulderY + 0.78, 0); hook.rotation.z = -0.5;
-  hanger.add(hook, bar(0, shoulderY + 0.45, 0, shoulderY + 0.62));
-  hanger.position.z = -0.05;
-
-  const group = new THREE.Group();
-  group.add(shirt, collar, decal, label, hanger);
-  group.position.y = -0.15;
-  scene.add(group);
-
-  // Prints (original BNC designs drawn on canvas)
-  let ink = "#ece8dd";
+  let color = "#1b1b1a", ink = "#ece8dd", printIdx = 0;
   const display = '800 150px "Bricolage Grotesque", "Arial Black", Arial, sans-serif';
   const prints = [
-    () => { // Wordmark
+    () => {
       pctx.fillStyle = ink; pctx.textAlign = "center"; pctx.textBaseline = "middle";
       pctx.font = display; pctx.fillText("BNC", 256, 220);
       pctx.font = '500 30px "JetBrains Mono", monospace'; pctx.fillText("APPAREL STUDIO", 256, 320);
       pctx.fillStyle = "#ff4a1c"; pctx.fillRect(166, 360, 180, 8);
     },
-    () => { // Badge
+    () => {
       pctx.strokeStyle = ink; pctx.lineWidth = 8;
       pctx.beginPath(); pctx.arc(256, 256, 200, 0, Math.PI * 2); pctx.stroke();
       pctx.beginPath(); pctx.arc(256, 256, 130, 0, Math.PI * 2); pctx.stroke();
@@ -171,7 +120,7 @@ const heroState = { scroll: 0 };
       }
       pctx.fillStyle = "#ff4a1c"; pctx.font = '800 96px "Bricolage Grotesque", Arial, sans-serif'; pctx.fillText("B", 256, 262);
     },
-    () => { // Script
+    () => {
       pctx.fillStyle = "#ff4a1c"; pctx.textAlign = "center"; pctx.textBaseline = "middle";
       pctx.font = 'italic 400 190px "Instrument Serif", Georgia, serif'; pctx.fillText("sell.", 250, 230);
       pctx.strokeStyle = ink; pctx.lineWidth = 7; pctx.lineCap = "round";
@@ -179,25 +128,176 @@ const heroState = { scroll: 0 };
       pctx.fillStyle = ink; pctx.font = '500 26px "JetBrains Mono", monospace'; pctx.fillText("BUILT BY BNC", 256, 400);
     },
   ];
-  let printIdx = 0;
-  function drawPrint() { pctx.clearRect(0, 0, 512, 512); prints[printIdx](); printTex.needsUpdate = true; }
-  if (document.fonts) document.fonts.ready.then(drawPrint);
+  function paint() {
+    pctx.clearRect(0, 0, 512, 512); prints[printIdx]();
+    tctx.setTransform(1, 0, 0, 1, 0, 0);
+    tctx.clearRect(0, 0, tex.width, tex.height);
+    tctx.setTransform(TS, 0, 0, TS, -X0 * TS, -Y0 * TS);
+    tctx.save(); tctx.clip(teePath);
+    tctx.fillStyle = color; tctx.fillRect(0, 0, 200, 200);
+    const light = ink === "#141312";
+    tctx.fillStyle = light ? "rgba(0,0,0,.05)" : "rgba(255,255,255,.035)";
+    for (let x = X0; x < X1; x += 1.5) tctx.fillRect(x, 0, 0.6, 200);
+    tctx.strokeStyle = light ? "rgba(0,0,0,.22)" : "rgba(255,255,255,.18)";
+    tctx.lineWidth = 0.6; tctx.setLineDash([2, 1.6]);
+    tctx.beginPath(); tctx.moveTo(49, 176); tctx.quadraticCurveTo(100, 186, 151, 176); tctx.stroke();
+    tctx.beginPath(); tctx.moveTo(16, 88); tctx.lineTo(42, 100); tctx.moveTo(184, 88); tctx.lineTo(158, 100); tctx.stroke();
+    tctx.beginPath(); tctx.moveTo(34, 42); tctx.quadraticCurveTo(46, 62, 50, 84); tctx.moveTo(166, 42); tctx.quadraticCurveTo(154, 62, 150, 84); tctx.stroke();
+    tctx.setLineDash([]);
+    tctx.strokeStyle = light ? "rgba(0,0,0,.18)" : "rgba(0,0,0,.45)"; tctx.lineWidth = 5;
+    tctx.beginPath(); tctx.moveTo(70, 26); tctx.quadraticCurveTo(100, 46, 130, 26); tctx.stroke();
+    tctx.fillStyle = "#ff4a1c"; tctx.fillRect(96, 36, 8, 4);
+    tctx.drawImage(pc, 100 - 34, 93 - 34, 68, 68);
+    tctx.restore();
+    clothTex.needsUpdate = true;
+  }
+
+  // Build the cloth: a particle grid clipped to the tee outline
+  const COLS = 46, ROWS = 42;
+  const tmp = document.createElement("canvas").getContext("2d"); tmp.lineWidth = 9;
+  const inside = (x, y) => tmp.isPointInPath(teePath, x, y) || tmp.isPointInStroke(teePath, x, y);
+  const idx = [], P = [], UV = [], pinnedList = [];
+  for (let r = 0; r <= ROWS; r++) {
+    idx[r] = [];
+    for (let c = 0; c <= COLS; c++) {
+      const x = X0 + (c / COLS) * (X1 - X0), y = Y0 + (r / ROWS) * (Y1 - Y0);
+      if (inside(x, y)) {
+        idx[r][c] = P.length / 3;
+        P.push(wx(x), wy(y), (Math.random() - 0.5) * 0.02);
+        UV.push((x - X0) / (X1 - X0), 1 - (y - Y0) / (Y1 - Y0));
+      } else idx[r][c] = -1;
+    }
+  }
+  const N = P.length / 3;
+  const pos = new Float32Array(P), prev = new Float32Array(P), rest0 = new Float32Array(P);
+  const pinned = new Uint8Array(N);
+  for (let c = 0; c <= COLS; c++) {
+    for (let r = 0; r <= ROWS; r++) {
+      const i = idx[r][c];
+      if (i < 0) continue;
+      const x = X0 + (c / COLS) * (X1 - X0);
+      if ((x > 28 && x < 74) || (x > 126 && x < 172)) { pinned[i] = 1; pinnedList.push(i); }
+      break;
+    }
+  }
+  const cons = [];
+  const link = (r1, c1, r2, c2) => {
+    if (r2 > ROWS || c2 > COLS || c2 < 0) return;
+    const a = idx[r1][c1], b = idx[r2][c2];
+    if (a < 0 || b < 0) return;
+    cons.push(a, b, Math.hypot(pos[a * 3] - pos[b * 3], pos[a * 3 + 1] - pos[b * 3 + 1]));
+  };
+  const tris = [];
+  for (let r = 0; r <= ROWS; r++) for (let c = 0; c <= COLS; c++) {
+    if (idx[r][c] < 0) continue;
+    link(r, c, r, c + 1); link(r, c, r + 1, c);
+    link(r, c, r + 1, c + 1); link(r, c, r + 1, c - 1);
+    link(r, c, r, c + 2); link(r, c, r + 2 <= ROWS ? r + 2 : ROWS + 1, c);
+    if (r < ROWS && c < COLS) {
+      const a = idx[r][c], b = idx[r][c + 1], d = idx[r + 1][c], e = idx[r + 1][c + 1];
+      if (a >= 0 && b >= 0 && d >= 0 && e >= 0) tris.push(a, d, b, b, d, e);
+    }
+  }
+  const C = new Float32Array(cons);
+
+  const geo = new THREE.BufferGeometry();
+  const posAttr = new THREE.BufferAttribute(pos, 3); posAttr.setUsage(THREE.DynamicDrawUsage);
+  geo.setAttribute("position", posAttr);
+  geo.setAttribute("uv", new THREE.Float32BufferAttribute(UV, 2));
+  geo.setIndex(tris);
+  geo.computeVertexNormals();
+  const mat = new THREE.MeshStandardMaterial({ map: clothTex, alphaTest: 0.5, side: THREE.DoubleSide, roughness: 0.9, metalness: 0 });
+  const cloth = new THREE.Mesh(geo, mat);
+
+  // Hanger sits on the pinned shoulder line
+  let minX = Infinity, maxX = -Infinity, topY = -Infinity;
+  pinnedList.forEach((i) => { minX = Math.min(minX, pos[i * 3]); maxX = Math.max(maxX, pos[i * 3]); topY = Math.max(topY, pos[i * 3 + 1]); });
+  const metal = new THREE.MeshStandardMaterial({ color: 0xd9d6cf, roughness: 0.25, metalness: 0.9 });
+  const hanger = new THREE.Group();
+  const bar = (x1, y1, x2, y2) => {
+    const len = Math.hypot(x2 - x1, y2 - y1);
+    const m = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, len, 10), metal);
+    m.position.set((x1 + x2) / 2, (y1 + y2) / 2, 0.02);
+    m.rotation.z = Math.atan2(y2 - y1, x2 - x1) - Math.PI / 2;
+    return m;
+  };
+  const apex = topY + 0.42;
+  hanger.add(bar(minX - 0.08, wy(46), 0, apex), bar(0, apex, maxX + 0.08, wy(46)), bar(0, apex, 0, apex + 0.17));
+  const hook = new THREE.Mesh(new THREE.TorusGeometry(0.2, 0.035, 10, 30, Math.PI * 1.4), metal);
+  hook.position.set(0.02, apex + 0.33, 0.02); hook.rotation.z = -0.5;
+  hanger.add(hook);
+
+  const group = new THREE.Group();
+  group.add(cloth, hanger);
+  scene.add(group);
+
+  // ---- Physics (Verlet) ----
+  const GRAV = -0.00042, DAMP = 0.982;
+  let t = 0;
+  const mouse = { x: 0, y: 0, vx: 0, vy: 0, on: false };
+  let grab = -1; const grabTarget = new THREE.Vector3();
+  function step() {
+    t += 1 / 60;
+    const gust = 0.00018 + 0.00012 * Math.sin(t * 0.37);
+    for (let i = 0; i < N; i++) {
+      if (pinned[i]) continue;
+      const k = i * 3;
+      const x = pos[k], y = pos[k + 1], z = pos[k + 2];
+      let ax = 0, ay = GRAV, az = Math.sin(t * 1.6 + x * 1.8 + y * 1.1) * gust + Math.sin(t * 2.7 - y * 2.3) * gust * 0.5;
+      if (mouse.on) {
+        const dx = x - mouse.x, dy = y - mouse.y, d = Math.hypot(dx, dy);
+        if (d < 0.9) {
+          const f = (1 - d / 0.9);
+          ax += mouse.vx * f * 0.05; ay += mouse.vy * f * 0.05;
+          az -= f * f * (0.0012 + Math.hypot(mouse.vx, mouse.vy) * 0.03);
+        }
+      }
+      pos[k] = x + (x - prev[k]) * DAMP + ax;
+      pos[k + 1] = y + (y - prev[k + 1]) * DAMP + ay;
+      pos[k + 2] = z + (z - prev[k + 2]) * DAMP + az;
+      prev[k] = x; prev[k + 1] = y; prev[k + 2] = z;
+    }
+    if (grab >= 0) { pos[grab * 3] = grabTarget.x; pos[grab * 3 + 1] = grabTarget.y; pos[grab * 3 + 2] = grabTarget.z; }
+    for (let it = 0; it < 4; it++) {
+      for (let j = 0; j < C.length; j += 3) {
+        const a = C[j] * 3, b = C[j + 1] * 3, rest = C[j + 2];
+        const dx = pos[b] - pos[a], dy = pos[b + 1] - pos[a + 1], dz = pos[b + 2] - pos[a + 2];
+        const d = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1e-6;
+        const diff = (d - rest) / d;
+        const pa = pinned[C[j]] || C[j] === grab, pb = pinned[C[j + 1]] || C[j + 1] === grab;
+        if (pa && pb) continue;
+        const sa = pa ? 0 : pb ? 1 : 0.5, sb = pb ? 0 : pa ? 1 : 0.5;
+        pos[a] += dx * diff * sa; pos[a + 1] += dy * diff * sa; pos[a + 2] += dz * diff * sa;
+        pos[b] -= dx * diff * sb; pos[b + 1] -= dy * diff * sb; pos[b + 2] -= dz * diff * sb;
+      }
+      // keep fabric from swinging through the hanger plane too far
+      for (let i = 0; i < N; i++) { const k = i * 3 + 2; if (pos[k] > 1.2) pos[k] = 1.2; if (pos[k] < -1.2) pos[k] = -1.2; }
+    }
+  }
+  function ripple(strength) {
+    for (let i = 0; i < N; i++) {
+      if (pinned[i]) continue;
+      const k = i * 3, y = pos[k + 1];
+      prev[k + 2] -= Math.sin((1.66 - y) * 3.2) * strength * (1.66 - y) * 0.5;
+    }
+  }
+  for (let i = 0; i < 120; i++) step();
 
   function setColor(hex) {
-    cloth.color.set(hex).convertSRGBToLinear();
+    color = hex;
     const c = new THREE.Color(hex);
     ink = (c.r * 0.299 + c.g * 0.587 + c.b * 0.114) > 0.55 ? "#141312" : "#ece8dd";
-    drawPrint();
+    paint();
   }
-  setColor("#1b1b1a");
-  label.material.color.convertSRGBToLinear();
+  setColor(color);
+  if (document.fonts) document.fonts.ready.then(paint);
   stage.querySelectorAll(".swatch").forEach((b) => b.addEventListener("click", () => {
     stage.querySelectorAll(".swatch").forEach((x) => x.classList.toggle("is-on", x === b));
-    setColor(b.dataset.color); spin += 0.9;
+    setColor(b.dataset.color); ripple(0.05);
   }));
   stage.querySelectorAll(".print").forEach((b) => b.addEventListener("click", () => {
     stage.querySelectorAll(".print").forEach((x) => x.classList.toggle("is-on", x === b));
-    printIdx = +b.dataset.print; drawPrint(); spin += 0.9;
+    printIdx = +b.dataset.print; paint(); ripple(-0.05);
   }));
 
   function resize() {
@@ -209,32 +309,57 @@ const heroState = { scroll: 0 };
   }
   resize(); addEventListener("resize", resize);
 
-  // Drag to spin, otherwise a gentle sway like it's hanging on a rail
-  let rotY = -0.35, velocity = 0, dragging = false, lastX = 0, spin = 0, mx = 0, my = 0;
-  canvas.addEventListener("pointerdown", (e) => { dragging = true; lastX = e.clientX; canvas.setPointerCapture(e.pointerId); });
-  canvas.addEventListener("pointermove", (e) => { if (!dragging) return; velocity = (e.clientX - lastX) * 0.012; rotY += velocity; lastX = e.clientX; });
-  const stop = () => (dragging = false);
-  canvas.addEventListener("pointerup", stop); canvas.addEventListener("pointercancel", stop);
+  // Pointer: wind when moving, grab and pull when pressing
+  const ray = new THREE.Raycaster(), ndc = new THREE.Vector2(), plane = new THREE.Plane(), hit = new THREE.Vector3();
+  function toLocal(e, depth) {
+    const r = canvas.getBoundingClientRect();
+    ndc.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+    ray.setFromCamera(ndc, camera);
+    const n = new THREE.Vector3(0, 0, 1).applyQuaternion(group.quaternion);
+    plane.setFromNormalAndCoplanarPoint(n, group.localToWorld(new THREE.Vector3(0, 0, depth)));
+    if (!ray.ray.intersectPlane(plane, hit)) return null;
+    return group.worldToLocal(hit.clone());
+  }
+  let lastMove = 0;
+  canvas.addEventListener("pointermove", (e) => {
+    const p = toLocal(e, 0); if (!p) return;
+    const now = performance.now(), dt = Math.max(16, now - lastMove); lastMove = now;
+    mouse.vx = mouse.on ? THREE.MathUtils.clamp((p.x - mouse.x) / dt * 16, -0.3, 0.3) : 0;
+    mouse.vy = mouse.on ? THREE.MathUtils.clamp((p.y - mouse.y) / dt * 16, -0.3, 0.3) : 0;
+    mouse.x = p.x; mouse.y = p.y; mouse.on = true;
+    if (grab >= 0) { const q = toLocal(e, 0.6); if (q) grabTarget.copy(q); }
+  });
+  canvas.addEventListener("pointerleave", () => { mouse.on = false; });
+  canvas.addEventListener("pointerdown", (e) => {
+    const p = toLocal(e, 0); if (!p) return;
+    let best = -1, bd = 0.35;
+    for (let i = 0; i < N; i++) {
+      if (pinned[i]) continue;
+      const d = Math.hypot(pos[i * 3] - p.x, pos[i * 3 + 1] - p.y);
+      if (d < bd) { bd = d; best = i; }
+    }
+    if (best >= 0) { grab = best; grabTarget.set(pos[best * 3], pos[best * 3 + 1], 0.6); canvas.setPointerCapture(e.pointerId); stage.classList.add("is-grabbing"); }
+  });
+  const release = () => { grab = -1; stage.classList.remove("is-grabbing"); };
+  canvas.addEventListener("pointerup", release); canvas.addEventListener("pointercancel", release);
+  let mx = 0, my = 0;
   document.getElementById("hero").addEventListener("pointermove", (e) => { mx = e.clientX / innerWidth - 0.5; my = e.clientY / innerHeight - 0.5; });
 
   let visible = true;
   new IntersectionObserver(([en]) => (visible = en.isIntersecting)).observe(stage);
   const clock = new THREE.Clock();
   function frame() {
-    const t = clock.getElapsedTime();
-    if (!dragging) {
-      velocity *= 0.94;
-      const sway = Math.sin(t * 0.7) * 0.45 + mx * 0.5;
-      spin *= 0.95;
-      rotY += velocity + (sway - rotY) * 0.03 + spin * 0.12;
-    }
-    group.rotation.y = rotY + heroState.scroll * Math.PI;
-    group.rotation.z = Math.sin(t * 0.9) * 0.025;
-    group.rotation.x = -my * 0.15;
-    group.position.y = -0.15 + Math.sin(t * 1.3) * 0.06;
+    const tt = clock.getElapsedTime();
+    step();
+    mouse.vx *= 0.8; mouse.vy *= 0.8;
+    posAttr.needsUpdate = true;
+    geo.computeVertexNormals();
+    group.rotation.y = Math.sin(tt * 0.45) * 0.28 + mx * 0.35 + heroState.scroll * Math.PI * 0.8;
+    group.rotation.x = -my * 0.12;
+    group.position.y = -0.1 + Math.sin(tt * 1.1) * 0.04;
     renderer.render(scene, camera);
   }
-  if (reduce) { frame(); stage.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => requestAnimationFrame(frame))); return; }
+  if (reduce) { for (let i = 0; i < 60; i++) step(); frame(); stage.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => requestAnimationFrame(frame))); return; }
   (function loop() { if (visible) frame(); requestAnimationFrame(loop); })();
 })();
 

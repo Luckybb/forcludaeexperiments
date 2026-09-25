@@ -1,6 +1,6 @@
 # BNC Apparel website
 
-Static site for www.bncapparel.site with an interactive 3D T-shirt hero, smooth scroll, parallax, a horizontal portfolio with full-size board viewer, the Dream in Defiance case study and a free audit call to action. No build step: upload `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml` and the `images/` folder to any host.
+Static site for www.bncapparel.site with a real-time cloth simulation T-shirt hero, smooth scroll, parallax, a horizontal portfolio with full-size board viewer, the Dream in Defiance case study and a free audit call to action. No build step: upload `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml` and the `images/` folder to any host.
 
 ## Before going live
 1. Put your booking link (Calendly, WhatsApp, etc) in `BOOKING_URL` at the top of `script.js`, and set `CONTACT_EMAIL`.
