@@ -194,7 +194,7 @@ const GARMENTS = {
         <path class="s" d="M100 46 L100 122 M68 56 Q60 90 62 122 M132 56 Q140 90 138 122"/>
         <circle class="g" cx="100" cy="46" r="5"/>`,
 };
-document.querySelectorAll(".wcard__art").forEach((el, i) => {
+document.querySelectorAll(".wcard__art[data-garment]").forEach((el, i) => {
   const kind = el.dataset.garment;
   const cs = getComputedStyle(el);
   const g1 = cs.getPropertyValue("--g1").trim();
@@ -233,6 +233,32 @@ document.querySelectorAll(".wcard__art[data-img]").forEach((el) => {
   img.onload = () => { el.innerHTML = ""; el.appendChild(img); el.classList.add("has-img"); };
   img.src = el.dataset.img;
 });
+
+// ---------- Portfolio lightbox ----------
+(function lightbox() {
+  const box = document.getElementById("lightbox");
+  const img = document.getElementById("lightboxImg");
+  const close = () => { box.hidden = true; document.documentElement.style.overflow = ""; lenis && lenis.start(); };
+  let dragged = false, downX = 0;
+  const track = document.getElementById("workTrack");
+  track.addEventListener("pointerdown", (e) => { downX = e.clientX; dragged = false; });
+  track.addEventListener("pointerup", (e) => { dragged = Math.abs(e.clientX - downX) > 8; });
+  document.querySelectorAll(".wcard[data-full]").forEach((card) => {
+    card.addEventListener("click", () => {
+      if (dragged) return;
+      img.src = card.dataset.full;
+      img.alt = card.querySelector("h3").textContent + " full brand board";
+      box.hidden = false;
+      box.querySelector(".lightbox__scroll").scrollTop = 0;
+      document.documentElement.style.overflow = "hidden";
+      lenis && lenis.stop();
+      document.getElementById("lightboxClose").focus();
+    });
+  });
+  document.getElementById("lightboxClose").addEventListener("click", close);
+  box.addEventListener("click", (e) => { if (e.target === box || e.target.classList.contains("lightbox__scroll")) close(); });
+  addEventListener("keydown", (e) => { if (e.key === "Escape" && !box.hidden) close(); });
+})();
 
 // ---------- Collections hover preview ----------
 (function collections() {
@@ -286,13 +312,13 @@ if (!isTouch && !reduce) {
   });
   // 3D tilt on lookbook cards
   document.querySelectorAll(".wcard:not(.wcard--end)").forEach((card) => {
-    const art = card.querySelector("svg");
+    const art = card.querySelector("svg, img");
     card.addEventListener("pointermove", (e) => {
       const r = card.getBoundingClientRect();
       const px = (e.clientX - r.left) / r.width - 0.5;
       const py = (e.clientY - r.top) / r.height - 0.5;
       card.style.transform = `perspective(900px) rotateY(${px * 10}deg) rotateX(${-py * 10}deg) translateZ(0)`;
-      if (art) art.style.transform = `translate(${px * 18}px, ${py * 18}px) rotate(${px * 4}deg)`;
+      if (art) art.style.transform = `scale(1.06) translate(${px * 12}px, ${py * 12}px)`;
     });
     card.addEventListener("pointerleave", () => {
       card.style.transform = "";
@@ -354,8 +380,16 @@ if (hasGsap && !reduce) {
     },
   });
 
+  // Case study photo parallax
+  gsap.utils.toArray("[data-speed]").forEach((el) => {
+    gsap.fromTo(el.querySelector("img"), { yPercent: -parseFloat(el.dataset.speed) }, {
+      yPercent: parseFloat(el.dataset.speed), ease: "none",
+      scrollTrigger: { trigger: el, start: "top bottom", end: "bottom top", scrub: true },
+    });
+  });
+
   // Section reveals
-  gsap.utils.toArray(".big, .huge, .prow, .fit__col, .faq details, .checklist label, .clist li, .quote__text").forEach((el) => {
+  gsap.utils.toArray(".big, .huge, .prow, .fit__col, .faq details, .checklist label, .clist li, .quote blockquote, .case__facts > div, .shipped li").forEach((el) => {
     gsap.from(el, { y: 60, opacity: 0, duration: 1.1, ease: "expo.out", scrollTrigger: { trigger: el, start: "top 90%" } });
   });
   gsap.from(".label-tag", { rotate: -18, y: 80, duration: 1.4, ease: "elastic.out(1, .6)", scrollTrigger: { trigger: ".label-tag", start: "top 90%" } });
