@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.bncapparel.site/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.bncapparel.site/</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/dream-in-defiance-full.webp</image:loc><image:title>Dream in Defiance clothing brand design and Shopify launch</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/hamrah-full.webp</image:loc><image:title>Hamrah streetwear brand identity and T-shirt design</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/apex-full.webp</image:loc><image:title>Apex Apparel sportswear brand identity</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/paragon-full.webp</image:loc><image:title>Paragon performance apparel brand identity</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/slash-32-full.webp</image:loc><image:title>Slash-32 techwear brand identity</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/stillski-full.webp</image:loc><image:title>Stillski streetwear brand identity and graphic tees</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/gretchen-am-strand-full.webp</image:loc><image:title>Gretchen am Strand family apparel brand identity</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/work/streetwear-graphics-full.webp</image:loc><image:title>Streetwear graphic T-shirt design series</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/case/lifestyle.webp</image:loc><image:title>Dream in Defiance hoodie and T-shirt lifestyle photoshoot</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/case/hoodie.webp</image:loc><image:title>Dream in Defiance Glitch Collection tee and hoodie</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/images/case/love.webp</image:loc><image:title>Dream in Defiance apparel launch photoshoot</image:title></image:image>
+    <image:image><image:loc>https://www.bncapparel.site/og.jpg</image:loc><image:title>BNC, we build clothing brands that sell</image:title></image:image>
+  </url>
 </urlset>

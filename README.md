@@ -12,3 +12,6 @@ Static site for www.bncapparel.site with a real-time cloth simulation T-shirt he
 `images/work/<name>.webp` is the card image, `<name>-full.webp` opens in the viewer. `images/case/` holds the case study photos.
 
 Libraries (Three.js, GSAP, Lenis) load from cdnjs and jsDelivr. If they fail, the page still works and the hero falls back to a flat tee.
+
+## SEO
+See `SEO.md` for what is set up on the site and the step by step plan after launch.
