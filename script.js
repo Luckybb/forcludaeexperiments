@@ -15,25 +15,8 @@ if (reduce) document.documentElement.classList.add("reduce");
 document.getElementById("year").textContent = new Date().getFullYear();
 
 
-// ---------- Loader ----------
-const loader = document.getElementById("loader");
-const loadCount = document.getElementById("loadCount");
-function finishLoader() {
-  loader.classList.add("done");
-  introHero();
-}
-if (reduce) {
-  loader.classList.add("done");
-} else {
-  let n = 0;
-  const t0 = performance.now();
-  (function tick(now) {
-    n = Math.min(100, Math.round(((now - t0) / 1100) * 100));
-    loadCount.textContent = n;
-    if (n < 100) requestAnimationFrame(tick);
-    else setTimeout(finishLoader, 150);
-  })(t0);
-}
+// ---------- Intro (no loading screen: content shows immediately) ----------
+requestAnimationFrame(() => introHero());
 
 // ---------- Smooth scroll ----------
 let lenis = null;
@@ -516,7 +499,7 @@ function introHero() {
   if (!hasGsap || reduce) return;
   gsap.from(".hero__title .word", { yPercent: 115, rotate: 4, duration: 1.4, ease: "expo.out", stagger: 0.12 });
   gsap.from(".hero__stage", { opacity: 0, scale: 0.8, duration: 1.6, ease: "expo.out", delay: 0.2 });
-  gsap.from(".hero__tags span, .hero__lead, .hero__cta > *, .hero__chips li", { y: 24, opacity: 0, duration: 1, ease: "expo.out", stagger: 0.06, delay: 0.3 });
+  gsap.from(".hero__tags span, .hero__lead, .hero__cta > *, .proof", { y: 24, opacity: 0, duration: 1, ease: "expo.out", stagger: 0.06, delay: 0.3 });
 }
 
 if (hasGsap && !reduce) {
