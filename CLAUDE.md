@@ -11,8 +11,8 @@ These apply to every cold email, follow-up, DM or audit written for this busines
 - No hype, no credentials dump, no meeting ask in the first email.
 
 ## Signature
-- Sign as **Ben | BNC Apparel | bncapparel.site**
-- Never sign as "BNC Group", "BNC Productionz" or "BNC Designs".
+- Sign as **Ben | BNC Group | bncapparel.site**
+- Never sign as "BNC Apparel", "BNC Productionz" or "BNC Designs".
 
 ## When a prospect replies (warm lead)
 - Keep it short. Do not send a full audit by email and never say "here's what I'd fix".
