@@ -31,3 +31,13 @@ These apply to every cold email, follow-up, DM or audit written for this busines
 - Skip anyone who bounced, replied, or asked to stop. Replies go to Ben to handle.
 - If a brand was already emailed again at a different address in the last 3 days, skip the older thread.
 - Only restate facts that are in the original email.
+
+## Extra lead gen methods (use alongside cold email)
+- Free audit giveaway post: in apparel founder groups (Facebook, Shopify community, Discord, LinkedIn) post that we're doing a full free brand audit for one apparel brand. DM everyone who comments, pick one, then offer the rest the free 20 minute audit call. They sell themselves to us.
+- Instagram close friends pitch for hot leads: add the founder alone to close friends, post a short personalized story showing one real issue on their brand, tag them. Ben does this manually, Claude writes the script.
+- Buy and break down: for hot leads, Ben orders one item, Claude helps document the full customer journey (confirmation email, shipping updates, packaging, review request) and turns the gaps into the golden nugget.
+- Breakdown content: public posts breaking down what a well known apparel brand does right, or "3 things I'd keep from [brand]". Keep it positive when tagging prospects, never shame a brand in public.
+- Founder feature series: invite founders to a short interview about their brand story, give them the clips, pitch the audit after.
+- Referrals: ask every warm lead and client who else they know building a brand, after delivering value.
+- Paid events: apparel trade shows and markets (MAGIC Las Vegas, Agenda, Dallas Market Center apparel markets, local pop up markets).
+- Value follow ups: a second follow up can share one useful insight instead of repeating the pitch. Never pretend the person subscribed to anything.
