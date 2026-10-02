@@ -3,6 +3,7 @@
 These apply to every cold email, follow-up, DM or audit written for this business.
 
 ## Email content
+- Always send outreach from **info@bncproductionz.com**. The website and the only link is **bncapparel.site**.
 - Never put a Google link in an email. No `google.com/url?q=...` redirects, no links copied out of Gmail or search results.
 - Do not paste links to the prospect's own site or pages. Describe the problem in plain words instead (for example "your reservation page title still shows a placeholder").
 - The only link in an email is the call to action: **bncapparel.site**
