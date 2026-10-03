@@ -1,22 +1,22 @@
 # BNC Group Lead Pipeline
 
-Last updated: 2026-10-03. This is the one lead tracker. Update the rows here after every email, follow up, reply or bounce.
+Last updated: 2026-10-03 (50 final follow ups sent, Ditale resent). This is the one lead tracker. Update the rows here after every email, follow up, reply or bounce.
 
 ## Summary
 
-259 leads. 115 follow ups due Oct 3, more than the 50 per day cap, so they go out oldest first over the next few days.
+263 leads. 115 follow ups due Oct 3, more than the 50 per day cap, so they go out oldest first over the next few days.
 
 | Group | Leads |
 | --- | --- |
 | Replied or audit sent (hot) | 4 |
 | Emailed, in follow up sequence | 229 |
-| Instagram, LinkedIn or forum DM for Ben to send | 13 |
+| Instagram, LinkedIn or forum DM for Ben to send | 17 |
 | Lost (bounced) | 13 |
-| Total | 259 |
+| Total | 263 |
 
 | Follow up due | What goes out | Leads |
 | --- | --- | --- |
-| Oct 3 | Final follow up (2 of 2) to the Sep 30 group | 106 |
+| Oct 3 | Final follow up (2 of 2) to the Sep 30 group | 106 (50 sent Oct 3, 56 left, go out next) |
 | Oct 3 | First follow up to the Sep 30 new emails | 9 |
 | Oct 4 | Final follow up to the Oct 1 boutique group, first follow up to Oct 1 new emails | 52 |
 | Oct 5 | Final follow up to the Oct 2 group, first follow up to Oct 2 new emails | 61 |
@@ -36,8 +36,8 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 
 | Brand | Contact | Golden nugget | Heat | Sent | FU | Last email | Next FU |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LGNDY Golf | brock@lgndy.co | Homepage still shows Summer Polos in October, veteran owned golf | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Vapor95 | river@vapor95.com | Vaporwave community since 2016, visual identity needs elevating | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
+| LGNDY Golf | brock@lgndy.co | Homepage still shows Summer Polos in October, veteran owned golf | Warm | 4 | 2/2 | Oct 3 | Done |
+| Vapor95 | river@vapor95.com | Vaporwave community since 2016, visual identity needs elevating | Warm | 3 | 2/2 | Oct 3 | Done |
 | Cheat Code Athletix | cheatcodeathletix@gmail.com | Site issue, 525 reviews at 4.9, Pink Legacy story | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
 | Merfolk | jwbelveal@gmail.com | Two small site issues, coastal brand, 18 reviews | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
 | Dreams Do Come True | jackson.dontavion@gmail.com (Dontavion) | Everything sold out, no restock capture | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
@@ -81,9 +81,9 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | The Spined Life | thespinedlife@gmail.com (Nicole) | BookTok spooky season, designs not pushed | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
 | Karina J Denim | karina@karinajdenim.com | Two small site issues, 32 reviews at 4.97 | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
 | B Quintessential | orders@bquintessential.com (Kaia) | Homepage note, next chapter funded in August | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| TIC TOC LA | info@tictocla.com | No hero banner, wholesale buyers bounce | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Allie Rose | info@allierose.com | Inclusion message buried in meta tags | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Velvet Heart | hello@velvetheart.com | TENCEL sustainability angle buried | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
+| TIC TOC LA | info@tictocla.com | No hero banner, wholesale buyers bounce | Warm | 3 | 2/2 | Oct 3 | Done |
+| Allie Rose | info@allierose.com | Inclusion message buried in meta tags | Warm | 3 | 2/2 | Oct 3 | Done |
+| Velvet Heart | hello@velvetheart.com | TENCEL sustainability angle buried | Warm | 3 | 2/2 | Oct 3 | Done |
 | Caroline Kate Clothing | carolinekateclothing@gmail.com | Contact info buried, no founder story | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
 | HoneyLove Boutique | honeyloveboutique@gmail.com | Many products show Notify me when available | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
 | Avery Mae Boutique | support@averymae.com (Whitney) | 6000+ five star reviews and 610K FB followers not used as proof | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
@@ -96,52 +96,52 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Boss Babes Boutique | bossbabesboutiqueks@gmail.com | Says family run but no names, photos or story | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
 | Sassy Junk | liamae417@gmail.com | Voted Missouri's Best 4 years, not on homepage | Warm | 4 | 1/2 | Sep 30 | Oct 3 |
 | Salty Roots | saltyrootsbtq@gmail.com (Lori) | Liquid error visible in footer | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Sockologie | info@sockologie.com | 2000+ sock styles, no repeat buyer program | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Bonlax | service@bonlax.com | Sizing complaints in reviews | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Steel Town Garage | info@steeltowngarage.com (Jeremy) | Address Tee page issue | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Iris and Nora Austin | support@irisandnora-austin.com | Brand story not converting | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Sexyskinz | info@sexyskinz.com | Post surgical expertise not converting cold visitors | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Roka Boutique | hello@shoproka.com | Visual identity and product presentation | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| INTHELEAST | support@intheleast.com | 94 reviews, not converting cold visitors | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Inkdify | customer-care@inkdify.com | Artist made USA tees, quality not differentiating online | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Boen Brand | ben@boenbrand.com | Visual identity and store not converting | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Gracelee Southern | graceleesouthern@gmail.com (Michelle and Deanna) | Two teacher founders, story not showing | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Mary Beth's Mercantile | batolar@marybethsmercantile.com | Personality not landing online | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Style and Grace | gracedelarue@styleandgrace.co | Personality not converting | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| 402 Threads | 402threads@gmail.com (Jade) | Nebraska pride gear, not converting cold visitors | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Empxre Boutique | empxreboutique@gmail.com | Mall exclusivity not translating online | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| SOB Apparel | info@dniqueapparel.com | Movement energy not landing online | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| 13 Fifty Apparel | chris@thirteenfiftyapparel.com | First responder apparel, loyal niche | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| PYNRS | sid@pynrs.com | Performance streetwear positioning | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Pythia Clothing | jack@pythiaclothing.com | LA made, aesthetic pitch | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Alpha Apparel Co | truman@tailorednyc.com | 1000+ school chapters | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Ditch LA | zeb@ditch.la | Limited drops graphic streetwear | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| CLUBURBAN | sami@cluburban.com | 25+ years, design refresh | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| NHIM Apparel | diane@nhimapparel.com | Product visuals don't do the message justice | Warm | 4 | 1/2 | Sep 30 | Oct 3 |
-| NO CONFORMITY CO | andrew@noconformity.co | Brutalist 500 GSM direction | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| UNLESS Collective | eric@unlesscollective.com | Visual identity doesn't show sustainability | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Haftners | josephheft@haftnerbouclier.com | Heritage angle needs stronger visuals | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Bricks & Wood | kacey@bricksandwood.us | No consistent design system | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| KIN Apparel | philomina@kinapparel.com | Forbes 30u30 and Shark Tank, first impression gap | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| SANS GÊNE | caroline@sansgenestudios.com | Online presence not converting | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Akomplice | mike@akomplice-clothing.com | 20+ years, store feels dated | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Oddli | ellie@oddli.com | Visuals lack cohesion | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
+| Sockologie | info@sockologie.com | 2000+ sock styles, no repeat buyer program | Warm | 3 | 2/2 | Oct 3 | Done |
+| Bonlax | service@bonlax.com | Sizing complaints in reviews | Warm | 3 | 2/2 | Oct 3 | Done |
+| Steel Town Garage | info@steeltowngarage.com (Jeremy) | Address Tee page issue | Warm | 3 | 2/2 | Oct 3 | Done |
+| Iris and Nora Austin | support@irisandnora-austin.com | Brand story not converting | Warm | 3 | 2/2 | Oct 3 | Done |
+| Sexyskinz | info@sexyskinz.com | Post surgical expertise not converting cold visitors | Warm | 3 | 2/2 | Oct 3 | Done |
+| Roka Boutique | hello@shoproka.com | Visual identity and product presentation | Warm | 3 | 2/2 | Oct 3 | Done |
+| INTHELEAST | support@intheleast.com | 94 reviews, not converting cold visitors | Warm | 3 | 2/2 | Oct 3 | Done |
+| Inkdify | customer-care@inkdify.com | Artist made USA tees, quality not differentiating online | Warm | 3 | 2/2 | Oct 3 | Done |
+| Boen Brand | ben@boenbrand.com | Visual identity and store not converting | Warm | 3 | 2/2 | Oct 3 | Done |
+| Gracelee Southern | graceleesouthern@gmail.com (Michelle and Deanna) | Two teacher founders, story not showing | Warm | 3 | 2/2 | Oct 3 | Done |
+| Mary Beth's Mercantile | batolar@marybethsmercantile.com | Personality not landing online | Warm | 3 | 2/2 | Oct 3 | Done |
+| Style and Grace | gracedelarue@styleandgrace.co | Personality not converting | Warm | 3 | 2/2 | Oct 3 | Done |
+| 402 Threads | 402threads@gmail.com (Jade) | Nebraska pride gear, not converting cold visitors | Warm | 3 | 2/2 | Oct 3 | Done |
+| Empxre Boutique | empxreboutique@gmail.com | Mall exclusivity not translating online | Warm | 3 | 2/2 | Oct 3 | Done |
+| SOB Apparel | info@dniqueapparel.com | Movement energy not landing online | Warm | 3 | 2/2 | Oct 3 | Done |
+| 13 Fifty Apparel | chris@thirteenfiftyapparel.com | First responder apparel, loyal niche | Warm | 3 | 2/2 | Oct 3 | Done |
+| PYNRS | sid@pynrs.com | Performance streetwear positioning | Warm | 3 | 2/2 | Oct 3 | Done |
+| Pythia Clothing | jack@pythiaclothing.com | LA made, aesthetic pitch | Warm | 3 | 2/2 | Oct 3 | Done |
+| Alpha Apparel Co | truman@tailorednyc.com | 1000+ school chapters | Warm | 3 | 2/2 | Oct 3 | Done |
+| Ditch LA | zeb@ditch.la | Limited drops graphic streetwear | Warm | 3 | 2/2 | Oct 3 | Done |
+| CLUBURBAN | sami@cluburban.com | 25+ years, design refresh | Warm | 3 | 2/2 | Oct 3 | Done |
+| NHIM Apparel | diane@nhimapparel.com | Product visuals don't do the message justice | Warm | 5 | 2/2 | Oct 3 | Done |
+| NO CONFORMITY CO | andrew@noconformity.co | Brutalist 500 GSM direction | Warm | 3 | 2/2 | Oct 3 | Done |
+| UNLESS Collective | eric@unlesscollective.com | Visual identity doesn't show sustainability | Warm | 3 | 2/2 | Oct 3 | Done |
+| Haftners | josephheft@haftnerbouclier.com | Heritage angle needs stronger visuals | Warm | 3 | 2/2 | Oct 3 | Done |
+| Bricks & Wood | kacey@bricksandwood.us | No consistent design system | Warm | 3 | 2/2 | Oct 3 | Done |
+| KIN Apparel | philomina@kinapparel.com | Forbes 30u30 and Shark Tank, first impression gap | Warm | 3 | 2/2 | Oct 3 | Done |
+| SANS GÊNE | caroline@sansgenestudios.com | Online presence not converting | Warm | 3 | 2/2 | Oct 3 | Done |
+| Akomplice | mike@akomplice-clothing.com | 20+ years, store feels dated | Warm | 3 | 2/2 | Oct 3 | Done |
+| Oddli | ellie@oddli.com | Visuals lack cohesion | Warm | 3 | 2/2 | Oct 3 | Done |
 | GOOCH APPAREL | butch@goochapparel.com | Mailbox full on follow up, store not converting | Cold | 2 | 1/2 | Sep 30 | Oct 3 |
-| Urban Native Era | joey@urbannativeera.com | Top homepage headline blank (matt@ bounced) | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Oran Apparel | oran@oranapparel.com | Premium feel doesn't land online | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Alautus Clothing | amatthews@alautus.com | Visuals don't match the mission | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Bards Clothing | matthew@bardsclothing.com | Made in America story stronger than site | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Worldclass Clothing | brooks@worldclassclothing.com | Mission deserves bolder visuals | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| NTLY Clothing | zach@ntlyclothing.com | First impression below product | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Skntones | stephon@skntones.com | Clothing visuals don't match creative energy | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| MEKINSA | mekinsa@mekinsa.com | First impression doesn't match the craft | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| SOUNDOFF | daryl.sneed@soundoffdesign.com | Visual identity weaker than creative direction | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Smart Adaptive Clothing | nancy@smartadaptive.com | Visuals don't match the mission | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Surf & Turf Golf | ta@surfandturfgolf.com | Visual identity lagging | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| nicepipes apparel | lisa@nicepipesapparel.com | Visuals below revenue level | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| The Clothing Library | mila@theclothinglibrary.net | Visuals don't reflect premium experience | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Savage Tacticians | kullman@sav-tac.com | Veteran story needs stronger visuals | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| TOPANGA | jaxson@topangaapparel.com | Visuals don't match product thinking | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
+| Urban Native Era | joey@urbannativeera.com | Top homepage headline blank (matt@ bounced) | Warm | 4 | 2/2 | Oct 3 | Done |
+| Oran Apparel | oran@oranapparel.com | Premium feel doesn't land online | Warm | 3 | 2/2 | Oct 3 | Done |
+| Alautus Clothing | amatthews@alautus.com | Visuals don't match the mission | Warm | 3 | 2/2 | Oct 3 | Done |
+| Bards Clothing | matthew@bardsclothing.com | Made in America story stronger than site | Warm | 3 | 2/2 | Oct 3 | Done |
+| Worldclass Clothing | brooks@worldclassclothing.com | Mission deserves bolder visuals | Warm | 3 | 2/2 | Oct 3 | Done |
+| NTLY Clothing | zach@ntlyclothing.com | First impression below product | Warm | 3 | 2/2 | Oct 3 | Done |
+| Skntones | stephon@skntones.com | Clothing visuals don't match creative energy | Warm | 3 | 2/2 | Oct 3 | Done |
+| MEKINSA | mekinsa@mekinsa.com | First impression doesn't match the craft | Warm | 3 | 2/2 | Oct 3 | Done |
+| SOUNDOFF | daryl.sneed@soundoffdesign.com | Visual identity weaker than creative direction | Warm | 3 | 2/2 | Oct 3 | Done |
+| Smart Adaptive Clothing | nancy@smartadaptive.com | Visuals don't match the mission | Warm | 3 | 2/2 | Oct 3 | Done |
+| Surf & Turf Golf | ta@surfandturfgolf.com | Visual identity lagging | Warm | 3 | 2/2 | Oct 3 | Done |
+| nicepipes apparel | lisa@nicepipesapparel.com | Visuals below revenue level | Warm | 3 | 2/2 | Oct 3 | Done |
+| The Clothing Library | mila@theclothinglibrary.net | Visuals don't reflect premium experience | Warm | 3 | 2/2 | Oct 3 | Done |
+| Savage Tacticians | kullman@sav-tac.com | Veteran story needs stronger visuals | Warm | 3 | 2/2 | Oct 3 | Done |
+| TOPANGA | jaxson@topangaapparel.com | Visuals don't match product thinking | Warm | 3 | 2/2 | Oct 3 | Done |
 | Hardlife (HRDLF) | info@hardlifeapparelco.com (Brooks) | Story split across two sites | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
 | Vaed | info@vaedva.com (Veronica) | Test page live, brand on two websites | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
 | Veii Apparel | support@veiiapparel.com (Ike) | Color typo "Lavende", 378 backers | Hot | 1 | 0/2 | Sep 30 | Oct 3 |
@@ -247,7 +247,7 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Sugarhill Apparel | mike@the70thirty.com | Store doesn't create drop urgency | Cold | 2 | 1/2 | Oct 2 | Oct 5 |
 | PrintBliss | samir@f4milymatters.com | Print shop, low fit | Cold | 2 | 1/2 | Oct 2 | Oct 5 |
 | Daniel Brooks | d.m.brooks@live.co.uk | UK junior sports project via LinkedIn, low fit | Cold | 2 | 1/2 | Oct 2 | Oct 5 |
-| Ditale Outdoors | team@ditaleoutdoors.com | Two websites, two brand names. Send failed on Gmail's side, resend needed | Warm | 0 | 0/2 | Oct 2 | Resend now |
+| Ditale Outdoors | team@ditaleoutdoors.com | Two websites, two brand names. Resent Oct 3 after first send was blocked | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
 | Sync Equestrian | support@syncequestrian.com (Natalia Graf-Anders) | Duplicate homepage, Tops page at two addresses | Warm | 1 | 0/2 | Oct 2 | Oct 5 |
 | FisheWear | info@fishewear.com (Linda Leary) | Name spelled three ways | Warm | 1 | 0/2 | Oct 2 | Oct 5 |
 | Belyn Key | betsy@belynkey.com (Betsy Rittenhouse) | No brand name in homepage title, retailers outrank them | Warm | 1 | 0/2 | Oct 2 | Oct 5 |
@@ -285,6 +285,10 @@ No working email, Ben sends these by hand.
 | XAIYEN | Shopify forum thread | Shopify forum | Title says activewear, description says streetwear, catalog has swim. Traffic but no sales | Warm |
 | Prickly Wear | Brother and sister duo, San Pedro CA (Bluesky @pricklywear) | Instagram DM | Funded Kickstarter but no store found, two other Prickly brands take the name | Cold |
 | Aberdeen West | IG (no email found) | Instagram DM | Name collides with Aberdeen golf and country clubs in search. Featured at PGA Buying Summit | Cold |
+| UNDRGRND GOLF | Jordan Russell, Noe Magdaleno, Josh Williams, Denver (no email found, IG DM) | Instagram DM | Searching "Underground Golf" shows Mark Wahlberg's Underground Golf ball company and an underground golf course first. Sneaker culture golf brand, new launch | Warm |
+| Moonshine Golf | Justin Fowler, Andrew Mikowski, Denver (no email found, IG DM) | Instagram DM | Searching "Moonshine Golf" also brings up a PGA section page and moonshine sponsor news from the Ryder Cup. Outdoor, camo golf apparel | Warm |
+| Soča | Ellie Pitney, Franny Ryburn, Texas, IG @socastyleclothing | Instagram DM | Called Soča in press but Soča Style on Instagram, and an Alabama boutique called Soca Clothing shows up for the name. Women's fly fishing, sewn in USA | Warm |
+| Putt Snipe Celly | Duane Klomp, Braden Klomp, Ryan Iwanski, Denver area (no email found, IG DM) | Instagram DM | Searching the brand name returns no brand site or listing at all. Hockey meets golf apparel, launched Mar 2026 | Warm |
 
 ## Lost and bounced
 
