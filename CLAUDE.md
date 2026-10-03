@@ -41,6 +41,7 @@ These apply to every cold email, follow-up, DM or audit written for this busines
   2. Claude Docs batch: create blob with payload {"asset": "<asset id>"}. Note the blob id.
   3. Claude Docs create: object node, engine prose, parent file 544e9a87-83a6, source from blob/<blob id> as markdown. Note the node id.
   4. Claude Docs update: ref file 544e9a87-83a6, payload patch set ["content"] to {"kind":"node","id":"<node id>"}.
+- Every message sent (cold email, follow up, pitch, warm reply) is logged in full in **MESSAGES.md** (newest day at the top, under its date) and synced to the doc's **Messages** tab the same way: upload MESSAGES.md, create blob, create node with parent file e4a2687f-7eb3, then patch file e4a2687f-7eb3 content to the new node.
 - Do not use the Slack list for tracking.
 
 ## Extra lead gen methods (use alongside cold email)
