@@ -34,9 +34,9 @@ These apply to every cold email, follow-up, DM or audit written for this busines
 - Only restate facts that are in the original email.
 
 ## Lead tracking
-- Track every lead in the Claude Doc "BNC Group Lead Pipeline": https://claude.ai/code/artifact/0996846a-bfff-4980-bc6f-e801b8b7ac2e
-- Do not use the Slack list for tracking anymore.
-- After sending emails or follow ups, update that lead's row in the doc (sent count, FU x/2, last email, next FU).
+- The one lead tracker is **LEADS.md** in this repo. Read it at the start of every session.
+- After sending emails or follow ups, update that lead's row in LEADS.md (sent count, FU x/2, last email, next FU), add new leads, move replies to Hot leads and bounces to Lost, then commit and push.
+- Do not use the Slack list or create new docs for tracking.
 
 ## Extra lead gen methods (use alongside cold email)
 - Free audit giveaway post: in apparel founder groups (Facebook, Shopify community, Discord, LinkedIn) post that we're doing a full free brand audit for one apparel brand. DM everyone who comments, pick one, then offer the rest the free 20 minute audit call. They sell themselves to us.
