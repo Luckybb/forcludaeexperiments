@@ -1,6 +1,6 @@
 # BNC Group Lead Pipeline
 
-Last updated: 2026-10-03 (50 final follow ups sent, Ditale resent). This is the one lead tracker. Update the rows here after every email, follow up, reply or bounce.
+Last updated: 2026-10-03 (50 final follow ups, Ditale resent, 20 new cold emails). This is the one lead tracker. Update the rows here after every email, follow up, reply or bounce.
 
 ## Summary
 
@@ -264,6 +264,26 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Currently Running | support@currentlyrunning.com (Nash Howe) | Two brand names, mixes with founder's site | Warm | 1 | 0/2 | Oct 2 | Oct 5 |
 | Used By God | support@ubgclothing.com | Two names, three Atlanta addresses in listings | Warm | 1 | 0/2 | Oct 2 | Oct 5 |
 | Saltie Rose | info@saltierose.com (Terrie Rose) | Paddle page URL ends in "copy", collab spelled two ways | Warm | 1 | 0/2 | Oct 2 | Oct 5 |
+| UNDRGRND GOLF | undrgrndgolfco@gmail.com (Jordan, Noe, Josh) | Underground Golf name taken by Mark Wahlberg's ball company, no homepage headline | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Putt Snipe Celly | assist@puttsnipecelly.com (Klomp family) | Not found by name search, Google title says Beauty Gear | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Soča | soca@socastyle.com (Ellie, Franny) | Google title just Soča, Soca Clothing boutique competes for name | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Reel Girl Clothing Co | reelgirlclothingcompany@gmail.com (Sharon) | Google description cut off at "roll up thos", blank headline | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Five12 Apparel | brooklynn@five12apparel.com | No Google description, title has no activewear keyword | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| FunLuvin' Fleecewear | info@funluvinfleecewear.com (Kelli) | Google title ends with store handle funluvinfleece, no headline | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Miss Mayfly | hello@missmayfly.com (Kimberly) | Brand name twice in Google title, women's waders cut off | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Mumford Golf | hello@mumfordgolf.com (Calla) | Google description is a keyword list with typo ladie's | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| AIEA Golf | hello@aieagolf.com (Daniella) | Google title has no women's golf, no headline | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| PEP Pickleball | hello@peppickleball.com | Google title only says paddle, apparel missing | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Honors | hello@wearhonors.com | Google title just Honors, competes with Hilton Honors | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| LOHLA SPORT | janandken@lohlasport.com | Google title just LOHLA SPORT, no headline | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| The Garde | hello@the-garde.com | Google title just The Garde, no golf or tennis keyword | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| 40-Love Tennis | lacey@40-lovetennis.com (Lacey) | No homepage headline, 40 Love name shared widely | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| GWG Clothing | support@gwgclothing.com | Two names in Google title (GWG and Girls with Guns), no headline | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Meraki Hunt | support@merakihunt.com | Google title Meraki Hunt twice, no description | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Ellie Arbee | concierge@elliearbee.com (Natalie) | Google description just Discover Ellie Arbee | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| 40 Lime | support@40lime.com (Kathryn) | Blank top headline, generic Google title | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| ALYN Golf | service@alyngolf.com (Tisha) | Google title just ALYN | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| Six Zero Pickleball | admin@sixzeropickleball.com | Hiring an apparel and accessory designer, design project pitch | Hot | 1 | 0/2 | Oct 3 | Oct 6 |
 | Juliana's Boutique | info@shopjulianas.com | Already got 4 cold emails, no more follow ups | Cold | 4 | done | Sep 28 | Stop |
 
 ## DM leads for Ben
@@ -285,10 +305,6 @@ No working email, Ben sends these by hand.
 | XAIYEN | Shopify forum thread | Shopify forum | Title says activewear, description says streetwear, catalog has swim. Traffic but no sales | Warm |
 | Prickly Wear | Brother and sister duo, San Pedro CA (Bluesky @pricklywear) | Instagram DM | Funded Kickstarter but no store found, two other Prickly brands take the name | Cold |
 | Aberdeen West | IG (no email found) | Instagram DM | Name collides with Aberdeen golf and country clubs in search. Featured at PGA Buying Summit | Cold |
-| UNDRGRND GOLF | Jordan Russell, Noe Magdaleno, Josh Williams, Denver (no email found, IG DM) | Instagram DM | Searching "Underground Golf" shows Mark Wahlberg's Underground Golf ball company and an underground golf course first. Sneaker culture golf brand, new launch | Warm |
-| Moonshine Golf | Justin Fowler, Andrew Mikowski, Denver (no email found, IG DM) | Instagram DM | Searching "Moonshine Golf" also brings up a PGA section page and moonshine sponsor news from the Ryder Cup. Outdoor, camo golf apparel | Warm |
-| Soča | Ellie Pitney, Franny Ryburn, Texas, IG @socastyleclothing | Instagram DM | Called Soča in press but Soča Style on Instagram, and an Alabama boutique called Soca Clothing shows up for the name. Women's fly fishing, sewn in USA | Warm |
-| Putt Snipe Celly | Duane Klomp, Braden Klomp, Ryan Iwanski, Denver area (no email found, IG DM) | Instagram DM | Searching the brand name returns no brand site or listing at all. Hockey meets golf apparel, launched Mar 2026 | Warm |
 
 ## Lost and bounced
 
@@ -306,4 +322,5 @@ No working email, Ben sends these by hand.
 | Hippie Cowgirl Boutique | hippiecowgirlboutique@laverniatx.com | Tagline not carried through site | Stop |
 | Faithe Beyond Art | faithe@faithebeyart.com | Wearable art story not landing | Stop |
 | 11.23 Clothing | 1123clothing@gmail.com | Shopify default address costing trust | Stop |
+| Moonshine Golf | (no email) | Store offline, shows store unavailable | Stop, inactive |
 | Style and Grace Boutique TX | styleandgraceboutiquetx@gmail.com | Stylist expertise not landing | Stop |
