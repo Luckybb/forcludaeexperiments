@@ -34,9 +34,14 @@ These apply to every cold email, follow-up, DM or audit written for this busines
 - Only restate facts that are in the original email.
 
 ## Lead tracking
-- The one lead tracker is **LEADS.md** in this repo. Read it at the start of every session.
+- Two copies, always kept the same: **LEADS.md** in this repo (source of truth, read it at the start of every session) and the Claude Doc "BNC Group Lead Pipeline": https://claude.ai/code/artifact/0996846a-bfff-4980-bc6f-e801b8b7ac2e
 - After sending emails or follow ups, update that lead's row in LEADS.md (sent count, FU x/2, last email, next FU), add new leads, move replies to Hot leads and bounces to Lost, then commit and push.
-- Do not use the Slack list or create new docs for tracking.
+- Then sync the doc with the whole file (the doc caps one write at 32KB, so go through a file upload):
+  1. Artifact publish with url = the doc link, file_path = LEADS.md, asset: true. Note the asset id.
+  2. Claude Docs batch: create blob with payload {"asset": "<asset id>"}. Note the blob id.
+  3. Claude Docs create: object node, engine prose, parent file 544e9a87-83a6, source from blob/<blob id> as markdown. Note the node id.
+  4. Claude Docs update: ref file 544e9a87-83a6, payload patch set ["content"] to {"kind":"node","id":"<node id>"}.
+- Do not use the Slack list for tracking.
 
 ## Extra lead gen methods (use alongside cold email)
 - Free audit giveaway post: in apparel founder groups (Facebook, Shopify community, Discord, LinkedIn) post that we're doing a full free brand audit for one apparel brand. DM everyone who comments, pick one, then offer the rest the free 20 minute audit call. They sell themselves to us.

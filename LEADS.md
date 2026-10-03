@@ -4,15 +4,15 @@ Last updated: 2026-10-03 (50 final follow ups, Ditale resent, 20 new cold emails
 
 ## Summary
 
-263 leads. 115 follow ups due Oct 3, more than the 50 per day cap, so they go out oldest first over the next few days.
+280 leads. 115 follow ups due Oct 3, more than the 50 per day cap, so they go out oldest first over the next few days.
 
 | Group | Leads |
 | --- | --- |
 | Replied or audit sent (hot) | 4 |
-| Emailed, in follow up sequence | 229 |
-| Instagram, LinkedIn or forum DM for Ben to send | 17 |
-| Lost (bounced) | 13 |
-| Total | 263 |
+| Emailed, in follow up sequence | 249 |
+| Instagram, LinkedIn or forum DM for Ben to send | 13 |
+| Lost (bounced or inactive) | 14 |
+| Total | 280 |
 
 | Follow up due | What goes out | Leads |
 | --- | --- | --- |
@@ -20,6 +20,7 @@ Last updated: 2026-10-03 (50 final follow ups, Ditale resent, 20 new cold emails
 | Oct 3 | First follow up to the Sep 30 new emails | 9 |
 | Oct 4 | Final follow up to the Oct 1 boutique group, first follow up to Oct 1 new emails | 52 |
 | Oct 5 | Final follow up to the Oct 2 group, first follow up to Oct 2 new emails | 61 |
+| Oct 6 | First follow up to the 21 Oct 3 new emails (incl. Ditale resend) | 21 |
 
 ## Hot leads
 
