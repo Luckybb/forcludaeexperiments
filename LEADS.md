@@ -1,18 +1,18 @@
 # BNC Group Lead Pipeline
 
-Last updated: 2026-10-03 (50 final follow ups, Ditale resent, 20 new cold emails). This is the one lead tracker. Update the rows here after every email, follow up, reply or bounce.
+Last updated: 2026-10-04. A second session also sends from info@ and sent 83 follow ups and 27 cold emails on Oct 3 and 4, logged here. This is the one lead tracker. Update the rows here after every email, follow up, reply or bounce.
 
 ## Summary
 
-280 leads. 115 follow ups due Oct 3, more than the 50 per day cap, so they go out oldest first over the next few days.
+313 leads. Follow ups due Oct 3 and 4 were all sent on Oct 4.
 
 | Group | Leads |
 | --- | --- |
-| Replied or audit sent (hot) | 4 |
-| Emailed, in follow up sequence | 249 |
+| Replied or audit sent (hot) | 7 |
+| Emailed, in follow up sequence | 277 |
 | Instagram, LinkedIn or forum DM for Ben to send | 13 |
-| Lost (bounced or inactive) | 14 |
-| Total | 280 |
+| Lost (bounced or inactive) | 16 |
+| Total | 313 |
 
 | Follow up due | What goes out | Leads |
 | --- | --- | --- |
@@ -30,6 +30,9 @@ Last updated: 2026-10-03 (50 final follow ups, Ditale resent, 20 new cold emails
 | JAP Apparel | Jules, Instagram DM | Instagram DM | Replied | Replied in DM, reply drafted | Ben sends the drafted reply |
 | Iridium Clothing | iridium77inc@gmail.com, platinum@iridiumclothingco.com | Email | Audit sent | Replied "Ok what's up" Sep 13. Short audit reply sent Oct 1: 5 name variations, Yelp files it as women's clothing, online store sits below celebrity history | Waiting on a call day, nudge Oct 4 |
 | Jazrae Wear | Email thread | Email | Audit sent | Short audit sent: name conflicts, meta tag conflicts, unused brand story, AI looking graphics | Waiting on a call day |
+| One Vision Wear | sales@onevisionwear.com | Email | Replied | Said "Yes please send", unhappy with store redesign and 5 months of SEO. Reply sent Oct 4 (second session) | Waiting on their answer, Ben handles |
+| SEEN by W23 | Stephen, w23llc@wearworship.com | Email | Replied | Interested in the free audit. Reply sent Oct 4 (second session) | Waiting on their answer, Ben handles |
+| Reign Gear LLC | Curtis Buckingham, info@reigngearllc.com | Website audit form | Form request Oct 4 | Launched, few sales, budget under $300, wants brand identity. Reply drafted, not sent | Ben sends the drafted reply |
 
 ## Email leads
 
@@ -39,64 +42,64 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LGNDY Golf | brock@lgndy.co | Homepage still shows Summer Polos in October, veteran owned golf | Warm | 4 | 2/2 | Oct 3 | Done |
 | Vapor95 | river@vapor95.com | Vaporwave community since 2016, visual identity needs elevating | Warm | 3 | 2/2 | Oct 3 | Done |
-| Cheat Code Athletix | cheatcodeathletix@gmail.com | Site issue, 525 reviews at 4.9, Pink Legacy story | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Merfolk | jwbelveal@gmail.com | Two small site issues, coastal brand, 18 reviews | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Dreams Do Come True | jackson.dontavion@gmail.com (Dontavion) | Everything sold out, no restock capture | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Holdout Golf | henry@holdoutgolf.com | Popup working against conversions, dirt to shirt story | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Freecastle | care@shopfreecastle.com | $20K Venture Suit Kickstarter not on site | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| AgroPelt | katie@agropelt.com | Top bar says not launched yet | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Velvet Irons | info@velvetironsgolf.com (Amanda) | Store top bar issue, 158 backers over goal | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Classia Travel | hello@classiatravel.com | Site description issue, jacket about 70% funded | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Soma Studios | hello@somastudios.us (Maria) | Live Kickstarter not on site | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Nuro Apparel | ava@nuroapparel.com | Site still says launching on Kickstarter soon after funding | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Vearaa | info@vearaa.com | 426% funded Kickstarter not on site, no headline | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Color of Heat | hello@colorofheat.com | Capsule page still titled prelaunch after funding | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Public Drip | info@publicdrip.com | No email signup for Nightshift drop | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Field Day Sporting Co | grant@fielddaysportingco.com | No homepage headline, Evans Scholars tie in | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Heathlander | customerservice@heathlander.com | Homepage still in 2025 | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Featherie | help@featherie.com (Kate) | Site describes itself two different ways | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Abby Girl Adaptive | rcmogo@outlook.com | G tube baby rompers Kickstarter not on site | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| 3PUTTROUND | info@3puttround.com | No email signup on homepage, GolfMagic mention | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Kadet | nate@kadet.us | No email signup | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Left of Field Golf | shop@lofgolf.com | Homepage headline just SOUTH | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Agronomy Work | info@agronomywork.shop | Homepage first impression issue, hand dyed LA work shirt | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Chuggers | chuggersclothingandapparel@gmail.com | Stray quote marks in page title and description | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Back9 Golf | info@back9golfapparel.com | Homepage still has template copy | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Realm Clothes | enchantress@realmclothes.com | Dark Expansion Kickstarter live but not on site | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| FINK Golf | info@finkgolfwear.com (Brenden and David) | Father and son story missing from site | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Winter Star Art | shop@winterstarart.com (Emi) | First thing shoppers see is wrong, 158 backer hoodies | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Travco | info@travco.shop | Homepage headline blank, faith streetwear | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| FN3P Golf | fn3pgolf@gmail.com | Homepage headline issue, apparel plus golf tours | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Fore Golf | clubhouse@foregolfapparel.com | Homepage title reads Welcome | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Rookline | support@rookline.com | Homepage headline blank | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Fescue & Dunes | tim@fescueanddunes.com | Typo in support email | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Hoolie Golf | support@hooliegolf.com | Homepage headline blank | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Bogey Boys | hello@bogeyboys.com | Contact email link has a stray space | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| d.hudson Golfwear | help@dhudsongolfwear.com | Homepage headline is the LLC name | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Golf Ankh | teeupinfo@golfankh.com | Footer says 2023, no homepage headline | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Grizzly Golf | info@weargrizzlygolf.com | No homepage headline | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Galway Bay Golf | customercare@galwaybaygolf.com | Both homepage headlines blank | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| BooYaa Golf | usa@booyaagolf.com | Placeholder email left on site | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Sierra Madre Golf | howdy@sierramadregolf.com | No email signup on homepage | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Goldie Byrd | hello@goldiebyrd.com | Homepage issue, women's golf functional chic | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| The Spined Life | thespinedlife@gmail.com (Nicole) | BookTok spooky season, designs not pushed | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Karina J Denim | karina@karinajdenim.com | Two small site issues, 32 reviews at 4.97 | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| B Quintessential | orders@bquintessential.com (Kaia) | Homepage note, next chapter funded in August | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
+| Cheat Code Athletix | cheatcodeathletix@gmail.com | Site issue, 525 reviews at 4.9, Pink Legacy story | Warm | 3 | 2/2 | Oct 4 | Done |
+| Merfolk | jwbelveal@gmail.com | Two small site issues, coastal brand, 18 reviews | Warm | 3 | 2/2 | Oct 4 | Done |
+| Dreams Do Come True | jackson.dontavion@gmail.com (Dontavion) | Everything sold out, no restock capture | Warm | 3 | 2/2 | Oct 4 | Done |
+| Holdout Golf | henry@holdoutgolf.com | Popup working against conversions, dirt to shirt story | Warm | 3 | 2/2 | Oct 4 | Done |
+| Freecastle | care@shopfreecastle.com | $20K Venture Suit Kickstarter not on site | Warm | 3 | 2/2 | Oct 4 | Done |
+| AgroPelt | katie@agropelt.com | Top bar says not launched yet | Warm | 3 | 2/2 | Oct 4 | Done |
+| Velvet Irons | info@velvetironsgolf.com (Amanda) | Store top bar issue, 158 backers over goal | Warm | 3 | 2/2 | Oct 4 | Done |
+| Classia Travel | hello@classiatravel.com | Site description issue, jacket about 70% funded | Warm | 3 | 2/2 | Oct 4 | Done |
+| Soma Studios | hello@somastudios.us (Maria) | Live Kickstarter not on site | Warm | 3 | 2/2 | Oct 4 | Done |
+| Nuro Apparel | ava@nuroapparel.com | Site still says launching on Kickstarter soon after funding | Warm | 3 | 2/2 | Oct 4 | Done |
+| Vearaa | info@vearaa.com | 426% funded Kickstarter not on site, no headline | Warm | 3 | 2/2 | Oct 4 | Done |
+| Color of Heat | hello@colorofheat.com | Capsule page still titled prelaunch after funding | Warm | 3 | 2/2 | Oct 4 | Done |
+| Public Drip | info@publicdrip.com | No email signup for Nightshift drop | Warm | 3 | 2/2 | Oct 4 | Done |
+| Field Day Sporting Co | grant@fielddaysportingco.com | No homepage headline, Evans Scholars tie in | Warm | 3 | 2/2 | Oct 4 | Done |
+| Heathlander | customerservice@heathlander.com | Homepage still in 2025 | Warm | 3 | 2/2 | Oct 4 | Done |
+| Featherie | help@featherie.com (Kate) | Site describes itself two different ways | Warm | 3 | 2/2 | Oct 4 | Done |
+| Abby Girl Adaptive | rcmogo@outlook.com | G tube baby rompers Kickstarter not on site | Warm | 3 | 2/2 | Oct 4 | Done |
+| 3PUTTROUND | info@3puttround.com | No email signup on homepage, GolfMagic mention | Warm | 3 | 2/2 | Oct 4 | Done |
+| Kadet | nate@kadet.us | No email signup | Warm | 3 | 2/2 | Oct 4 | Done |
+| Left of Field Golf | shop@lofgolf.com | Homepage headline just SOUTH | Warm | 3 | 2/2 | Oct 4 | Done |
+| Agronomy Work | info@agronomywork.shop | Homepage first impression issue, hand dyed LA work shirt | Warm | 3 | 2/2 | Oct 4 | Done |
+| Chuggers | chuggersclothingandapparel@gmail.com | Stray quote marks in page title and description | Warm | 3 | 2/2 | Oct 4 | Done |
+| Back9 Golf | info@back9golfapparel.com | Homepage still has template copy | Warm | 3 | 2/2 | Oct 4 | Done |
+| Realm Clothes | enchantress@realmclothes.com | Dark Expansion Kickstarter live but not on site | Warm | 3 | 2/2 | Oct 4 | Done |
+| FINK Golf | info@finkgolfwear.com (Brenden and David) | Father and son story missing from site | Warm | 3 | 2/2 | Oct 4 | Done |
+| Winter Star Art | shop@winterstarart.com (Emi) | First thing shoppers see is wrong, 158 backer hoodies | Warm | 3 | 2/2 | Oct 4 | Done |
+| Travco | info@travco.shop | Homepage headline blank, faith streetwear | Warm | 3 | 2/2 | Oct 4 | Done |
+| FN3P Golf | fn3pgolf@gmail.com | Homepage headline issue, apparel plus golf tours | Warm | 3 | 2/2 | Oct 4 | Done |
+| Fore Golf | clubhouse@foregolfapparel.com | Homepage title reads Welcome | Warm | 3 | 2/2 | Oct 4 | Done |
+| Rookline | support@rookline.com | Homepage headline blank | Warm | 3 | 2/2 | Oct 4 | Done |
+| Fescue & Dunes | tim@fescueanddunes.com | Typo in support email | Warm | 3 | 2/2 | Oct 4 | Done |
+| Hoolie Golf | support@hooliegolf.com | Homepage headline blank | Warm | 3 | 2/2 | Oct 4 | Done |
+| Bogey Boys | hello@bogeyboys.com | Contact email link has a stray space | Warm | 3 | 2/2 | Oct 4 | Done |
+| d.hudson Golfwear | help@dhudsongolfwear.com | Homepage headline is the LLC name | Warm | 3 | 2/2 | Oct 4 | Done |
+| Golf Ankh | teeupinfo@golfankh.com | Footer says 2023, no homepage headline | Warm | 3 | 2/2 | Oct 4 | Done |
+| Grizzly Golf | info@weargrizzlygolf.com | No homepage headline | Warm | 3 | 2/2 | Oct 4 | Done |
+| Galway Bay Golf | customercare@galwaybaygolf.com | Both homepage headlines blank | Warm | 3 | 2/2 | Oct 4 | Done |
+| BooYaa Golf | usa@booyaagolf.com | Placeholder email left on site | Warm | 3 | 2/2 | Oct 4 | Done |
+| Sierra Madre Golf | howdy@sierramadregolf.com | No email signup on homepage | Warm | 3 | 2/2 | Oct 4 | Done |
+| Goldie Byrd | hello@goldiebyrd.com | Homepage issue, women's golf functional chic | Warm | 3 | 2/2 | Oct 4 | Done |
+| The Spined Life | thespinedlife@gmail.com (Nicole) | BookTok spooky season, designs not pushed | Warm | 3 | 2/2 | Oct 4 | Done |
+| Karina J Denim | karina@karinajdenim.com | Two small site issues, 32 reviews at 4.97 | Warm | 3 | 2/2 | Oct 4 | Done |
+| B Quintessential | orders@bquintessential.com (Kaia) | Homepage note, next chapter funded in August | Warm | 3 | 2/2 | Oct 4 | Done |
 | TIC TOC LA | info@tictocla.com | No hero banner, wholesale buyers bounce | Warm | 3 | 2/2 | Oct 3 | Done |
 | Allie Rose | info@allierose.com | Inclusion message buried in meta tags | Warm | 3 | 2/2 | Oct 3 | Done |
 | Velvet Heart | hello@velvetheart.com | TENCEL sustainability angle buried | Warm | 3 | 2/2 | Oct 3 | Done |
-| Caroline Kate Clothing | carolinekateclothing@gmail.com | Contact info buried, no founder story | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| HoneyLove Boutique | honeyloveboutique@gmail.com | Many products show Notify me when available | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Avery Mae Boutique | support@averymae.com (Whitney) | 6000+ five star reviews and 610K FB followers not used as proof | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Hypeach | info@hypeach.com (Marlo) | Brand story and Irvine difference unclear | Warm | 2 | 1/2 | Sep 30 | Oct 3 |
-| Giddy Up Jo | Jody@giddyupjo.com | Thin homepage copy hurts Franklin TN local search | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Dia Boutique | diaboutique@yahoo.com | Broken Facebook and Instagram links | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Adorned on Gold | shop@adornedongold.com | Navigation bounces between two domains | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Bria Bella | tara@briabellaco.com | Two contact emails with no explanation | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Ivy House Boutique | hello@ivyhouseboutique.com (Morgan) | 440+ new arrivals with no filters, founder story hidden | Warm | 4 | 1/2 | Sep 30 | Oct 3 |
-| Boss Babes Boutique | bossbabesboutiqueks@gmail.com | Says family run but no names, photos or story | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
-| Sassy Junk | liamae417@gmail.com | Voted Missouri's Best 4 years, not on homepage | Warm | 4 | 1/2 | Sep 30 | Oct 3 |
-| Salty Roots | saltyrootsbtq@gmail.com (Lori) | Liquid error visible in footer | Warm | 3 | 1/2 | Sep 30 | Oct 3 |
+| Caroline Kate Clothing | carolinekateclothing@gmail.com | Contact info buried, no founder story | Warm | 3 | 2/2 | Oct 4 | Done |
+| HoneyLove Boutique | honeyloveboutique@gmail.com | Many products show Notify me when available | Warm | 3 | 2/2 | Oct 4 | Done |
+| Avery Mae Boutique | support@averymae.com (Whitney) | 6000+ five star reviews and 610K FB followers not used as proof | Warm | 3 | 2/2 | Oct 4 | Done |
+| Hypeach | info@hypeach.com (Marlo) | Brand story and Irvine difference unclear | Warm | 3 | 2/2 | Oct 4 | Done |
+| Giddy Up Jo | Jody@giddyupjo.com | Thin homepage copy hurts Franklin TN local search | Warm | 4 | 2/2 | Oct 4 | Done |
+| Dia Boutique | diaboutique@yahoo.com | Broken Facebook and Instagram links | Warm | 4 | 2/2 | Oct 4 | Done |
+| Adorned on Gold | shop@adornedongold.com | Navigation bounces between two domains | Warm | 4 | 2/2 | Oct 4 | Done |
+| Bria Bella | tara@briabellaco.com | Two contact emails with no explanation | Warm | 4 | 2/2 | Oct 4 | Done |
+| Ivy House Boutique | hello@ivyhouseboutique.com (Morgan) | 440+ new arrivals with no filters, founder story hidden | Warm | 5 | 2/2 | Oct 4 | Done |
+| Boss Babes Boutique | bossbabesboutiqueks@gmail.com | Says family run but no names, photos or story | Warm | 4 | 2/2 | Oct 4 | Done |
+| Sassy Junk | liamae417@gmail.com | Voted Missouri's Best 4 years, not on homepage | Warm | 5 | 2/2 | Oct 4 | Done |
+| Salty Roots | saltyrootsbtq@gmail.com (Lori) | Liquid error visible in footer | Warm | 4 | 2/2 | Oct 4 | Done |
 | Sockologie | info@sockologie.com | 2000+ sock styles, no repeat buyer program | Warm | 3 | 2/2 | Oct 3 | Done |
 | Bonlax | service@bonlax.com | Sizing complaints in reviews | Warm | 3 | 2/2 | Oct 3 | Done |
 | Steel Town Garage | info@steeltowngarage.com (Jeremy) | Address Tee page issue | Warm | 3 | 2/2 | Oct 3 | Done |
@@ -143,15 +146,15 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | The Clothing Library | mila@theclothinglibrary.net | Visuals don't reflect premium experience | Warm | 3 | 2/2 | Oct 3 | Done |
 | Savage Tacticians | kullman@sav-tac.com | Veteran story needs stronger visuals | Warm | 3 | 2/2 | Oct 3 | Done |
 | TOPANGA | jaxson@topangaapparel.com | Visuals don't match product thinking | Warm | 3 | 2/2 | Oct 3 | Done |
-| Hardlife (HRDLF) | info@hardlifeapparelco.com (Brooks) | Story split across two sites | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
-| Vaed | info@vaedva.com (Veronica) | Test page live, brand on two websites | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
-| Veii Apparel | support@veiiapparel.com (Ike) | Color typo "Lavende", 378 backers | Hot | 1 | 0/2 | Sep 30 | Oct 3 |
-| Found One Apparel | info@foundoneapparel.com (Brent and Brittany) | Homepage indexed twice in Google | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
-| Oberon Asscher | customerservice@oberonasscher.com (Husani) | Name split Oberon vs Oberon Asscher | Hot | 1 | 0/2 | Sep 30 | Oct 3 |
-| Hyde Park Goods | internalteam@hydeparkgoods.com (Jacob) | Stockists list Hydepark vs Hyde Park | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
-| KADA | kadaccboutique@gmail.com (Arina) | Brand under four different names | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
-| KINDM | buildthekindm@gmail.com (Kenny) | Two web addresses, socials split | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
-| H Clothier | hclothierco@gmail.com (Alex) | Google title says Oak Apple Goods | Warm | 1 | 0/2 | Sep 30 | Oct 3 |
+| Hardlife (HRDLF) | info@hardlifeapparelco.com (Brooks) | Story split across two sites | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Vaed | info@vaedva.com (Veronica) | Test page live, brand on two websites | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Veii Apparel | support@veiiapparel.com (Ike) | Color typo "Lavende", 378 backers | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
+| Found One Apparel | info@foundoneapparel.com (Brent and Brittany) | Homepage indexed twice in Google | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Oberon Asscher | customerservice@oberonasscher.com (Husani) | Name split Oberon vs Oberon Asscher | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
+| Hyde Park Goods | internalteam@hydeparkgoods.com (Jacob) | Stockists list Hydepark vs Hyde Park | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| KADA | kadaccboutique@gmail.com (Arina) | Brand under four different names | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| KINDM | buildthekindm@gmail.com (Kenny) | Two web addresses, socials split | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| H Clothier | hclothierco@gmail.com (Alex) | Google title says Oak Apple Goods | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | Foxy Designs | Foxydesigns2017@gmail.com (London) | Almost every product sold out | Cold | 2 | 1/2 | Oct 1 | Oct 4 |
 | Edit By Nine | ecom@editbynine.com | Hero leads with trade show notices | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
 | Suzy's Boutique | suzysonlineboutique@gmail.com | Shopify URL and domain not aligned | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
@@ -190,19 +193,19 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Ryan Reeve | shopryanreeve@gmail.com | Positioning reads abstract | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
 | Pilipinas Store | kamusta@pilipinas.store | Heritage angle underused | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
 | Glamazon Ave | Goodvibes@vibrantventures.org | Veteran owned story not front and center | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Dink and Volley | team@shopdinkandvolley.com (Megan and Debbie) | Two domains each with a contact page | Warm | 1 | 0/2 | Oct 1 | Oct 4 |
+| Dink and Volley | team@shopdinkandvolley.com (Megan and Debbie) | Two domains each with a contact page | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | Love All Tennis | love@lovealltennis.com (Kate Davis) | Brand on three domains, blog and store split | Hot | 1 | 0/2 | Oct 1 | Oct 4 |
-| Bison Wares | Bisonwaresinfo@gmail.com (Mark and Smi) | Kickstarter funded but store shows closed note | Hot | 1 | 0/2 | Oct 1 | Oct 4 |
-| après-pickle (DILLY LIFE) | info@dillylife.com | Store and contact email on different domains | Warm | 1 | 0/2 | Oct 1 | Oct 4 |
-| Pickleball Bella | bella@pickleballbella.com (Nancy Tedeschi) | Club with the same name competes in search | Warm | 1 | 0/2 | Oct 1 | Oct 4 |
-| Moorlow | hello@moorlow.com (Brooks, Holly, Sondra) | Google title just "moorlow", no pickleball keyword | Hot | 1 | 0/2 | Oct 1 | Oct 4 |
-| Club Recess | hello@clubrecess.com (Maggie and Grace) | Old Recess Pickleball site still indexed | Hot | 1 | 0/2 | Oct 1 | Oct 4 |
-| Meji Meji | mejimejico@gmail.com (Tolu Oye) | Google title is just the web address | Warm | 1 | 0/2 | Oct 1 | Oct 4 |
-| Legendary Rootz | orders@legendaryrootz.com (Raven Gibson) | Two contact pages in Google, sold at Target | Hot | 1 | 0/2 | Oct 1 | Oct 4 |
-| Hone | tmtoomey1@gmail.com (Toni Toomey) | Google title just "Hone", fabric message conflicts | Warm | 1 | 0/2 | Oct 1 | Oct 4 |
-| Springrose | hello@springrose.co (Nicole Cuervo) | Landscaping company competes for name | Warm | 1 | 0/2 | Oct 1 | Oct 4 |
-| d.bleu.dazzled | info@dbleudazzled.com (Destiney Bleu) | Name spelled 4 ways, second FB page | Hot | 1 | 0/2 | Oct 1 | Oct 4 |
-| PerfectDD | customercare@perfectdd.com | Google title has no brand name (info@ bounced, resent) | Hot | 2 | 0/2 | Oct 1 | Oct 4 |
+| Bison Wares | Bisonwaresinfo@gmail.com (Mark and Smi) | Kickstarter funded but store shows closed note | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
+| après-pickle (DILLY LIFE) | info@dillylife.com | Store and contact email on different domains | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Pickleball Bella | bella@pickleballbella.com (Nancy Tedeschi) | Club with the same name competes in search | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Moorlow | hello@moorlow.com (Brooks, Holly, Sondra) | Google title just "moorlow", no pickleball keyword | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
+| Club Recess | hello@clubrecess.com (Maggie and Grace) | Old Recess Pickleball site still indexed | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
+| Meji Meji | mejimejico@gmail.com (Tolu Oye) | Google title is just the web address | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Legendary Rootz | orders@legendaryrootz.com (Raven Gibson) | Two contact pages in Google, sold at Target | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
+| Hone | tmtoomey1@gmail.com (Toni Toomey) | Google title just "Hone", fabric message conflicts | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Springrose | hello@springrose.co (Nicole Cuervo) | Landscaping company competes for name | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| d.bleu.dazzled | info@dbleudazzled.com (Destiney Bleu) | Name spelled 4 ways, second FB page | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
+| PerfectDD | customercare@perfectdd.com | Google title has no brand name (info@ bounced, resent) | Hot | 3 | 1/2 | Oct 4 | Oct 7 |
 | Hypland | Info@Hypland.com | Coming Soon drops with no email signup | Warm | 2 | 0/2 | Oct 1 | Oct 4 |
 | FLO3 | info@flo3clothing.com | Homepage headline blank | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
 | Broken Promises | info@brokenpromisesco.com | Both homepage headlines blank | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
@@ -285,6 +288,34 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | 40 Lime | support@40lime.com (Kathryn) | Blank top headline, generic Google title | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
 | ALYN Golf | service@alyngolf.com (Tisha) | Google title just ALYN | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
 | Six Zero Pickleball | admin@sixzeropickleball.com | Hiring an apparel and accessory designer, design project pitch | Hot | 1 | 0/2 | Oct 3 | Oct 6 |
+| honorhishouse | info@honorhishouse.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| apostlesapparel | hello@apostlesapparel.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| gmail | cxxii.apparel@gmail.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| tordrobes | Customersupport@tordrobes.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| gmail | thisisyeci@gmail.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| foxylabny | contact@foxylabny.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| gmail | tohimbe@gmail.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 3 | Oct 6 |
+| fivetidesapparel | info@fivetidesapparel.us | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| fitcouturecollection | hello@fitcouturecollection.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| uncommonrunner | hello@uncommonrunner.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| edrasports | support@edrasports.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| fansofthekingdom | orders@fansofthekingdom.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| gmail | garmentlogs@gmail.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| yaintlocal | support@yaintlocal.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| olydoe | hello@olydoe.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| youngstownclothingco | admin@youngstownclothingco.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| doomsdayco | jamie@doomsdayco.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| flowlikezen | hello@flowlikezen.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| sunshine-project | shawn@sunshine-project.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| hbculegacyfashion | contact@hbculegacyfashion.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| dukethelabel | hello@dukethelabel.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| thepocketpanty | ashlee@thepocketpanty.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| monzlapur | contact@monzlapur.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| anaakcollection | info@anaakcollection.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| eugenetaylorbrand | letesharenee@eugenetaylorbrand.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| qrclothingbrand | support@qrclothingbrand.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| undracelesteny | undra@undracelesteny.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| yelestitches | yele@yelestitches.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | Juliana's Boutique | info@shopjulianas.com | Already got 4 cold emails, no more follow ups | Cold | 4 | done | Sep 28 | Stop |
 
 ## DM leads for Ben
@@ -324,4 +355,6 @@ No working email, Ben sends these by hand.
 | Faithe Beyond Art | faithe@faithebeyart.com | Wearable art story not landing | Stop |
 | 11.23 Clothing | 1123clothing@gmail.com | Shopify default address costing trust | Stop |
 | Moonshine Golf | (no email) | Store offline, shows store unavailable | Stop, inactive |
+| We The Believers | support@wethebelieversclothing.com | Bounced Oct 3 | Stop |
+| Jesus Christ Is Coming | hello@jesuschristiscoming.com | Bounced Oct 3 | Stop |
 | Style and Grace Boutique TX | styleandgraceboutiquetx@gmail.com | Stylist expertise not landing | Stop |

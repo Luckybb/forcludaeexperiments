@@ -42,6 +42,39 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Oct 4, 2026
+
+### Sent by the second session (not written here)
+
+- 83 follow ups at 9:00 to 9:08 AM Pacific, each in its original thread. Full text is in Gmail Sent. 6 of them (Grizzly Golf, Galway Bay Golf, Sierra Madre Golf, BooYaa Golf, Goldie Byrd, Dink and Volley) also produced a stray copy to info@bncproductionz.com, which was cleared from the inbox. The prospects got the correct email.
+- 14 cold emails at 8:58 AM Pacific to Five Tides Apparel, Fit Couture Collection, Uncommon Runner, Edra Sports, Fans of the Kingdom, Garment Logs, Y Aint Local, Olydoe, Youngstown Clothing Co, Doomsday Co, Flow Like Zen, Sunshine Project, HBCU Legacy Fashion, Duke the Label.
+- Replies at 8:30 AM Pacific to One Vision Wear, SEEN by W23 and Jazrae Wear.
+
+### Reign Gear LLC, reply to website audit form (draft for Ben, not sent)
+
+To: info@reigngearllc.com  
+Subject: Your free audit request, Reign Gear
+
+```text
+Hi Curtis,
+
+Thanks for reaching out. A Las Vegas brand built around water repellent varsity jackets is a real point of difference, and "Protection Without Noise" is a strong line to build on.
+
+I took a first look and a few things stood out:
+
+1. The name. "Reign Gear" and "Reign Sport" are shared with an established fight gear brand called Reign Sports, and another company holds a "Reign" apparel trademark that covers jackets and rainwear.
+2. The social links on your site go to your personal Instagram and TikTok, not brand accounts.
+3. The message is split. Your Google title says water repellent jackets, the description leads with varsity and streetwear, and the homepage headline says something else again.
+
+Issues like these split your Google search strength, cost you free organic traffic over time, and make first time visitors less sure they're in the right place, so more of them leave.
+
+I found a few more things that are easier to show than explain. I'd like to walk you through everything on a free in depth audit call, about 20 minutes, and give you the solutions. No strings attached, you keep the plan either way.
+
+Reply with a day that works, weekdays 11 AM to 3:30 PM Pacific, and I'll lock it in. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
 ## Oct 3, 2026
 
 ### 50 final follow ups (2 of 2)
