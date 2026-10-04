@@ -4,15 +4,15 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 
 ## Summary
 
-313 leads. Follow ups due Oct 3 and 4 were all sent on Oct 4.
+316 leads. Follow ups due Oct 3 and 4 were all sent on Oct 4.
 
 | Group | Leads |
 | --- | --- |
 | Replied or audit sent (hot) | 7 |
-| Emailed, in follow up sequence | 277 |
+| Emailed, in follow up sequence | 280 |
 | Instagram, LinkedIn or forum DM for Ben to send | 13 |
 | Lost (bounced or inactive) | 16 |
-| Total | 313 |
+| Total | 316 |
 
 | Follow up due | What goes out | Leads |
 | --- | --- | --- |
@@ -316,6 +316,9 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | qrclothingbrand | support@qrclothingbrand.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | undracelesteny | undra@undracelesteny.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | yelestitches | yele@yelestitches.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
+| Raqtiv | info@raqtiv.com | Another store's emails (fashionwomen) left on site, no description, title just Raqtiv Pickleball | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| LaFit Active | info@lafitactive.com | Blank homepage headline during October launch | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| Purple Rain Adventure Skirts | info@purplerainskirts.com (Mandy Bland) | Google description mixes in second brand Wander Wipes, blank headline | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
 | Juliana's Boutique | info@shopjulianas.com | Already got 4 cold emails, no more follow ups | Cold | 4 | done | Sep 28 | Stop |
 
 ## DM leads for Ben

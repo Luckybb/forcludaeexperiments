@@ -50,6 +50,62 @@ Ben | BNC Group | bncapparel.site
 - 14 cold emails at 8:58 AM Pacific to Five Tides Apparel, Fit Couture Collection, Uncommon Runner, Edra Sports, Fans of the Kingdom, Garment Logs, Y Aint Local, Olydoe, Youngstown Clothing Co, Doomsday Co, Flow Like Zen, Sunshine Project, HBCU Legacy Fashion, Duke the Label.
 - Replies at 8:30 AM Pacific to One Vision Wear, SEEN by W23 and Jazrae Wear.
 
+### Cold emails (3)
+
+#### Raqtiv
+To: info@raqtiv.com  
+Subject: Another store's emails on your site
+
+```text
+Hi there,
+
+Performance hijabs and modest athletic wear made for women who actually play is a real gap, and pickleball is a smart place to plant the flag.
+
+One thing I noticed: your site still lists contact emails for a different store, info, sale and press addresses at a "fashionwomen" domain, most likely left over from the theme. Your homepage also has no description set, and the title is just "Raqtiv Pickleball", so it says nothing about modest activewear.
+
+A customer who sees another store's email on your site starts to wonder who they're actually buying from, and that doubt costs sales.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+#### LaFit Active
+To: info@lafitactive.com  
+Subject: LaFit's homepage headline
+
+```text
+Hi there,
+
+Mediterranean inspired athleisure in cotton, modal and TENCEL, made for Pilates instead of more polyester, is a refreshing lane, and launching with a small first capsule is a smart way to start.
+
+One thing I noticed: your homepage's main headline is left blank. That's one of the first signals Google reads to understand what a page is about, and right now it has nothing to go on.
+
+During a launch, every visitor who lands on the site counts, and a page that doesn't clearly say what it is makes it harder to show up for searches like "Pilates activewear" or "luxury athleisure".
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+#### Purple Rain Adventure Skirts
+To: info@purplerainskirts.com  
+Subject: Your skirt description is sharing space with Wander Wipes
+
+```text
+Hi Mandy,
+
+Hiking skirts designed by someone who actually walked the AT and the PCT in them, and made in Oregon, is about as authentic as trail gear gets.
+
+One thing I noticed: the description Google shows for your site starts with the skirts, then switches to a second brand, Wander Woman Gear and its Wander Wipes. Your homepage's main headline is also left blank.
+
+Two products in one short description means neither one comes through clearly, and hikers searching for a hiking skirt can't tell at a glance that's what you're known for.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
 ### Reign Gear LLC, reply to website audit form (draft for Ben, not sent)
 
 To: info@reigngearllc.com  
