@@ -356,9 +356,9 @@ No working email, Ben sends these by hand.
 | XAIYEN | Shopify forum thread | Shopify forum | Title says activewear, description says streetwear, catalog has swim. Traffic but no sales | Warm |
 | Prickly Wear | Brother and sister duo, San Pedro CA (Bluesky @pricklywear) | Instagram DM | Funded Kickstarter but no store found, two other Prickly brands take the name | Cold |
 | Aberdeen West | IG (no email found) | Instagram DM | Name collides with Aberdeen golf and country clubs in search. Featured at PGA Buying Summit | Cold |
-| GenTeal Apparel (18/20, no email found) | IG @gentealapparel | Instagram DM | Men's performance apparel, new product this week, no public email | Cold |
-| Path Projects (17/20, no email found) | IG @pathprojects | Instagram DM | Running shorts brand, active, no public email | Cold |
-| Merrill Golf (15/20, no email found) | IG @merrillgolf | Instagram DM | No meta description, no email capture | Cold |
+| GenTeal Apparel (18/20, no email found) | IG @gentealapparel | Skip | Checked by hand Oct 5: 250+ products, polished site, no real gap, likely has a team | Skip |
+| Path Projects (17/20, no email found) | IG @pathprojects | Instagram DM | Google title never says Path Projects, no description. Script in MESSAGES.md | Cold |
+| Merrill Golf (15/20, no email found) | IG @merrillgolf | Instagram DM | Google shows only Merrill Golf, no description. Script in MESSAGES.md | Cold |
 
 ## Lost and bounced
 

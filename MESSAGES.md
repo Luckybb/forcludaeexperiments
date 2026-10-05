@@ -44,6 +44,32 @@ Ben | BNC Group | bncapparel.site
 
 ## Oct 5, 2026
 
+### Instagram DM scripts for Ben (Ben sends manually)
+
+**@pathprojects (Path Projects)**
+```text
+Hey! Love what you're doing with Path, the pocket shorts and the kits are exactly what everyday runners want. One thing I noticed: your Google title never says Path Projects, and there's no description, so people who search your name get a pretty generic result. Happy to send over a quick free audit with the 3 to 5 things I'd look at first if that's useful.
+```
+
+**@merrillgolf (Merrill Golf)**
+```text
+Hey! Big fan of the Go For Broke pieces and the Palmer cardigans, the Camp Merrill vibe is really fun. One thing I noticed: on Google your store only shows "Merrill Golf" with no description, so anyone who doesn't already know you gets no reason to click. Happy to send a quick free audit with the 3 to 5 things I'd look at first if that's helpful.
+```
+
+**787 Raíces, reply to Thalia ("I would love that")**
+```text
+Hi Thalia! Love that 787 Raíces is built around Puerto Rican roots, that kind of story is what makes people wear a brand with pride.
+
+I took a first look and a few things stood out:
+1. When people search the name, they also find @787shirts and Raices Mayorista, so your brand competes with two others for the same search.
+2. I couldn't find a store yet, so anyone who discovers you has nowhere to buy or browse.
+3. The waitlist form doesn't send a welcome email, so people who sign up hear nothing back.
+
+Each of these quietly costs you followers who were ready to buy. I found a few more things that are easier to show than explain.
+
+Want to do a free 20 minute audit call? I'll walk you through everything and give you the fixes, no strings attached. Just send me a weekday that works, between 11 AM and 3:30 PM Pacific. You can see our work at bncapparel.site
+```
+
 ### Follow ups, 50 sent (oldest first, same threads, subject "Re: original subject")
 
 Every thread checked first: no replies, no bounces. [brand] is the only part that changes.
