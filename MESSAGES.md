@@ -44,6 +44,26 @@ Ben | BNC Group | bncapparel.site
 
 ## Oct 5, 2026
 
+### Adam Hagaman, follow up (requested by Ben)
+
+To: ahagaman18@gmail.com  
+Subject: Re: Our call Tuesday, quick question
+
+```text
+Hi Adam,
+
+Following up on your booking for Tuesday. We review every brand before the call so we can come prepared with real findings, but we didn't get any brand details with your booking, so we're unable to prepare the audit yet.
+
+Could you reply with:
+1. Your brand name
+2. Your store or Instagram link
+3. Your monthly budget for growth (under $300, $300 to $1,000, $1,000 to $3,000, or $3,000+)
+
+Once we've reviewed your brand, we'll send your confirmation for the call. If we don't hear back before Tuesday, we'll free up the slot and you're welcome to book again anytime.
+
+Ben | BNC Group | bncapparel.site
+```
+
 ### Adam Hagaman, call confirmation (approved by Ben)
 
 To: ahagaman18@gmail.com  
