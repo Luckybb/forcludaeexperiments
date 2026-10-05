@@ -42,6 +42,25 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Oct 5, 2026
+
+### Adam Hagaman, call confirmation (approved by Ben)
+
+To: ahagaman18@gmail.com  
+Subject: Our call Tuesday, quick question
+
+```text
+Hi Adam,
+
+Thanks for booking a time, looking forward to talking Tuesday at 1:00 PM Pacific (2:00 PM your time).
+
+So I can come prepared with your audit, could you reply with your brand name and store or Instagram link?
+
+Talk soon,
+
+Ben | BNC Group | bncapparel.site
+```
+
 ## Oct 4, 2026
 
 ### Sent by the second session (not written here)
