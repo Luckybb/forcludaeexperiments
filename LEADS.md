@@ -26,6 +26,7 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 
 | Brand | Contact | Channel | Status | Where it stands | Next step |
 | --- | --- | --- | --- | --- | --- |
+| Adam Hagaman | ahagaman18@gmail.com | Calendly | Call booked | Booked 30 min call for Tue Oct 6, 1:00 PM Pacific (he is on Mountain Time). Booked directly on Calendly, no form answers, brand not known yet | Ben sends confirmation and asks for brand link, then audit call |
 | 787 Raíces | Thalia, Instagram DM | Instagram DM | Replied | Said "I would love that" to the free audit offer. Reply drafted: name conflict with @787shirts and Raices Mayorista, no store found, waitlist form with no welcome email | Ben sends the drafted reply, offers the 20 min call |
 | JAP Apparel | Jules, Instagram DM | Instagram DM | Replied | Replied in DM, reply drafted | Ben sends the drafted reply |
 | Iridium Clothing | iridium77inc@gmail.com, platinum@iridiumclothingco.com | Email | Audit sent | Replied "Ok what's up" Sep 13. Short audit reply sent Oct 1: 5 name variations, Yelp files it as women's clothing, online store sits below celebrity history | Waiting on a call day, nudge Oct 4 |
