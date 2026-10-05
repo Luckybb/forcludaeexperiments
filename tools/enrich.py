@@ -81,7 +81,7 @@ def enrich(d):
     emails = set()
     for u in [base, base + "/pages/contact", base + "/policies/contact-information", base + "/pages/about"]:
         page = h if u == base else get(u)
-        for e in re.findall(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}', page) + re.findall(r'mailto:([^"\'?<> ]+)', page):
+        for e in re.findall(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.(?:com|co|net|org|us|ca|uk|shop|store|io|la|run|golf|de|fr|es|se|nl|ie|eu|it|club|clothing|studio|design)(?![A-Za-z])', page) + re.findall(r'mailto:([^"\'?<> ]+)', page):
             e = html.unescape(e).lower()
             if not BAD.search(e):
                 emails.add(e)
@@ -111,8 +111,9 @@ def enrich(d):
     s, why = 0, []
     market = (out["country"] or "").upper() or None
     hint = out.get("policy_country_hint") or ""
+    bad_hint = hint in {"India", "Pakistan", "Sri Lanka", "Bangladesh", "Nigeria", "UAE", "Saudi Arabia", "Philippines"}
     bad_market = (market and market not in OK_COUNTRIES) or (out["currency"] in BAD_CURRENCIES) or \
-        hint in {"India", "Pakistan", "Sri Lanka", "Bangladesh", "Nigeria", "UAE", "Saudi Arabia", "Philippines"} or tld in {"IN", "PK", "LK", "BD", "NG", "AE", "SA", "PH"}
+        tld in {"IN", "PK", "LK", "BD", "NG", "AE", "SA", "PH"} or (not market and not out["currency"] and bad_hint)
     if bad_market:
         out.update(score=0, verdict="skip", why=["outside target markets"])
         return out
@@ -146,10 +147,24 @@ def enrich(d):
         s += 2
     else:
         why.append("no email found")
-    if nuggets:
+    real_gaps = [n for n in nuggets if n != "no product reviews shown"]
+    if real_gaps:
         s += 1
+    # Our client is a founder led brand with a real marketing gap, not a brand that already has a team and agency
+    big = (pc or 0) >= 200 and out["email_tool"] and (out["meta_pixel"] or out["google_ads"]) and out["reviews_app"]
+    out["size"] = "established, likely has a team" if big else "founder stage"
     out["score"] = min(s, 20)
-    out["verdict"] = "email" if s >= 14 and out["emails"] else ("dm or later" if s >= 10 else "skip")
+    if big:
+        verdict = "skip (too big)"
+    elif s >= 14 and out["emails"] and real_gaps:
+        verdict = "email"
+    elif s >= 14 and out["emails"]:
+        verdict = "email if you find a gap by eye"
+    elif s >= 10:
+        verdict = "dm or later"
+    else:
+        verdict = "skip"
+    out["verdict"] = verdict
     out["why"] = why
     return out
 

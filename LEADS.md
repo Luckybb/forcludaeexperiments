@@ -4,15 +4,15 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 
 ## Summary
 
-316 leads. Follow ups due Oct 3 and 4 were all sent on Oct 4.
+335 leads. 16 new enriched leads emailed Oct 5 (first batch scored with tools/enrich.py). Follow ups due Oct 3 and 4 were all sent on Oct 4.
 
 | Group | Leads |
 | --- | --- |
 | Replied or audit sent (hot) | 7 |
-| Emailed, in follow up sequence | 280 |
-| Instagram, LinkedIn or forum DM for Ben to send | 13 |
+| Emailed, in follow up sequence | 296 |
+| Instagram, LinkedIn or forum DM for Ben to send | 16 |
 | Lost (bounced or inactive) | 16 |
-| Total | 316 |
+| Total | 335 |
 
 | Follow up due | What goes out | Leads |
 | --- | --- | --- |
@@ -320,6 +320,22 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | LaFit Active | info@lafitactive.com | Blank homepage headline during October launch | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
 | Purple Rain Adventure Skirts | info@purplerainskirts.com (Mandy Bland) | Google description mixes in second brand Wander Wipes, blank headline | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
 | Juliana's Boutique | info@shopjulianas.com | Already got 4 cold emails, no more follow ups | Cold | 4 | done | Sep 28 | Stop |
+| Miler Running (NYC, enriched 19/20) | contact@milerrunning.com | Google title just repeats Miler Running twice, nothing about NYC running apparel | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| kuta distance l.ab (Stockholm, 17/20) | gunder@kutadistancelab.com | Google title is the web address plus brand name | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Copper Cowgirl Clothing (17/20) | triplecclothingllc@gmail.com | About a third of products have little or no description, no homepage heading | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| BTP Clothes UK (17/20) | btpclothesuk@hotmail.com | Google title still shows default Shopify store address, ~40 products no description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Hood T'z Apparel (17/20) | hoodtz2026@yahoo.com | Own domain redirects to the default myshopify address | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Rosco's Republic (17/20) | roscosrepublic@gmail.com | Title leads with RELAX, store is Rosco's Republic, two names | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Stripe & Pipe Golf Co. (San Antonio, 17/20) | stripeandpipeapparel@gmail.com | Four versions of the brand name, products with no description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| LacoaSports (15/20) | lacoasports@gmail.com | Main menu typo ADDITIONAL LENGHT SKIRTS | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Lost Creek Supply Co. (15/20) | processnotoutcome@icloud.com | Google title starts with the web address | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| WyldeHaven Apparel (UK, 15/20) | info@wyldehavenco.com | Generic title Shop Clothing Online, nothing about botanical or wildlife designs | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Pickleball is Great (14/20) | info@pickleballisgreat.com | Footer says 2024, no meta description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Knuckle Head Art (Fredericton, 19/20) | hello@knuckleheadart.store | test:positioning. Says streetwear, homepage leads with candle and blanket bundles | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| L@ME (UK, 19/20) | lame247life@gmail.com | Google description cuts off mid sentence | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| CUTWGOLD (15/20) | shopcutwgold@gmail.com | test:positioning. Exclusive drops vs marketplace style gift shirt names | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Local Skater (Belgium, 19/20) | logodesinglsk8@gmail.com | Title shows two names, Local Skater and KIZZ PunkandSkateboard | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| VerseWearLLC (19/20) | support@versewearllc.com | test:positioning. Says streetwear, catalog full of wall art, puzzles, jewelry | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 
 ## DM leads for Ben
 
@@ -340,6 +356,9 @@ No working email, Ben sends these by hand.
 | XAIYEN | Shopify forum thread | Shopify forum | Title says activewear, description says streetwear, catalog has swim. Traffic but no sales | Warm |
 | Prickly Wear | Brother and sister duo, San Pedro CA (Bluesky @pricklywear) | Instagram DM | Funded Kickstarter but no store found, two other Prickly brands take the name | Cold |
 | Aberdeen West | IG (no email found) | Instagram DM | Name collides with Aberdeen golf and country clubs in search. Featured at PGA Buying Summit | Cold |
+| GenTeal Apparel (18/20, no email found) | IG @gentealapparel | Instagram DM | Men's performance apparel, new product this week, no public email | Cold |
+| Path Projects (17/20, no email found) | IG @pathprojects | Instagram DM | Running shorts brand, active, no public email | Cold |
+| Merrill Golf (15/20, no email found) | IG @merrillgolf | Instagram DM | No meta description, no email capture | Cold |
 
 ## Lost and bounced
 

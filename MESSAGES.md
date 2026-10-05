@@ -44,6 +44,283 @@ Ben | BNC Group | bncapparel.site
 
 ## Oct 5, 2026
 
+### Cold emails, new enriched batch (16 sent)
+
+Sourced from Shopify store search and niche brand lists, scored with tools/enrich.py, gaps checked by hand, Gmail checked for duplicates first.
+
+To: contact@milerrunning.com  
+Subject: your Google title only says Miler Running
+
+```text
+Hi there,
+
+Running gear designed and made in New York is a story most running brands would love to have, and the Dirt and Work collections show you really know your runners.
+
+One thing I noticed: the title Google shows for your homepage just repeats the brand name, Miler Running twice, with nothing about running apparel or New York.
+
+That title is one of the strongest signals Google reads, so runners searching for NYC running apparel have a hard time finding you unless they already know the name.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: gunder@kutadistancelab.com  
+Subject: your Google title shows your web address
+
+```text
+Hi Gunder,
+
+A Stockholm running studio making its own singlets and field tees is a great niche, and the 003 range looks sharp.
+
+One thing I noticed: the title Google shows for your homepage is your web address followed by the brand name, instead of a line about performance running garments from Stockholm.
+
+That title is the first thing people see in search results, so right now it costs you clicks from runners who don't know kuta yet.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: triplecclothingllc@gmail.com  
+Subject: Copper Cowgirl, a lot of products with no description
+
+```text
+Hi there,
+
+Copper Cowgirl has a fun mix, the Desert Muse Dress and the Rodeo Rose Shorts are exactly the kind of pieces western shoppers go looking for.
+
+One thing I noticed: about a third of your products have little or no written description, and your homepage has no main heading telling Google what the store is about.
+
+Descriptions and headings are what Google reads to send shoppers your way, and a product with no description also leaves buyers guessing on fit and feel, which costs sales.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: btpclothesuk@hotmail.com  
+Subject: BTP Clothes, your Google title still shows the Shopify name
+
+```text
+Hi there,
+
+BTP has real personality, the skull pieces and the Autism Awareness range give people a reason to care about the brand, not just the clothes.
+
+One thing I noticed: the title Google shows for your homepage is still the default Shopify store address instead of your brand, and around 40 of your products have no written description.
+
+Google leans on both of those to decide who to show you to, so right now people searching for bold UK streetwear are unlikely to land on BTP.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: hoodtz2026@yahoo.com  
+Subject: Hood T'z, your own domain sends people to the Shopify address
+
+```text
+Hi there,
+
+Hood T'z has a strong voice, the Grin Reaper and Swarm Lord tees feel like a real collection, not just random prints.
+
+One thing I noticed: when someone types your own Hood T'z web address, they get bounced to the default Shopify store address with numbers in it instead of staying on your domain.
+
+That hurts trust at checkout and splits your Google strength between two addresses, so your own brand name has to work harder to show up in search.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: roscosrepublic@gmail.com  
+Subject: Rosco's Republic or RELAX?
+
+```text
+Hi there,
+
+Street art and graffiti inspired tees with a laid back RELAX attitude is a fun angle, and the Zodiac Series is a smart idea for gifting.
+
+One thing I noticed: your homepage title on Google leads with RELAX Graphic T-Shirts, while the store and social accounts are Rosco's Republic, so the brand shows up under two different names.
+
+When the name changes depending on where people find you, Google splits your search strength between the two and new visitors aren't sure which one they're buying from.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: stripeandpipeapparel@gmail.com  
+Subject: Stripe and Pipe, four versions of your name
+
+```text
+Hi there,
+
+Congrats on the storefront at the Pearl, and the mission of helping golfers look great without paying pro shop prices is one a lot of players will relate to. The Golf Sicko pieces are a great touch.
+
+One thing I noticed: the brand appears as Stripe and Pipe Golf Apparel, Stripe & Pipe Golf Co., Stripe and Pipe and StripeandPipe across your store, and a number of products have no written description.
+
+Google treats those as separate names, which splits your search strength, and missing descriptions leave shoppers guessing on fit and fabric.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: lacoasports@gmail.com  
+Subject: a typo in your main menu
+
+```text
+Hi there,
+
+Lacoa's printed tennis skirts and pocket leggings stand out in a sea of plain black activewear, and the Fight Like June piece is a lovely touch.
+
+One thing I noticed: the main menu on your store says ADDITIONAL LENGHT SKIRTS, with length misspelled, and it sits right in the navigation every visitor sees.
+
+It sounds small, but a typo in the menu is one of the first things that makes a new shopper wonder how careful the brand is, and it can push them to bounce before they reach the products.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: processnotoutcome@icloud.com  
+Subject: Lost Creek, your Google title is your web address
+
+```text
+Hi there,
+
+Lost Creek Supply Co. has a clear lane, funny hunting and fishing tees like Still Waiting On A Big Buck are exactly what outdoorsmen share with their buddies.
+
+One thing I noticed: the title Google shows for your homepage starts with your web address instead of telling people what you sell, like outdoor and hunting graphic tees.
+
+That title is one of the strongest things Google reads, so right now you're missing searches from people who would love your shirts but don't know the name yet.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: info@wyldehavenco.com  
+Subject: WyldeHaven, your Google title says "Shop Clothing Online"
+
+```text
+Hi there,
+
+The embroidered tulip and poppy jumpers and the Wyldelife raccoon and coati tees give WyldeHaven a gentle, hopeful feel that's quite rare in UK apparel.
+
+One thing I noticed: the title Google shows for your homepage is WyldeHaven Apparel, Shop Clothing Online, which says nothing about botanical or wildlife designs.
+
+Generic titles make you compete with every clothing store in the country, while the people who would love your style search for things like botanical sweatshirts or wildlife tees.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: info@pickleballisgreat.com  
+Subject: your store footer still says 2024
+
+```text
+Hi there,
+
+Ten years of Pickleball is Great is a big milestone, and the Turkey Shoot and Maui shirts show how much community is behind the brand.
+
+One thing I noticed: the footer on your shop still says 2024, and the homepage has no description for Google, so search results show a random snippet of page text instead of your story.
+
+An old year makes first time visitors wonder if the shop is still active, and a missing description means you don't control what people read before they click.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: hello@knuckleheadart.store  
+Subject: Knuckle Head Art, streetwear or home goods?
+
+```text
+Hi there,
+
+Original artwork from Fredericton turned into streetwear is a great story, and the gothic arch designs have a real look of their own.
+
+One thing I noticed: the store calls itself original streetwear and wearable art, but the first things shoppers see are bundles with candles, blankets, mugs and beach towels.
+
+When the homepage pulls in several directions, new visitors can't tell what the brand is about in the few seconds they give it, and Google gets mixed signals on what to rank you for.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: lame247life@gmail.com  
+Subject: L@ME, your Google description stops mid sentence
+
+```text
+Hi there,
+
+L@ME has a confident look, and the oversized heavyweight hoodie and wide leg sweatpants fit right into what streetwear buyers want now.
+
+One thing I noticed: the description Google shows for your homepage cuts off after "Shop L@ME's range of..." so the sentence never finishes.
+
+That short line under your name is your pitch in search results, and an unfinished one looks like a placeholder, which makes people less likely to click.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: shopcutwgold@gmail.com  
+Subject: CUTWGOLD, exclusive drops or gift shirts?
+
+```text
+Hi there,
+
+Blending music, streetwear and creator culture is a strong lane, and the Yantee Toxic Nights jersey drop feels like a real moment for fans.
+
+One thing I noticed: the brand promises exclusive limited drops, but several product names read like marketplace listings, for example a flaming microphone shirt named as a gift for podcasters, rappers and streamers.
+
+Exclusive and gift idea pull in opposite directions, so new visitors aren't sure if they're buying a limited piece or a generic gift, which weakens the drops.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: logodesinglsk8@gmail.com  
+Subject: Local Skater or KIZZ PunkandSkateboard?
+
+```text
+Hi there,
+
+No Hate Just Skate is a great line, and handprinted DIY punk tees are exactly what skaters want instead of mall brands.
+
+One thing I noticed: your homepage title on Google says Local Skater and then KIZZ PunkandSkateboard, so the brand appears under two different names right in search results.
+
+When a brand shows up with two names, Google splits your search strength between them and new visitors aren't sure which name to look for again.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: support@versewearllc.com  
+Subject: VerseWear, streetwear or a gift shop?
+
+```text
+Hi there,
+
+Bold faith based streetwear for believers who aren't afraid to stand out is a strong message, and tees like the Snitch heavyweight show you have a real voice.
+
+One thing I noticed: the store says faith based streetwear, but a big part of what shoppers find is wall art, puzzles, games and jewelry, some of it from other sellers.
+
+When the catalog pulls in many directions, the streetwear identity gets diluted, and new visitors can't tell in a few seconds what VerseWear is known for.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+
 ### Iridium Clothing, call times (Ben asked to reply)
 
 To: iridium77inc@gmail.com, cc platinum@iridiumclothingco.com  

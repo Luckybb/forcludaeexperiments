@@ -29,7 +29,8 @@ This is our second brain. Every reply, booking and objection gets added here, so
 
 | Angle | Sent | Replies | Notes |
 | --- | --- | --- | --- |
-| Cold: one verified site issue + free audit | ~300 | 4 | Baseline |
+| Cold: one verified site issue + free audit | ~313 | 4 | Baseline |
+| Cold test:positioning (catalog or name pulls two ways) | 3 | 0 | Started Oct 5: Knuckle Head Art, CUTWGOLD, VerseWear |
 | FU A: short bump with stake | 0 | 0 | New |
 | FU B: quick question | 0 | 0 | New |
 | FU C: timing on a new drop | 0 | 0 | New |
