@@ -2,6 +2,21 @@
 
 These apply to every cold email, follow-up, DM or audit written for this business.
 
+## How we work (read first)
+- **Bottleneck first.** The bottleneck is turning replies into qualified booked calls, not lead volume. Every session runs in this order: warm replies and bookings, then due follow ups, then new leads. See `.claude/skills/daily-run`.
+- **Enrich before outreach.** No lead gets a cold email until `tools/enrich.py` has scored it (skill `enrich-leads`). The score covers market, activity, ad pixels, email tool, socials, emails found and verified nuggets. Only verdict "email" (14+/20) gets emailed. Outside target markets is an automatic skip.
+- **Skills for repeated work.** Use the skills in `.claude/skills`:
+  - `enrich-leads`
+  - `cold-outreach`
+  - `follow-ups` (rotating angle pool)
+  - `warm-reply`
+  - `sync-doc`
+  - `daily-run`
+
+  When something breaks, write the fix into the skill.
+- **Second brain.** PLAYBOOK.md records what got replies. Use about 70% proven angles and 30% tests. Update it after every reply.
+- **AI does the operational work, Ben keeps the judgment:** pricing, who we take on, the calls, and personal touches like Instagram stories. Never grade our own drafts as good just to move on.
+
 ## Email content
 - Always send outreach from **info@bncproductionz.com**. The website and the only link is **bncapparel.site**.
 - Never put a Google link in an email. No `google.com/url?q=...` redirects, no links copied out of Gmail or search results.
@@ -37,6 +52,7 @@ These apply to every cold email, follow-up, DM or audit written for this busines
 - Skip anyone who bounced, replied, or asked to stop. Replies go to Ben to handle.
 - If a brand was already emailed again at a different address in the last 3 days, skip the older thread.
 - Only restate facts that are in the original email.
+- Never send the same follow up twice. Rotate angles from the pool in `.claude/skills/follow-ups` and note the angle letter in the FU column, e.g. `1/2 (B)`.
 
 ## Lead tracking
 - Two copies, always kept the same: **LEADS.md** in this repo (source of truth, read it at the start of every session) and the Claude Doc "BNC Group Lead Pipeline": https://claude.ai/code/artifact/0996846a-bfff-4980-bc6f-e801b8b7ac2e
