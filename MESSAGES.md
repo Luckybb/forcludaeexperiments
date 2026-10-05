@@ -44,6 +44,63 @@ Ben | BNC Group | bncapparel.site
 
 ## Oct 5, 2026
 
+### Follow ups, 50 sent (oldest first, same threads, subject "Re: original subject")
+
+Every thread checked first: no replies, no bounces. [brand] is the only part that changes.
+
+#### FU2 angle D, one useful insight (16): Foxy Designs, Our Fashion Boutique, CC Bella Boutique, Brittany's Boutique, Savona's, Très Chic, Epiphany, Julee Rae's, The Clothes Tree, The Willow Tree, Hometown Boutique, The Ivory Road, Pilipinas Store, Broken Promises, JXT, DREAM.
+
+```text
+Hi there,
+
+Last note from me on this. Most first time visitors decide in a few seconds whether a brand feels worth their time, so the point in my first email is usually one of the quickest wins for [brand].
+
+If you want the free audit with the 3 to 5 things I'd look at first, just reply "audit" and I'll put it together. bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+#### FU2 angle E, close the loop (16): Edit By Nine, SAVOUR, East Tennessee Accents, Nouvelle Eve, Lane 201, Arizona Collection Boutique, Willow Poppy Boutique, All Good Things Boutique, The Nines, The Style Loft, Lush Fashion Lounge, Harlow and James, Glamazon Ave, Foreplay Golf, DDAM, REALLY COOL
+
+```text
+Hi there,
+
+I'll leave it here so I don't crowd your inbox. If you ever want a fresh set of eyes on [brand], the free audit with the 3 to 5 things I'd look at first is still open, just reply "audit".
+
+Wishing you a strong season either way.
+
+Ben | BNC Group | bncapparel.site
+```
+
+#### FU2 angle F, common pattern (16): Suzy's Boutique, Uneta Boutique, Milly's Boutique, IBHANA, Range Boutique, Lemon & Ash, H. Audrey, bluebird boutique, Laney Lu's, August, Threads, Ryan Reeve, FLO3, Actively Black, WEXIST, Zero Heroes
+
+```text
+Hi there,
+
+One last thought on [brand]. What I mentioned in my first email is one of the most common things I see on growing apparel stores, and it's usually one of the quickest wins because every visitor sees it.
+
+If you'd like the free audit with the 3 to 5 things I'd look at first, just reply "audit". bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+#### FU1 angle B, quick question (2): Love All Tennis (Hi Kate), Hypland
+
+```text
+Hi [Kate / there],
+
+Quick question on [brand]: is the website something you handle yourself, or does someone help you with it?
+
+Asking because the point in my first email is a fairly quick fix either way, and I'm happy to send over the free audit with the 3 to 5 things I'd look at first. bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+### Bounce resends (same text as the cold emails below)
+
+- BTP Clothes: hotmail bounced, resent to btpclothesuk@outlook.com
+- Knuckle Head Art: hello@ bounced, resent to support@knuckleheadart.store
+
 ### Cold emails, new enriched batch (16 sent)
 
 Sourced from Shopify store search and niche brand lists, scored with tools/enrich.py, gaps checked by hand, Gmail checked for duplicates first.

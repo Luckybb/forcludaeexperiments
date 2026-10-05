@@ -4,12 +4,12 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 
 ## Summary
 
-335 leads. 16 new enriched leads emailed Oct 5 (first batch scored with tools/enrich.py). Follow ups due Oct 3 and 4 were all sent on Oct 4.
+335 leads. 50 follow ups sent Oct 5 (48 final, 2 first), 51 still due, sent oldest first on Oct 6. 16 new enriched leads emailed Oct 5 (first batch scored with tools/enrich.py). Follow ups due Oct 3 and 4 were all sent on Oct 4.
 
 | Group | Leads |
 | --- | --- |
 | Replied or audit sent (hot) | 7 |
-| Emailed, in follow up sequence | 296 |
+| Emailed, in follow up sequence | 248 |
 | Instagram, LinkedIn or forum DM for Ben to send | 16 |
 | Lost (bounced or inactive) | 16 |
 | Total | 335 |
@@ -156,46 +156,46 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | KADA | kadaccboutique@gmail.com (Arina) | Brand under four different names | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | KINDM | buildthekindm@gmail.com (Kenny) | Two web addresses, socials split | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | H Clothier | hclothierco@gmail.com (Alex) | Google title says Oak Apple Goods | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| Foxy Designs | Foxydesigns2017@gmail.com (London) | Almost every product sold out | Cold | 2 | 1/2 | Oct 1 | Oct 4 |
-| Edit By Nine | ecom@editbynine.com | Hero leads with trade show notices | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Suzy's Boutique | suzysonlineboutique@gmail.com | Shopify URL and domain not aligned | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Our Fashion Boutique | ofboutique15@gmail.com | Many sold out items, deep markdowns | Cold | 2 | 1/2 | Oct 1 | Oct 4 |
-| SAVOUR Clothing | team@savourclothing.com | 363 reviews but headline leads with consignment | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Uneta Boutique | unetaboutique@gmail.com | Brand pulled in two directions | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| CC Bella Boutique | ccbellaboutique@gmail.com (Lauren) | Family story and live sessions underused | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| East Tennessee Accents | Easttnaccents@gmail.com (Dana) | City not shown on homepage | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Milly's Boutique | Sales@millys-boutique.com | Homepage opens with generic welcome | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Brittany's Boutique | BrittanysBoutique@hotmail.com | Concierge in name but never explained | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Nouvelle Eve | shop@nouvelleeve.com | Omaha since 1973 story underused | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| IBHANA | ibhana1@gmail.com | Shopify default text live on homepage | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Savona's Bohemian Boutique | bohemianboutique@gmail.com | 20+ years in Eugene story missing | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Lane 201 | info@lane201.com | 50% off banners position it as a budget store | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Range Boutique | info@rangeboutique.com | Press hidden in footer | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Très Chic Houston | shop@treschichouston.com | Trustpilot reviews not on product pages | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Arizona Collection Boutique | kayleerebecca05@gmail.com (Kaylee) | Testimonials show placeholder text | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| Lemon & Ash | lemonandash@gmail.com | Mobile boutique concept not explained | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Epiphany Athens | info@epiphanyathens.com | Purchase with purpose buried | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Willow Poppy Boutique | willowpoppyboutique@gmail.com | Collections show placeholder names | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| H. Audrey | info@haudrey.com | Founder story only in meta | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Julee Rae's Boutique | Juleeraesboutique@yahoo.com | Free shipping $100 on banner vs $50 in meta | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| All Good Things Boutique | allgoodthingsboutique1534@gmail.com | Two menu links go to same collection | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| bluebird boutique | info@bluebirdboutique.com | 60+ designer brands since 2004 not told | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| The Clothes Tree | clothestree2@comcast.net | Since 1962 story underused | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| The Nines | hello@shopthenines.com | Founded 2013 barely mentioned | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Laney Lu's | shop@laneylus.com | Minnesota's Best 3 years only in metadata | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| The Willow Tree | customerservice@thewillowtree.com | No address or hours above the fold | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| The Style Loft | thestyleloft1@gmail.com | Placeholder text live on homepage | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| August Baton Rouge | augustbatonrouge@gmail.com | 25 years of styling buried | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| Hometown Boutique | hometownboutique2018@gmail.com | No story, contact page or reviews | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Lush Fashion Lounge | customerservice@lushfashionlounge.com | Best Boutique in OKC not on site | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| Threads Petoskey | threadsmi@gmail.com (Chris) | Since 1999 story missing, broken link | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| The Ivory Road | customerservice@ivoryroadboutique.com | Size inclusive S to 3X not visible | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Harlow and James | hello@harlowandjames.com (Brenda and Kelly) | Plus size focus and three locations not shown | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Ryan Reeve | shopryanreeve@gmail.com | Positioning reads abstract | Warm | 3 | 1/2 | Oct 1 | Oct 4 |
-| Pilipinas Store | kamusta@pilipinas.store | Heritage angle underused | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
-| Glamazon Ave | Goodvibes@vibrantventures.org | Veteran owned story not front and center | Warm | 2 | 1/2 | Oct 1 | Oct 4 |
+| Foxy Designs | Foxydesigns2017@gmail.com (London) | Almost every product sold out | Cold | 3 | 2/2 (D) | Oct 5 | Done |
+| Edit By Nine | ecom@editbynine.com | Hero leads with trade show notices | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Suzy's Boutique | suzysonlineboutique@gmail.com | Shopify URL and domain not aligned | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| Our Fashion Boutique | ofboutique15@gmail.com | Many sold out items, deep markdowns | Cold | 3 | 2/2 (D) | Oct 5 | Done |
+| SAVOUR Clothing | team@savourclothing.com | 363 reviews but headline leads with consignment | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Uneta Boutique | unetaboutique@gmail.com | Brand pulled in two directions | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| CC Bella Boutique | ccbellaboutique@gmail.com (Lauren) | Family story and live sessions underused | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| East Tennessee Accents | Easttnaccents@gmail.com (Dana) | City not shown on homepage | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Milly's Boutique | Sales@millys-boutique.com | Homepage opens with generic welcome | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| Brittany's Boutique | BrittanysBoutique@hotmail.com | Concierge in name but never explained | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Nouvelle Eve | shop@nouvelleeve.com | Omaha since 1973 story underused | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| IBHANA | ibhana1@gmail.com | Shopify default text live on homepage | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| Savona's Bohemian Boutique | bohemianboutique@gmail.com | 20+ years in Eugene story missing | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Lane 201 | info@lane201.com | 50% off banners position it as a budget store | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Range Boutique | info@rangeboutique.com | Press hidden in footer | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| Très Chic Houston | shop@treschichouston.com | Trustpilot reviews not on product pages | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Arizona Collection Boutique | kayleerebecca05@gmail.com (Kaylee) | Testimonials show placeholder text | Warm | 4 | 2/2 (E) | Oct 5 | Done |
+| Lemon & Ash | lemonandash@gmail.com | Mobile boutique concept not explained | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| Epiphany Athens | info@epiphanyathens.com | Purchase with purpose buried | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Willow Poppy Boutique | willowpoppyboutique@gmail.com | Collections show placeholder names | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| H. Audrey | info@haudrey.com | Founder story only in meta | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| Julee Rae's Boutique | Juleeraesboutique@yahoo.com | Free shipping $100 on banner vs $50 in meta | Warm | 4 | 2/2 (D) | Oct 5 | Done |
+| All Good Things Boutique | allgoodthingsboutique1534@gmail.com | Two menu links go to same collection | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| bluebird boutique | info@bluebirdboutique.com | 60+ designer brands since 2004 not told | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| The Clothes Tree | clothestree2@comcast.net | Since 1962 story underused | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| The Nines | hello@shopthenines.com | Founded 2013 barely mentioned | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Laney Lu's | shop@laneylus.com | Minnesota's Best 3 years only in metadata | Warm | 4 | 2/2 (F) | Oct 5 | Done |
+| The Willow Tree | customerservice@thewillowtree.com | No address or hours above the fold | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| The Style Loft | thestyleloft1@gmail.com | Placeholder text live on homepage | Warm | 4 | 2/2 (E) | Oct 5 | Done |
+| August Baton Rouge | augustbatonrouge@gmail.com | 25 years of styling buried | Warm | 4 | 2/2 (F) | Oct 5 | Done |
+| Hometown Boutique | hometownboutique2018@gmail.com | No story, contact page or reviews | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Lush Fashion Lounge | customerservice@lushfashionlounge.com | Best Boutique in OKC not on site | Warm | 4 | 2/2 (E) | Oct 5 | Done |
+| Threads Petoskey | threadsmi@gmail.com (Chris) | Since 1999 story missing, broken link | Warm | 4 | 2/2 (F) | Oct 5 | Done |
+| The Ivory Road | customerservice@ivoryroadboutique.com | Size inclusive S to 3X not visible | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Harlow and James | hello@harlowandjames.com (Brenda and Kelly) | Plus size focus and three locations not shown | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Ryan Reeve | shopryanreeve@gmail.com | Positioning reads abstract | Warm | 4 | 2/2 (F) | Oct 5 | Done |
+| Pilipinas Store | kamusta@pilipinas.store | Heritage angle underused | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Glamazon Ave | Goodvibes@vibrantventures.org | Veteran owned story not front and center | Warm | 3 | 2/2 (E) | Oct 5 | Done |
 | Dink and Volley | team@shopdinkandvolley.com (Megan and Debbie) | Two domains each with a contact page | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| Love All Tennis | love@lovealltennis.com (Kate Davis) | Brand on three domains, blog and store split | Hot | 1 | 0/2 | Oct 1 | Oct 4 |
+| Love All Tennis | love@lovealltennis.com (Kate Davis) | Brand on three domains, blog and store split | Hot | 2 | 1/2 (B) | Oct 5 | Oct 8 |
 | Bison Wares | Bisonwaresinfo@gmail.com (Mark and Smi) | Kickstarter funded but store shows closed note | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
 | après-pickle (DILLY LIFE) | info@dillylife.com | Store and contact email on different domains | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | Pickleball Bella | bella@pickleballbella.com (Nancy Tedeschi) | Club with the same name competes in search | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
@@ -207,17 +207,17 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Springrose | hello@springrose.co (Nicole Cuervo) | Landscaping company competes for name | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | d.bleu.dazzled | info@dbleudazzled.com (Destiney Bleu) | Name spelled 4 ways, second FB page | Hot | 2 | 1/2 | Oct 4 | Oct 7 |
 | PerfectDD | customercare@perfectdd.com | Google title has no brand name (info@ bounced, resent) | Hot | 3 | 1/2 | Oct 4 | Oct 7 |
-| Hypland | Info@Hypland.com | Coming Soon drops with no email signup | Warm | 2 | 0/2 | Oct 1 | Oct 4 |
-| FLO3 | info@flo3clothing.com | Homepage headline blank | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| Broken Promises | info@brokenpromisesco.com | Both homepage headlines blank | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| Foreplay Golf | hello@foreplaygolf.com | Homepage headline run together | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| Actively Black | contact@activelyblack.com | Footer still says 2025 | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| JXT Apparel | info@jxtapparelco.com | Homepage headline blank, no email signup | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| DDAM | concierge@ddamshop.com | Homepage headline blank | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| WEXIST | info@wexist.com | No email signup, tall women niche | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| DREAM. | support@weardream.co | Brand across three web addresses | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| REALLY COOL | contact@reallycoolll.com | No headline, 420 GSM point never leads | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
-| Zero Heroes | support@zeroheroes.us | Support email typo | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
+| Hypland | Info@Hypland.com | Coming Soon drops with no email signup | Warm | 3 | 1/2 (B) | Oct 5 | Oct 8 |
+| FLO3 | info@flo3clothing.com | Homepage headline blank | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| Broken Promises | info@brokenpromisesco.com | Both homepage headlines blank | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| Foreplay Golf | hello@foreplaygolf.com | Homepage headline run together | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Actively Black | contact@activelyblack.com | Footer still says 2025 | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| JXT Apparel | info@jxtapparelco.com | Homepage headline blank, no email signup | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| DDAM | concierge@ddamshop.com | Homepage headline blank | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| WEXIST | info@wexist.com | No email signup, tall women niche | Warm | 3 | 2/2 (F) | Oct 5 | Done |
+| DREAM. | support@weardream.co | Brand across three web addresses | Warm | 3 | 2/2 (D) | Oct 5 | Done |
+| REALLY COOL | contact@reallycoolll.com | No headline, 420 GSM point never leads | Warm | 3 | 2/2 (E) | Oct 5 | Done |
+| Zero Heroes | support@zeroheroes.us | Support email typo | Warm | 3 | 2/2 (F) | Oct 5 | Done |
 | Ambition Worldwide | info@ambitionworldwide.com | Top homepage headline blank | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
 | The BrownMill Atelier | customers@brownmillcompany.com | Spring/Summer in October, email on other domain | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
 | Miner Strong | info@minerstrong.com | No email signup on homepage | Warm | 2 | 1/2 | Oct 2 | Oct 5 |
@@ -323,7 +323,7 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Miler Running (NYC, enriched 19/20) | contact@milerrunning.com | Google title just repeats Miler Running twice, nothing about NYC running apparel | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | kuta distance l.ab (Stockholm, 17/20) | gunder@kutadistancelab.com | Google title is the web address plus brand name | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | Copper Cowgirl Clothing (17/20) | triplecclothingllc@gmail.com | About a third of products have little or no description, no homepage heading | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| BTP Clothes UK (17/20) | btpclothesuk@hotmail.com | Google title still shows default Shopify store address, ~40 products no description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| BTP Clothes UK (17/20) | btpclothesuk@outlook.com (hotmail bounced, resent Oct 5) | Google title still shows default Shopify store address, ~40 products no description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | Hood T'z Apparel (17/20) | hoodtz2026@yahoo.com | Own domain redirects to the default myshopify address | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | Rosco's Republic (17/20) | roscosrepublic@gmail.com | Title leads with RELAX, store is Rosco's Republic, two names | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | Stripe & Pipe Golf Co. (San Antonio, 17/20) | stripeandpipeapparel@gmail.com | Four versions of the brand name, products with no description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
@@ -331,7 +331,7 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Lost Creek Supply Co. (15/20) | processnotoutcome@icloud.com | Google title starts with the web address | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | WyldeHaven Apparel (UK, 15/20) | info@wyldehavenco.com | Generic title Shop Clothing Online, nothing about botanical or wildlife designs | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | Pickleball is Great (14/20) | info@pickleballisgreat.com | Footer says 2024, no meta description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Knuckle Head Art (Fredericton, 19/20) | hello@knuckleheadart.store | test:positioning. Says streetwear, homepage leads with candle and blanket bundles | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Knuckle Head Art (Fredericton, 19/20) | support@knuckleheadart.store (hello@ bounced, resent Oct 5) | test:positioning. Says streetwear, homepage leads with candle and blanket bundles | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | L@ME (UK, 19/20) | lame247life@gmail.com | Google description cuts off mid sentence | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | CUTWGOLD (15/20) | shopcutwgold@gmail.com | test:positioning. Exclusive drops vs marketplace style gift shirt names | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
 | Local Skater (Belgium, 19/20) | logodesinglsk8@gmail.com | Title shows two names, Local Skater and KIZZ PunkandSkateboard | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
