@@ -29,11 +29,11 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 | Adam Hagaman | ahagaman18@gmail.com | Calendly | Call booked | Booked 30 min call for Tue Oct 6, 1:00 PM Pacific (he is on Mountain Time). Booked directly on Calendly, no form answers, brand not known yet | No brand info. Follow up sent Oct 5 asking brand, link, budget, slot freed if no reply by Tue |
 | 787 Raíces | Thalia, Instagram DM | Instagram DM | Replied | Said "I would love that" to the free audit offer. Reply drafted: name conflict with @787shirts and Raices Mayorista, no store found, waitlist form with no welcome email | Ben sends the drafted reply, offers the 20 min call |
 | JAP Apparel | Jules, Instagram DM | Instagram DM | Rescheduling | Jules said Oct 5 they're booking a new call time for next week | Nudge once if no booking in 2 days |
-| Iridium Clothing | iridium77inc@gmail.com, platinum@iridiumclothingco.com | Email | Audit sent | Replied "Ok what's up" Sep 13. Short audit reply sent Oct 1: 5 name variations, Yelp files it as women's clothing, online store sits below celebrity history | Waiting on a call day, nudge Oct 4 |
+| Iridium Clothing | iridium77inc@gmail.com, platinum@iridiumclothingco.com | Email | Call being set | In LA this week on Pacific time, wants a call. Offered Wed Oct 7 12 PM or Thu Oct 8 1 PM Pacific on Oct 5 | Waiting on his pick |
 | Jazrae Wear | Email thread | Email | Audit sent | Short audit sent: name conflicts, meta tag conflicts, unused brand story, AI looking graphics | Waiting on a call day |
 | One Vision Wear | sales@onevisionwear.com | Email | Replied | Said "Yes please send", unhappy with store redesign and 5 months of SEO. Reply sent Oct 4 (second session) | Waiting on their answer, Ben handles |
 | SEEN by W23 | Stephen, w23llc@wearworship.com | Email | Replied | Interested in the free audit. Reply sent Oct 4 (second session) | Waiting on their answer, Ben handles |
-| Reign Gear LLC | Curtis Buckingham, info@reigngearllc.com | Website audit form | Form request Oct 4 | Launched, few sales, budget under $300, wants brand identity. Reply drafted, not sent | Ben sends the drafted reply |
+| Reign Gear LLC | Curtis Buckingham, info@reigngearllc.com | Website audit form | Reply sent Oct 5 | Launched, few sales, budget under $300. Sent 3 problems and free call offer | Waiting on a call day |
 
 ## Email leads
 
@@ -317,7 +317,6 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | qrclothingbrand | support@qrclothingbrand.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | undracelesteny | undra@undracelesteny.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
 | yelestitches | yele@yelestitches.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| Raqtiv | info@raqtiv.com | Another store's emails (fashionwomen) left on site, no description, title just Raqtiv Pickleball | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
 | LaFit Active | info@lafitactive.com | Blank homepage headline during October launch | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
 | Purple Rain Adventure Skirts | info@purplerainskirts.com (Mandy Bland) | Google description mixes in second brand Wander Wipes, blank headline | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
 | Juliana's Boutique | info@shopjulianas.com | Already got 4 cold emails, no more follow ups | Cold | 4 | done | Sep 28 | Stop |
@@ -361,4 +360,5 @@ No working email, Ben sends these by hand.
 | Moonshine Golf | (no email) | Store offline, shows store unavailable | Stop, inactive |
 | We The Believers | support@wethebelieversclothing.com | Bounced Oct 3 | Stop |
 | Jesus Christ Is Coming | hello@jesuschristiscoming.com | Bounced Oct 3 | Stop |
+| Raqtiv | info@raqtiv.com, ch8215632@gmail.com | Not a fit for current focus. Declined politely Oct 5, Calendly call canceled | Stop |
 | Style and Grace Boutique TX | styleandgraceboutiquetx@gmail.com | Stylist expertise not landing | Stop |

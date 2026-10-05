@@ -44,6 +44,45 @@ Ben | BNC Group | bncapparel.site
 
 ## Oct 5, 2026
 
+### Iridium Clothing, call times (Ben asked to reply)
+
+To: iridium77inc@gmail.com, cc platinum@iridiumclothingco.com  
+Subject: Re: Iridium Clothing, one thing I noticed
+
+```text
+Hey Platinum,
+
+That works perfectly, welcome to LA. Here are two times on Pacific time:
+
+1. Wednesday, Oct 7 at 12:00 PM
+2. Thursday, Oct 8 at 1:00 PM
+
+Just reply with the one that suits you and the best number to reach you, or let me know if you prefer a video call. It'll be about 20 minutes, and I'll walk you through everything I found on Iridium along with the fixes.
+
+Talk soon,
+
+Ben | BNC Group | bncapparel.site
+```
+
+### Reign Gear LLC, reply sent (the Oct 4 draft, sent as written)
+
+### RAQTIV, polite decline (Calendly call canceled with the same reason)
+
+To: ch8215632@gmail.com  
+Subject: Your audit request, RAQTIV
+
+```text
+Hi Chauhan,
+
+Thank you for your interest and for sending over the details on RAQTIV.
+
+Our calendar is fully booked for the next few weeks, so we're unable to take on new audits right now, and I've released the call slot you booked. We'll reach out if a spot opens up.
+
+Wishing you the best with the brand.
+
+Ben | BNC Group | bncapparel.site
+```
+
 ### Adam Hagaman, follow up (requested by Ben)
 
 To: ahagaman18@gmail.com  
