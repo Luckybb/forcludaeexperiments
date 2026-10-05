@@ -28,7 +28,7 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 | --- | --- | --- | --- | --- | --- |
 | Adam Hagaman | ahagaman18@gmail.com | Calendly | Call booked | Booked 30 min call for Tue Oct 6, 1:00 PM Pacific (he is on Mountain Time). Booked directly on Calendly, no form answers, brand not known yet | Confirmation sent Oct 5 asking for brand link. Prep audit once he replies |
 | 787 Raíces | Thalia, Instagram DM | Instagram DM | Replied | Said "I would love that" to the free audit offer. Reply drafted: name conflict with @787shirts and Raices Mayorista, no store found, waitlist form with no welcome email | Ben sends the drafted reply, offers the 20 min call |
-| JAP Apparel | Jules, Instagram DM | Instagram DM | Replied | Replied in DM, reply drafted | Ben sends the drafted reply |
+| JAP Apparel | Jules, Instagram DM | Instagram DM | Rescheduling | Jules said Oct 5 they're booking a new call time for next week | Nudge once if no booking in 2 days |
 | Iridium Clothing | iridium77inc@gmail.com, platinum@iridiumclothingco.com | Email | Audit sent | Replied "Ok what's up" Sep 13. Short audit reply sent Oct 1: 5 name variations, Yelp files it as women's clothing, online store sits below celebrity history | Waiting on a call day, nudge Oct 4 |
 | Jazrae Wear | Email thread | Email | Audit sent | Short audit sent: name conflicts, meta tag conflicts, unused brand story, AI looking graphics | Waiting on a call day |
 | One Vision Wear | sales@onevisionwear.com | Email | Replied | Said "Yes please send", unhappy with store redesign and 5 months of SEO. Reply sent Oct 4 (second session) | Waiting on their answer, Ben handles |
