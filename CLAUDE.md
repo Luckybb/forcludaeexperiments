@@ -22,7 +22,12 @@ These apply to every cold email, follow-up, DM or audit written for this busines
 - Add a line of light education on why it hurts: split Google search strength, lost long term free organic traffic, lost trust and higher bounce rate.
 - Tease that more was found and is easier to show than explain.
 - CTA: a free in depth audit call (about 20 minutes) where we walk through everything and give the solutions, no strings attached, they keep the plan either way. Ask them to reply with a day, weekdays 11 AM to 3:30 PM Pacific, plus bncapparel.site.
-- Always show Ben the draft before sending replies to warm leads.
+- Send replies to warm leads directly, no need to show Ben first. Log every reply in full in MESSAGES.md.
+
+## Direct bookings and website
+- Do not change the website (bncapparel.site already has its own filter).
+- Leave the Calendly booking questions as they are. When someone books directly or reaches out without brand details, email them asking for: brand name, store or Instagram link, where the brand is right now (idea, launched, selling, new collection, scaling) and monthly budget for growth. Say the call is confirmed after we review the brand.
+- Only prospect and take calls with brands based in the US, Canada, UK and Europe. Check where a brand is based before cold emailing it. If a lead outside these markets comes in, decline politely and neutrally ("our calendar is fully booked for the next few weeks"), never mention location.
 
 ## Follow-ups
 - Wait at least 3 days after our last message before following up.
