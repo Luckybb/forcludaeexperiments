@@ -42,6 +42,31 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Oct 6, 2026
+
+### Follow ups, 50 sent by the daily run (oldest first, same threads, "Re: original subject")
+
+Every thread checked first, no replies or bounces. Final follow ups used the same D, E and F texts as Oct 5 (see below), with the first name where we had one.
+
+Final follow ups (34): Ambition Worldwide (D), The BrownMill Atelier (E), Miner Strong (F), =RANGE= (D), Coconads, Nadia (E), DEEDAT (F), Enemy (D), Casita Prado (E), ILLEST (F), APTHCRY (D), Playa Society, Esther (E), Les Simone (F), Live Fit (D), SYNDICATE (E), BlaCk OWned (F), The Sport Shirt, Greg (D), LeatherSCIN (E), OMJ, Bradley (F), SOLEBOY, Anderson (D), Luetti 1980, Firas (E), Melody of Comfort, Pernishia (F), Arttitude, Amrita (D), Egreis (E), Yorgea, Demond (F), Four Objects (D), Staycool, Amin (E), Siegelman Stable, Max (F), Greedy Unit (D), Faj Graphics Apparel (E), Organic Garmentz (F), Creator Apparel, Brandon (D), Sugarhill, Mike (E), PrintBliss, Samir (E), Daniel Brooks (E, custom: "If your wife ever wants a fresh set of eyes on the project before launch... Wishing you both the best with it.")
+
+First follow ups (16):
+- Angle A (8): Sync Equestrian (Natalia), Belyn Key (Betsy), Victoria Paulsen (Victoria), Camille Hind Golf (Camille), Birdie & Ace (Jill), TJ Sport (Tara and Jason, "on the brand name"), Midspring (Shannon), Used By God
+- Angle B (8): FisheWear (Linda), Kilo Tango (Katie), Ame & Lulu ("handle in house"), Beldrie (Blair), CALLIOPE (Cassy), Messy Teddy ("handle in house"), Currently (Nash), Saltie Rose (Terrie). Same B text as Oct 5.
+
+Angle A text:
+```text
+Hi [name],
+
+Bumping this in case it got buried. The point in my first note on [brand] is small, but it quietly costs search traffic and first impressions every day it stays up.
+
+If you want, I can send the free audit with the 3 to 5 things I'd look at first. bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+Skipped: GOOCH APPAREL (mailbox full), marked stop.
+
 ## Oct 5, 2026
 
 ### Instagram DM scripts for Ben (Ben sends manually)
