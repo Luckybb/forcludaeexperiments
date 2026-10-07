@@ -31,12 +31,12 @@ This is our second brain. Every reply, booking and objection gets added here, so
 | --- | --- | --- | --- |
 | Cold: one verified site issue + free audit | ~313 | 4 | Baseline |
 | Cold test:positioning (catalog or name pulls two ways) | 3 | 0 | Started Oct 5: Knuckle Head Art, CUTWGOLD, VerseWear |
-| FU A: short bump with stake | 8 | 0 | Oct 6 batch |
-| FU B: quick question | 10 | 0 | Oct 5 and 6 |
+| FU A: short bump with stake | 22 | 0 | Oct 6 and 7 |
+| FU B: quick question | 25 | 0 | Oct 5 to 7 |
 | FU C: timing on a new drop | 0 | 0 | New |
-| FU D: one useful insight | 27 | 0 | Oct 5 and 6, was the old FU2 |
-| FU E: close the loop | 29 | 0 | Oct 5 and 6 |
-| FU F: common pattern | 26 | 0 | Oct 5 and 6 |
+| FU D: one useful insight | 34 | 0 | Oct 5 to 7, was the old FU2 |
+| FU E: close the loop | 36 | 0 | Oct 5 to 7 |
+| FU F: common pattern | 33 | 0 | Oct 5 to 7 |
 
 ## Objections heard
 - Low budget (Reign Gear, under $300). Still worth a call only if they're selling and the call sells them on a starter scope. Ben decides.

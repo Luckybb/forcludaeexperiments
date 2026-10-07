@@ -42,6 +42,32 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Oct 7, 2026
+
+### Follow ups, 50 sent by the daily run (oldest first, same threads, "Re: original subject")
+
+Every thread checked first, no replies or bounces. Texts are the same A, B, D, E and F texts logged on Oct 5 and 6, with first names where known.
+
+First follow ups (29):
+- Angle A: Ditale (Raylene, Audrey and Summer), Putt Snipe Celly (Duane, Braden and Ryan), Reel Girl (Sharon), FunLuvin' Fleecewear (Kelli), Mumford Golf (Calla), PEP, LOHLA SPORT (Jan and Ken), 40 Love (Lacey), Meraki Hunt, 40 Lime (Kathryn), His House, CXXII ("costs you buyers every drop it stays that way"), Yeci ("costs you first time visitors"), To Him Be team
+- Angle B: UNDRGRND (Jordan, Noe and Josh), Soča (Ellie and Franny), Five12 (Brooklynn), Miss Mayfly (Kimberly), AIEA (Daniella), Honors, The Garde, GWG, Ellie Arbee (Natalie), ALYN (Tisha), Apostles Apparel, Tordrobes, FOXYLAB (Oxana), Five Tides
+- Six Zero Pickleball (design role pitch), custom:
+
+```text
+Hi there,
+
+Quick follow up on the apparel and accessory designer role. If it's still open, or you'd rather test a first capsule on a project basis before committing to a hire, I'm happy to put together a few concept directions for Six Zero. bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+Final follow ups (21):
+- D: Hardlife (Brooks), Found One (Brent and Brittany), KADA (Arina), Dink and Volley (Megan and Debbie), Pickleball Bella (Nancy), Meji Meji (Tolu), Springrose (Nicole)
+- E: Vaed (Veronica), Oberon Asscher (Husani), KINDM (Kenny), Bison Wares (Mark and Smi, "strong convention season"), Moorlow (Brooks, Holly and Sondra), Legendary Rootz (Raven), d.bleu.dazzled (Destiney)
+- F: Veii (Ike), Hyde Park Goods (Jacob, "growing apparel brands... every customer runs into it"), H Clothier (Alex), après-pickle ("every customer runs into it"), Club Recess (Maggie and Grace, "common after a rebrand"), Hone (Toni), PerfectDD
+
+Knuckle Head Art: support@ also bounced, moved to Lost.
+
 ## Oct 6, 2026
 
 ### Follow ups, 50 sent by the daily run (oldest first, same threads, "Re: original subject")
