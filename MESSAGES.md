@@ -42,6 +42,19 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Oct 8, 2026
+
+### Follow ups, 39 sent by the daily run (same threads, "Re: original subject")
+
+Every thread checked first, no replies or bounces. Same A, B, D, E and F texts as Oct 5 to 7 with first names.
+
+- Note: the second session's Oct 7 follow ups to 11 leads (Fit Couture, Uncommon Runner, Fans of the Kingdom, Garment Log, Yain't Local, Olydoe, Youngstown, HBCU Legacy, Sunshine Project, LaFit, Purple Rain) went only to info@bncproductionz.com, not the prospects. They received proper first follow ups today instead.
+- Angle A (15): Fit Couture (Jenn), EDRA (Nathan), Garment Log ("costs you buyers every restock"), Olydoe (Scott, "costs you sales"), Doomsday (Jamie), Sunshine Project (Shawn), DUKE THE LABEL (Rhi), Purple Rain, kuta (Gunder), BTP, Rosco's Republic, Lacoa ("costs first impressions"), WyldeHaven, L@ME, Local Skater
+- Angle B (15): Uncommon Runner (Luke), Fans of the Kingdom (Tom and Chris), Yain't Local (Dustin), Youngstown (Matt, "worth doing before the holiday shoppers arrive"), Flow Like Zen, HBCU Legacy (Cheylaina), LaFit, Miler, Copper Cowgirl, Hood T'z, Stripe & Pipe, Lost Creek, Pickleball is Great, CUTWGOLD, VerseWear
+- Final D: Pocket Panty (Ashlee), Anaak (Marissa), Undra Celeste (Undra)
+- Final E: Yelé (Abisola), Eugene Taylor (Letesha), Love All (Kate)
+- Final F: Monzlapur (Mona), QR Clothing ("when brands rebuild their site"), Hypland ("before a drop")
+
 ## Oct 7, 2026
 
 ### Follow ups, 50 sent by the daily run (oldest first, same threads, "Re: original subject")

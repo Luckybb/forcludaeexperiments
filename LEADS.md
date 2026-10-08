@@ -4,15 +4,15 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 
 ## Summary
 
-336 leads. Oct 7: 50 follow ups sent (21 final, 29 first). 22 still due Oct 8. 16 new enriched leads emailed Oct 5 (first batch scored with tools/enrich.py). Follow ups due Oct 3 and 4 were all sent on Oct 4.
+349 leads. Oct 8: 39 follow ups sent (30 first, 9 final). Second session added 13 new leads Oct 7. 16 new enriched leads emailed Oct 5 (first batch scored with tools/enrich.py). Follow ups due Oct 3 and 4 were all sent on Oct 4.
 
 | Group | Leads |
 | --- | --- |
 | Replied or audit sent (hot) | 7 |
-| Emailed, in follow up sequence | 191 |
+| Emailed, in follow up sequence | 195 |
 | Instagram, LinkedIn or forum DM for Ben to send | 16 |
 | Lost (bounced or inactive) | 16 |
-| Total | 335 |
+| Total | 349 |
 
 | Follow up due | What goes out | Leads |
 | --- | --- | --- |
@@ -196,7 +196,7 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Pilipinas Store | kamusta@pilipinas.store | Heritage angle underused | Warm | 3 | 2/2 (D) | Oct 5 | Done |
 | Glamazon Ave | Goodvibes@vibrantventures.org | Veteran owned story not front and center | Warm | 3 | 2/2 (E) | Oct 5 | Done |
 | Dink and Volley | team@shopdinkandvolley.com (Megan and Debbie) | Two domains each with a contact page | Warm | 3 | 2/2 (D) | Oct 7 | Done |
-| Love All Tennis | love@lovealltennis.com (Kate Davis) | Brand on three domains, blog and store split | Hot | 2 | 1/2 (B) | Oct 5 | Oct 8 |
+| Love All Tennis | love@lovealltennis.com (Kate Davis) | Brand on three domains, blog and store split | Hot | 3 | 2/2 (E) | Oct 8 | Done |
 | Bison Wares | Bisonwaresinfo@gmail.com (Mark and Smi) | Kickstarter funded but store shows closed note | Hot | 3 | 2/2 (E) | Oct 7 | Done |
 | après-pickle (DILLY LIFE) | info@dillylife.com | Store and contact email on different domains | Warm | 3 | 2/2 (F) | Oct 7 | Done |
 | Pickleball Bella | bella@pickleballbella.com (Nancy Tedeschi) | Club with the same name competes in search | Warm | 3 | 2/2 (D) | Oct 7 | Done |
@@ -208,7 +208,7 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Springrose | hello@springrose.co (Nicole Cuervo) | Landscaping company competes for name | Warm | 3 | 2/2 (D) | Oct 7 | Done |
 | d.bleu.dazzled | info@dbleudazzled.com (Destiney Bleu) | Name spelled 4 ways, second FB page | Hot | 3 | 2/2 (E) | Oct 7 | Done |
 | PerfectDD | customercare@perfectdd.com | Google title has no brand name (info@ bounced, resent) | Hot | 4 | 2/2 (F) | Oct 7 | Done |
-| Hypland | Info@Hypland.com | Coming Soon drops with no email signup | Warm | 3 | 1/2 (B) | Oct 5 | Oct 8 |
+| Hypland | Info@Hypland.com | Coming Soon drops with no email signup | Warm | 4 | 2/2 (F) | Oct 8 | Done |
 | FLO3 | info@flo3clothing.com | Homepage headline blank | Warm | 3 | 2/2 (F) | Oct 5 | Done |
 | Broken Promises | info@brokenpromisesco.com | Both homepage headlines blank | Warm | 3 | 2/2 (D) | Oct 5 | Done |
 | Foreplay Golf | hello@foreplaygolf.com | Homepage headline run together | Warm | 3 | 2/2 (E) | Oct 5 | Done |
@@ -298,44 +298,59 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | foxylabny | contact@foxylabny.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 7 | Oct 10 |
 | gmail | tohimbe@gmail.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (B) | Oct 7 | Oct 10 |
 | fivetidesapparel | info@fivetidesapparel.us | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 7 | Oct 10 |
-| fitcouturecollection | hello@fitcouturecollection.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| uncommonrunner | hello@uncommonrunner.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| edrasports | support@edrasports.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| fansofthekingdom | orders@fansofthekingdom.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| gmail | garmentlogs@gmail.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| yaintlocal | support@yaintlocal.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| olydoe | hello@olydoe.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| youngstownclothingco | admin@youngstownclothingco.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| doomsdayco | jamie@doomsdayco.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| flowlikezen | hello@flowlikezen.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| sunshine-project | shawn@sunshine-project.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| hbculegacyfashion | contact@hbculegacyfashion.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| dukethelabel | hello@dukethelabel.com | Sent by second session, issue in Gmail thread | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| thepocketpanty | ashlee@thepocketpanty.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| monzlapur | contact@monzlapur.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| anaakcollection | info@anaakcollection.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| eugenetaylorbrand | letesharenee@eugenetaylorbrand.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| qrclothingbrand | support@qrclothingbrand.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| undracelesteny | undra@undracelesteny.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| yelestitches | yele@yelestitches.com | Second session lead, followed up Oct 4 | Warm | 2 | 1/2 | Oct 4 | Oct 7 |
-| LaFit Active | info@lafitactive.com | Blank homepage headline during October launch | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
-| Purple Rain Adventure Skirts | info@purplerainskirts.com (Mandy Bland) | Google description mixes in second brand Wander Wipes, blank headline | Warm | 1 | 0/2 | Oct 4 | Oct 7 |
+| fitcouturecollection | hello@fitcouturecollection.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| uncommonrunner | hello@uncommonrunner.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| edrasports | support@edrasports.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| fansofthekingdom | orders@fansofthekingdom.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| gmail | garmentlogs@gmail.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| yaintlocal | support@yaintlocal.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| olydoe | hello@olydoe.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| youngstownclothingco | admin@youngstownclothingco.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| doomsdayco | jamie@doomsdayco.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| flowlikezen | hello@flowlikezen.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| sunshine-project | shawn@sunshine-project.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| hbculegacyfashion | contact@hbculegacyfashion.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| dukethelabel | hello@dukethelabel.com | Sent by second session, issue in Gmail thread | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| thepocketpanty | ashlee@thepocketpanty.com | Second session lead, followed up Oct 4 | Warm | 3 | 2/2 (D) | Oct 8 | Done |
+| monzlapur | contact@monzlapur.com | Second session lead, followed up Oct 4 | Warm | 3 | 2/2 (F) | Oct 8 | Done |
+| anaakcollection | info@anaakcollection.com | Second session lead, followed up Oct 4 | Warm | 3 | 2/2 (D) | Oct 8 | Done |
+| eugenetaylorbrand | letesharenee@eugenetaylorbrand.com | Second session lead, followed up Oct 4 | Warm | 3 | 2/2 (E) | Oct 8 | Done |
+| qrclothingbrand | support@qrclothingbrand.com | Second session lead, followed up Oct 4 | Warm | 3 | 2/2 (F) | Oct 8 | Done |
+| undracelesteny | undra@undracelesteny.com | Second session lead, followed up Oct 4 | Warm | 3 | 2/2 (D) | Oct 8 | Done |
+| yelestitches | yele@yelestitches.com | Second session lead, followed up Oct 4 | Warm | 3 | 2/2 (E) | Oct 8 | Done |
+| LaFit Active | info@lafitactive.com | Blank homepage headline during October launch | Warm | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| Purple Rain Adventure Skirts | info@purplerainskirts.com (Mandy Bland) | Google description mixes in second brand Wander Wipes, blank headline | Warm | 2 | 1/2 (A) | Oct 8 | Oct 11 |
 | Juliana's Boutique | info@shopjulianas.com | Already got 4 cold emails, no more follow ups | Cold | 4 | done | Sep 28 | Stop |
-| Miler Running (NYC, enriched 19/20) | contact@milerrunning.com | Google title just repeats Miler Running twice, nothing about NYC running apparel | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| kuta distance l.ab (Stockholm, 17/20) | gunder@kutadistancelab.com | Google title is the web address plus brand name | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Copper Cowgirl Clothing (17/20) | triplecclothingllc@gmail.com | About a third of products have little or no description, no homepage heading | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| BTP Clothes UK (17/20) | btpclothesuk@outlook.com (hotmail bounced, resent Oct 5) | Google title still shows default Shopify store address, ~40 products no description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Hood T'z Apparel (17/20) | hoodtz2026@yahoo.com | Own domain redirects to the default myshopify address | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Rosco's Republic (17/20) | roscosrepublic@gmail.com | Title leads with RELAX, store is Rosco's Republic, two names | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Stripe & Pipe Golf Co. (San Antonio, 17/20) | stripeandpipeapparel@gmail.com | Four versions of the brand name, products with no description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| LacoaSports (15/20) | lacoasports@gmail.com | Main menu typo ADDITIONAL LENGHT SKIRTS | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Lost Creek Supply Co. (15/20) | processnotoutcome@icloud.com | Google title starts with the web address | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| WyldeHaven Apparel (UK, 15/20) | info@wyldehavenco.com | Generic title Shop Clothing Online, nothing about botanical or wildlife designs | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Pickleball is Great (14/20) | info@pickleballisgreat.com | Footer says 2024, no meta description | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| L@ME (UK, 19/20) | lame247life@gmail.com | Google description cuts off mid sentence | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| CUTWGOLD (15/20) | shopcutwgold@gmail.com | test:positioning. Exclusive drops vs marketplace style gift shirt names | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| Local Skater (Belgium, 19/20) | logodesinglsk8@gmail.com | Title shows two names, Local Skater and KIZZ PunkandSkateboard | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
-| VerseWearLLC (19/20) | support@versewearllc.com | test:positioning. Says streetwear, catalog full of wall art, puzzles, jewelry | Cold | 1 | 0/2 | Oct 5 | Oct 8 |
+| Miler Running (NYC, enriched 19/20) | contact@milerrunning.com | Google title just repeats Miler Running twice, nothing about NYC running apparel | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| kuta distance l.ab (Stockholm, 17/20) | gunder@kutadistancelab.com | Google title is the web address plus brand name | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| Copper Cowgirl Clothing (17/20) | triplecclothingllc@gmail.com | About a third of products have little or no description, no homepage heading | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| BTP Clothes UK (17/20) | btpclothesuk@outlook.com (hotmail bounced, resent Oct 5) | Google title still shows default Shopify store address, ~40 products no description | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| Hood T'z Apparel (17/20) | hoodtz2026@yahoo.com | Own domain redirects to the default myshopify address | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| Rosco's Republic (17/20) | roscosrepublic@gmail.com | Title leads with RELAX, store is Rosco's Republic, two names | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| Stripe & Pipe Golf Co. (San Antonio, 17/20) | stripeandpipeapparel@gmail.com | Four versions of the brand name, products with no description | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| LacoaSports (15/20) | lacoasports@gmail.com | Main menu typo ADDITIONAL LENGHT SKIRTS | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| Lost Creek Supply Co. (15/20) | processnotoutcome@icloud.com | Google title starts with the web address | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| WyldeHaven Apparel (UK, 15/20) | info@wyldehavenco.com | Generic title Shop Clothing Online, nothing about botanical or wildlife designs | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| Pickleball is Great (14/20) | info@pickleballisgreat.com | Footer says 2024, no meta description | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| L@ME (UK, 19/20) | lame247life@gmail.com | Google description cuts off mid sentence | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| CUTWGOLD (15/20) | shopcutwgold@gmail.com | test:positioning. Exclusive drops vs marketplace style gift shirt names | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| Local Skater (Belgium, 19/20) | logodesinglsk8@gmail.com | Title shows two names, Local Skater and KIZZ PunkandSkateboard | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
+| VerseWearLLC (19/20) | support@versewearllc.com | test:positioning. Says streetwear, catalog full of wall art, puzzles, jewelry | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
+| ai.aironic (second session) | ai.aironic@gmail.com | Sent by second session Oct 7, check fit | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| thespinedlife (second session) | thespinedlife@gmail.com | Re-emailed by second session Oct 7, was already Done 2/2 | Cold | 1 | 0/2 | Oct 7 | Stop |
+| Green Mtn Printing (second session) | greenmtnprinting@yahoo.com | Print shop, low fit | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Aleph (second session) | contactus@wearaleph.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Master LA Clothing (second session) | info@masterlaclothing.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Mild West Heroes (UK, second session) | us@mildwestheroes.co.uk | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Holy Brand (UK, second session) | info@holybrand.co.uk | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Jay Japan (second session) | info@jay-japan.com | Check location before any follow up, may be outside target markets | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Bold Black Apparel (second session) | contact@boldblackapparel.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Wear Greatness (second session) | info@weargreatness.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Bold Faith Tees (second session) | info@boldfaithtees.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Romans 1:16 (second session) | Info@romans116.store | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Biblical Brand Clothing (second session) | info@biblicalbrandclothing.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Faith Defines Us (second session) | info@faithdefinesus.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
+| Four Objects (re-emailed) | info@fourobjects.com | Re-emailed by second session Oct 7, was already Done 2/2 | Cold | 1 | 0/2 | Oct 7 | Stop |
 
 ## DM leads for Ben
 
