@@ -4,15 +4,15 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 
 ## Summary
 
-349 leads. Oct 8: 39 follow ups sent (30 first, 9 final). Second session added 13 new leads Oct 7. 16 new enriched leads emailed Oct 5 (first batch scored with tools/enrich.py). Follow ups due Oct 3 and 4 were all sent on Oct 4.
+368 leads. Oct 9: 16 final follow ups, 3 new cold emails (11 scored, 8 failed the hand check). Second session sent 16 new Oct 8. Hood T'z replied. 16 new enriched leads emailed Oct 5 (first batch scored with tools/enrich.py). Follow ups due Oct 3 and 4 were all sent on Oct 4.
 
 | Group | Leads |
 | --- | --- |
 | Replied or audit sent (hot) | 7 |
-| Emailed, in follow up sequence | 195 |
+| Emailed, in follow up sequence | 198 |
 | Instagram, LinkedIn or forum DM for Ben to send | 16 |
 | Lost (bounced or inactive) | 16 |
-| Total | 349 |
+| Total | 368 |
 
 | Follow up due | What goes out | Leads |
 | --- | --- | --- |
@@ -35,6 +35,7 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 | SEEN by W23 | Stephen, w23llc@wearworship.com | Email | Replied | Interested in the free audit. Reply sent Oct 4 (second session) | Waiting on their answer, Ben handles |
 | Reign Gear LLC | Curtis Buckingham, info@reigngearllc.com | Website audit form | LinkedIn, warm | Launched, few sales, budget under $300. Took our pricing advice Oct 6 (added $180 to $249 jackets). Asks for free advice, no call yet | Pitch drafted for Ben (Oct 6): one time $250 search and product page fix, then monthly. If he asks for more free tips, close politely |
 | Gene Ivor (IVOR, UK) | LinkedIn | LinkedIn DM | Replied | Pre launch, Feb launch, waitlist goal 150, mystery campaign. Asked what we think of the waitlist page | Reply drafted Oct 6: countdown shows "This offer has ended", title "– Ivor", no join reason. Free call offer |
+| Hood T'z Apparel | hoodtz2026@yahoo.com | Email | Replied Oct 8 | Founder runs the site himself. Second session replied Oct 8 asking if the bigger headache is traffic or conversion | Waiting on his answer, then warm reply with 2 to 3 problems and the free call |
 
 ## Email leads
 
@@ -254,22 +255,22 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | PrintBliss | samir@f4milymatters.com | Print shop, low fit | Cold | 3 | 2/2 (E) | Oct 6 | Done |
 | Daniel Brooks | d.m.brooks@live.co.uk | UK junior sports project via LinkedIn, low fit | Cold | 3 | 2/2 (E) | Oct 6 | Done |
 | Ditale Outdoors | team@ditaleoutdoors.com | Two websites, two brand names. Resent Oct 3 after first send was blocked | Warm | 2 | 1/2 (A) | Oct 7 | Oct 10 |
-| Sync Equestrian | support@syncequestrian.com (Natalia Graf-Anders) | Duplicate homepage, Tops page at two addresses | Warm | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| FisheWear | info@fishewear.com (Linda Leary) | Name spelled three ways | Warm | 2 | 1/2 (B) | Oct 6 | Oct 9 |
-| Belyn Key | betsy@belynkey.com (Betsy Rittenhouse) | No brand name in homepage title, retailers outrank them | Warm | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| Kilo Tango | customercare@kilotango.golf (Katie McCarthy) | Sale page at a 2022 address, dress page titled just Golf Dress | Warm | 2 | 1/2 (B) | Oct 6 | Oct 9 |
-| Victoria Paulsen | info@victoriapaulsen.com | Duplicate homepage indexed | Warm | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| Ame & Lulu | info@ameandlulu.com | Listed twice under two spellings | Warm | 2 | 1/2 (B) | Oct 6 | Oct 9 |
-| Camille Hind Golf | camille@camillehind.com (Camille Hind) | Two Pinterest accounts, numeric Facebook URL | Warm | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| Beldrie | hello@beldrie.com (Blair Roemer) | Contact page titled About, two contact pages | Warm | 2 | 1/2 (B) | Oct 6 | Oct 9 |
-| Birdie & Ace | jill@birdieandace.com (Jill Coyman) | Two similar golf brands compete for the name, new owners investing | Hot | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| CALLIOPE Golf | cassy@calliopegolf.com (Cassy Isaacs) | Two other Calliope brands compete | Warm | 2 | 1/2 (B) | Oct 6 | Oct 9 |
-| TJ Sport (Taylor Jordan) | customercare@taylorjordanusa.com (Tara and Jason Ransdell) | Three names, "copy-of" product URL | Warm | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| Messy Teddy | shop@messyteddy.com | Homepage title has no brand name or golf | Hot | 2 | 1/2 (B) | Oct 6 | Oct 9 |
-| Midspring | hello@midspringsport.com (Shannon Arniel) | Three spellings, no women's golf keyword | Warm | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| Currently Running | support@currentlyrunning.com (Nash Howe) | Two brand names, mixes with founder's site | Warm | 2 | 1/2 (B) | Oct 6 | Oct 9 |
-| Used By God | support@ubgclothing.com | Two names, three Atlanta addresses in listings | Warm | 2 | 1/2 (A) | Oct 6 | Oct 9 |
-| Saltie Rose | info@saltierose.com (Terrie Rose) | Paddle page URL ends in "copy", collab spelled two ways | Warm | 2 | 1/2 (B) | Oct 6 | Oct 9 |
+| Sync Equestrian | support@syncequestrian.com (Natalia Graf-Anders) | Duplicate homepage, Tops page at two addresses | Warm | 3 | 2/2 (D) | Oct 9 | Done |
+| FisheWear | info@fishewear.com (Linda Leary) | Name spelled three ways | Warm | 3 | 2/2 (E) | Oct 9 | Done |
+| Belyn Key | betsy@belynkey.com (Betsy Rittenhouse) | No brand name in homepage title, retailers outrank them | Warm | 3 | 2/2 (F) | Oct 9 | Done |
+| Kilo Tango | customercare@kilotango.golf (Katie McCarthy) | Sale page at a 2022 address, dress page titled just Golf Dress | Warm | 3 | 2/2 (D) | Oct 9 | Done |
+| Victoria Paulsen | info@victoriapaulsen.com | Duplicate homepage indexed | Warm | 3 | 2/2 (E) | Oct 9 | Done |
+| Ame & Lulu | info@ameandlulu.com | Listed twice under two spellings | Warm | 3 | 2/2 (F) | Oct 9 | Done |
+| Camille Hind Golf | camille@camillehind.com (Camille Hind) | Two Pinterest accounts, numeric Facebook URL | Warm | 3 | 2/2 (D) | Oct 9 | Done |
+| Beldrie | hello@beldrie.com (Blair Roemer) | Contact page titled About, two contact pages | Warm | 3 | 2/2 (E) | Oct 9 | Done |
+| Birdie & Ace | jill@birdieandace.com (Jill Coyman) | Two similar golf brands compete for the name, new owners investing | Hot | 3 | 2/2 (F) | Oct 9 | Done |
+| CALLIOPE Golf | cassy@calliopegolf.com (Cassy Isaacs) | Two other Calliope brands compete | Warm | 3 | 2/2 (D) | Oct 9 | Done |
+| TJ Sport (Taylor Jordan) | customercare@taylorjordanusa.com (Tara and Jason Ransdell) | Three names, "copy-of" product URL | Warm | 3 | 2/2 (E) | Oct 9 | Done |
+| Messy Teddy | shop@messyteddy.com | Homepage title has no brand name or golf | Hot | 3 | 2/2 (F) | Oct 9 | Done |
+| Midspring | hello@midspringsport.com (Shannon Arniel) | Three spellings, no women's golf keyword | Warm | 3 | 2/2 (D) | Oct 9 | Done |
+| Currently Running | support@currentlyrunning.com (Nash Howe) | Two brand names, mixes with founder's site | Warm | 3 | 2/2 (E) | Oct 9 | Done |
+| Used By God | support@ubgclothing.com | Two names, three Atlanta addresses in listings | Warm | 3 | 2/2 (F) | Oct 9 | Done |
+| Saltie Rose | info@saltierose.com (Terrie Rose) | Paddle page URL ends in "copy", collab spelled two ways | Warm | 3 | 2/2 (D) | Oct 9 | Done |
 | UNDRGRND GOLF | undrgrndgolfco@gmail.com (Jordan, Noe, Josh) | Underground Golf name taken by Mark Wahlberg's ball company, no homepage headline | Warm | 2 | 1/2 (B) | Oct 7 | Oct 10 |
 | Putt Snipe Celly | assist@puttsnipecelly.com (Klomp family) | Not found by name search, Google title says Beauty Gear | Warm | 2 | 1/2 (A) | Oct 7 | Oct 10 |
 | Soča | soca@socastyle.com (Ellie, Franny) | Google title just Soča, Soca Clothing boutique competes for name | Warm | 2 | 1/2 (B) | Oct 7 | Oct 10 |
@@ -325,7 +326,6 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | kuta distance l.ab (Stockholm, 17/20) | gunder@kutadistancelab.com | Google title is the web address plus brand name | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
 | Copper Cowgirl Clothing (17/20) | triplecclothingllc@gmail.com | About a third of products have little or no description, no homepage heading | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
 | BTP Clothes UK (17/20) | btpclothesuk@outlook.com (hotmail bounced, resent Oct 5) | Google title still shows default Shopify store address, ~40 products no description | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
-| Hood T'z Apparel (17/20) | hoodtz2026@yahoo.com | Own domain redirects to the default myshopify address | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
 | Rosco's Republic (17/20) | roscosrepublic@gmail.com | Title leads with RELAX, store is Rosco's Republic, two names | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
 | Stripe & Pipe Golf Co. (San Antonio, 17/20) | stripeandpipeapparel@gmail.com | Four versions of the brand name, products with no description | Cold | 2 | 1/2 (B) | Oct 8 | Oct 11 |
 | LacoaSports (15/20) | lacoasports@gmail.com | Main menu typo ADDITIONAL LENGHT SKIRTS | Cold | 2 | 1/2 (A) | Oct 8 | Oct 11 |
@@ -351,6 +351,25 @@ Sorted by next follow up date. FU = follow ups sent out of 2. At 2/2, stop.
 | Biblical Brand Clothing (second session) | info@biblicalbrandclothing.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
 | Faith Defines Us (second session) | info@faithdefinesus.com | Sent by second session Oct 7 | Cold | 1 | 0/2 | Oct 7 | Oct 10 |
 | Four Objects (re-emailed) | info@fourobjects.com | Re-emailed by second session Oct 7, was already Done 2/2 | Cold | 1 | 0/2 | Oct 7 | Stop |
+| SURFGOAT (Jupiter FL, 17/20) | surfgoatclothing@gmail.com | Brand and Jupiter FL twice in Google title, three name variants | Cold | 1 | 0/2 | Oct 9 | Oct 12 |
+| Rebel Trail Gear (UK, 17/20) | customerservice@rebeltrailgear.com | Google title only the brand name, nothing about hiking tees | Cold | 1 | 0/2 | Oct 9 | Oct 12 |
+| Stay True (15/20, just launched) | staytrue26252625@gmail.com | Google title starts with the Shopify store address, no description | Cold | 1 | 0/2 | Oct 9 | Oct 12 |
+| Small Town Clothing Co (second session) | Lindsey@smalltownclothingcompany.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Small Town Apparel Aurora (second session) | smalltownapparel.aurora@gmail.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| ashley061006 (second session) | ashley061006@gmail.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| SOTA Shop (second session) | pj@thesotashop.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Lakes Supply (second session) | larry@lakessupply.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Maine Bound Designs (second session) | support@mainebounddesigns.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Fearless Harbor (second session) | contact@fearlessharbor.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Hooked and Tagged (second session) | hookedandtagged@gmail.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Small Town Society (second session) | hello@shopsmalltownsociety.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Big Bud Smokers Club (second session, cannabis, low fit) | bbsc420@bigbudsmokersclub.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Death N Friend (second session) | deathnfriendltd@gmail.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Rosenberries (UK, second session) | contact@rosenberries.co.uk | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| She Wears Faith (second session) | support@shewearsfaith.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| 316 Collection (second session) | 316@316collection.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| Walk In Faith Clothing (second session) | info@walkinfaithclothing.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
+| IGIT Apparel (second session) | igitapparel@yahoo.com | Sent by second session Oct 8 | Cold | 1 | 0/2 | Oct 8 | Oct 11 |
 
 ## DM leads for Ben
 

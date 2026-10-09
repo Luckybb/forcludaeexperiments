@@ -21,6 +21,7 @@ This is our second brain. Every reply, booking and objection gets added here, so
 | JAP Apparel | Instagram DM | Free audit offer | Selling | Rescheduling the call |
 
 ## Patterns so far
+- The quick question follow up (B) got the first reply from a follow up: easy to answer in one line, so founders answer it.
 - Replies come from founders who are **already selling** and have felt pain from a past agency or redesign (One Vision). Pain that's already felt converts.
 - **Specific, verifiable problems** described in plain words get answers. Generic "I can help your marketing" does not.
 - Inbound and booked leads with **no brand details** waste call slots (Adam, Raqtiv). Always ask for details first.
@@ -29,14 +30,14 @@ This is our second brain. Every reply, booking and objection gets added here, so
 
 | Angle | Sent | Replies | Notes |
 | --- | --- | --- | --- |
-| Cold: one verified site issue + free audit | ~313 | 4 | Baseline |
+| Cold: one verified site issue + free audit | ~316 | 4 | Baseline |
 | Cold test:positioning (catalog or name pulls two ways) | 3 | 0 | Started Oct 5: Knuckle Head Art, CUTWGOLD, VerseWear |
 | FU A: short bump with stake | 37 | 0 | Oct 6 to 8 |
-| FU B: quick question | 40 | 0 | Oct 5 to 8 |
+| FU B: quick question | 40 | 1 | Oct 5 to 8. Hood T'z answered "I run it myself" within 2 minutes |
 | FU C: timing on a new drop | 0 | 0 | New |
-| FU D: one useful insight | 37 | 0 | Oct 5 to 8, was the old FU2 |
-| FU E: close the loop | 39 | 0 | Oct 5 to 8 |
-| FU F: common pattern | 36 | 0 | Oct 5 to 8 |
+| FU D: one useful insight | 43 | 0 | Oct 5 to 9, was the old FU2 |
+| FU E: close the loop | 44 | 0 | Oct 5 to 9 |
+| FU F: common pattern | 41 | 0 | Oct 5 to 9 |
 
 ## Objections heard
 - Low budget (Reign Gear, under $300). Still worth a call only if they're selling and the call sells them on a starter scope. Ben decides.

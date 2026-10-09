@@ -42,6 +42,69 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Oct 9, 2026
+
+### Warm
+- Hood T'z replied Oct 8 ("I run it myself"). Second session answered the same day: "Respect, running it all yourself is a lot. Curious, what's the bigger headache for you right now: getting people to the store, or getting the ones who land there to actually buy?" Note the subject went out as "Re: Re:". Moved to Hot leads.
+
+### Final follow ups, 16 (same D, E, F texts, first names)
+- D: Sync Equestrian (Natalia), Kilo Tango (Katie), Camille Hind Golf (Camille), CALLIOPE (Cassy), Midspring (Shannon), Saltie Rose (Terrie)
+- E: Fishe (Linda), Victoria Paulsen ("fresh set of eyes on the site"), Beldrie (Blair), TJ Sport (Tara and Jason, "on the brand"), Currently (Nash, "Wishing you strong miles either way.")
+- F: Belyn Key (Betsy), Ame & Lulu ("every buyer and retailer runs into it"), Birdie & Ace (Jill, "every new customer searching for you"), Messy Teddy, Used By God ("every new customer searching for you")
+
+### Cold emails, 3 (enriched batch, 11 scored, 8 failed the hand check)
+
+To: surfgoatclothing@gmail.com  
+Subject: SURFGOAT twice in your Google title
+
+```text
+Hi there,
+
+A coastal brand rooted in Florida and South Carolina, built for surfers, skaters and lake days, has a real crowd behind it, and the tie dye goat hoodies are instantly recognizable.
+
+One thing I noticed: the title Google shows for your homepage says SURFGOAT and Jupiter, FL twice each, and the brand itself shows up under three slightly different names across your products.
+
+When the name and title repeat or change, Google has a harder time knowing what to rank you for, so people searching for surf apparel in Florida are less likely to find you.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: customerservice@rebeltrailgear.com  
+Subject: your Google title just says Rebel Trail Gear
+
+```text
+Hi there,
+
+Dry, self deprecating shirts for hikers who would rather laugh than brag is a great angle, and the national park designs and the Sasquatch tee are exactly what people buy as gifts.
+
+One thing I noticed: the title Google shows for your homepage is just Rebel Trail Gear, with nothing about funny hiking shirts or outdoor tees.
+
+That title is one of the strongest things Google reads, so right now people searching for funny hiking gifts have a hard time finding you unless they already know the name.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
+To: staytrue26252625@gmail.com  
+Subject: Stay True, your Google title is the Shopify address
+
+```text
+Hi there,
+
+Congrats on the launch. "Wear what you stand for" is a strong line, and covering men, women and kids from day one gives Stay True a lot of room to grow.
+
+One thing I noticed: the title Google shows for your homepage starts with the default Shopify store address instead of your brand, and there's no description, so search results show a random piece of page text.
+
+Right at launch is when people search for you after seeing a post, and a title like that makes the store look unfinished, which costs clicks and trust.
+
+If you want, I can do a quick free audit and point out the 3 to 5 things I'd look at first. You can see our work at bncapparel.site
+
+Ben | BNC Group | bncapparel.site
+```
+
 ## Oct 8, 2026
 
 ### Follow ups, 39 sent by the daily run (same threads, "Re: original subject")
