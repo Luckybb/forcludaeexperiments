@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>BNC Blog Admin</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <!-- Decap CMS: write and publish blog posts. Config: /admin/config.yml -->
+  <script src="https://unpkg.com/decap-cms@^3.3.0/dist/decap-cms.js"></script>
+  <script>
+    // Preview posts with the site's own styles
+    CMS.registerPreviewStyle("/styles.css");
+    CMS.registerPreviewStyle("/blog.css");
+    CMS.registerPreviewStyle(".frame-content{padding:32px;background:#edebe4}", { raw: true });
+    CMS.registerPreviewTemplate("blog", ({ entry, widgetFor }) =>
+      h("article", { className: "prose" },
+        h("h1", {}, entry.getIn(["data", "title"])),
+        h("p", { style: { color: "#6f6c63" } }, entry.getIn(["data", "description"])),
+        widgetFor("body")));
+  </script>
+</body>
+</html>

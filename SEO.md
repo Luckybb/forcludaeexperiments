@@ -11,6 +11,13 @@
 - netlify.toml: redirects bncapparel.site to https://www., long image caching, security headers
 - All scripts deferred, images compressed to WebP and lazy loaded
 
+## Added: service pages, blog and tracking
+- 8 service landing pages under /services/ (one per service), each with Service, Breadcrumb and FAQ structured data, related work and internal links
+- Blog at /blog/ with a WordPress-style editor at /admin/, BlogPosting structured data, RSS feed and automatic sitemap entries
+- 3 starter posts: how to start a clothing brand, Printful vs Printify, and launching creator merch (Dream in Defiance case study)
+- Google Tag Manager on every page and the Search Console verification tag
+- Footer links from the homepage to every service page and the blog, so Google finds them
+
 ## Target keywords
 Primary (homepage, US): clothing brand design agency, t-shirt design services, apparel brand identity, streetwear brand design, merch design for creators
 Secondary: print on demand store setup, Shopify clothing store design, clothing brand marketing agency, Printful Shopify setup, custom hoodie design, merch design for creators
@@ -35,12 +42,11 @@ Long tail (future blog posts): how to start a clothing brand, how to launch merc
 5. Printful and Printify expert / designer directories, Shopify Partners directory
 6. Guest posts or podcast mentions in creator merch and streetwear communities
 
-## Content plan (next step for more traffic)
-The site is one page, so it can rank for a handful of terms. To rank for many, add pages over time:
-- /services/t-shirt-design, /services/brand-identity, /services/print-on-demand-setup (one page per service)
-- /work/dream-in-defiance and one page per case study
-- /blog with 1 to 2 posts a month on the long tail keywords above
-Each new page: unique title and description, one H1, internal links back to the free audit, and an entry in sitemap.xml.
+## Content plan
+Service pages and the blog are live. Next:
+- Publish 1 to 2 posts a month on the long tail keywords above (sitemap and RSS update automatically)
+- Link each new post to its related service pages using the Related services field
+- Later: one page per case study (for example /work/dream-in-defiance/)
 
 ## Things to keep consistent
 Use one business name everywhere (site, email, Behance, Google Business Profile, directories). Right now BNC, BNC Apparel, BNC Designs and BNC Productionz are all used. Pick one and update the listings to match.

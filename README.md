@@ -1,12 +1,12 @@
 # BNC Apparel website
 
-Static site for www.bncapparel.site with a real-time cloth simulation T-shirt hero, smooth scroll, parallax, a horizontal portfolio with full-size board viewer, the Dream in Defiance case study and a free audit call to action. No build step: upload `index.html`, `styles.css`, `script.js`, `robots.txt`, `sitemap.xml` and the `images/` folder to any host.
+Static site for www.bncapparel.site with a real-time cloth simulation T-shirt hero, smooth scroll, parallax, a horizontal portfolio with full-size board viewer, the Dream in Defiance case study and a free audit call to action. Netlify runs `npm run build`, which copies the site unchanged and generates the blog and service pages into `dist/`. See `BLOG-GUIDE.md` for the blog admin, AI chat and tracking setup.
 
 ## Leads and contact
 - The audit form uses Netlify Forms. In Netlify: Site configuration > Forms > Enable form detection, redeploy, then Forms > Form notifications > Add notification > Email notification, and enter the inbox that should receive leads. The address stays private in Netlify and never appears on the site.
 - Each lead arrives with the subject "[HOT], [WARM] or [COLD] Free audit request: Brand".
 - If sending ever fails, visitors see a backup "Send it by email or message me on WhatsApp" option, so no lead is lost.
-- After submitting, visitors are pushed to book on Calendly (name and email prefilled) or WhatsApp.
+- After submitting, visitors are pushed to WhatsApp to talk through their audit.
 
 ## Portfolio images
 `images/work/<name>.webp` is the card image, `<name>-full.webp` opens in the viewer. `images/case/` holds the case study photos.

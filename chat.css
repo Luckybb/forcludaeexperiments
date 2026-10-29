@@ -1,0 +1,63 @@
+/* BNC AI chat assistant (popup). Uses the site's existing colors and fonts. */
+.bnc-chat-launch {
+  position: fixed; right: 20px; bottom: calc(86px + env(safe-area-inset-bottom, 0px)); z-index: 96;
+  display: flex; align-items: center; gap: 0; padding: 12px; border-radius: 999px; border: 1px solid rgba(237,235,228,.18);
+  background: #0d0d0c; color: #ece8dd; font: 700 .9rem "Bricolage Grotesque", Arial, sans-serif; cursor: pointer;
+  box-shadow: 0 16px 34px -12px rgba(0,0,0,.55); transition: transform .4s cubic-bezier(.16,1,.3,1);
+}
+.bnc-chat-launch:hover { transform: translateY(-3px); }
+.bnc-chat-launch__label { max-width: 0; overflow: hidden; white-space: nowrap; transition: max-width .45s cubic-bezier(.16,1,.3,1), margin .45s; }
+.bnc-chat-launch:hover .bnc-chat-launch__label, .bnc-chat-launch:focus-visible .bnc-chat-launch__label { max-width: 120px; margin: 0 6px 0 10px; }
+.bnc-chat-launch__dot { width: 26px; height: 26px; border-radius: 50%; background: #ff4a1c; display: grid; place-items: center; color: #0d0d0c; font-size: 14px; }
+.bnc-chat-launch.is-open { display: none; }
+.bnc-chat-teaser {
+  position: fixed; right: 20px; bottom: calc(150px + env(safe-area-inset-bottom, 0px)); z-index: 96; max-width: 260px;
+  background: #ece8dd; color: #0d0d0c; padding: 12px 14px; border-radius: 16px 16px 4px 16px; font: 500 .88rem "Bricolage Grotesque", Arial, sans-serif;
+  box-shadow: 0 16px 34px -12px rgba(0,0,0,.45); cursor: pointer; animation: bncPop .5s cubic-bezier(.16,1,.3,1);
+}
+.bnc-chat-teaser button { all: unset; float: right; margin-left: 8px; cursor: pointer; opacity: .55; }
+.bnc-chat {
+  position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); z-index: 160;
+  width: min(380px, calc(100vw - 32px)); height: min(600px, calc(100svh - 40px));
+  display: flex; flex-direction: column; background: #0d0d0c; color: #ece8dd; border: 1px solid rgba(237,235,228,.14);
+  border-radius: 24px; overflow: hidden; box-shadow: 0 30px 80px -20px rgba(0,0,0,.7);
+  font-family: "Bricolage Grotesque", Arial, sans-serif; animation: bncPop .45s cubic-bezier(.16,1,.3,1);
+}
+.bnc-chat[hidden] { display: none; }
+@keyframes bncPop { from { opacity: 0; transform: translateY(14px) scale(.97); } to { opacity: 1; transform: none; } }
+.bnc-chat__head { display: flex; align-items: center; gap: 12px; padding: 16px 16px 14px; border-bottom: 1px solid rgba(237,235,228,.1); }
+.bnc-chat__avatar { width: 36px; height: 36px; border-radius: 50%; background: #ff4a1c; color: #0d0d0c; display: grid; place-items: center; font-weight: 800; font-size: .8rem; letter-spacing: -.03em; }
+.bnc-chat__title { flex: 1; line-height: 1.2; }
+.bnc-chat__title b { display: block; font-size: 1rem; }
+.bnc-chat__title span { font: 400 .7rem "JetBrains Mono", monospace; letter-spacing: .06em; text-transform: uppercase; color: rgba(237,235,228,.55); }
+.bnc-chat__close { background: rgba(237,235,228,.08); border: 0; color: #ece8dd; width: 34px; height: 34px; border-radius: 50%; cursor: pointer; font-size: 1rem; }
+.bnc-chat__log { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 10px; overscroll-behavior: contain; }
+.bnc-msg { max-width: 86%; padding: 10px 14px; border-radius: 18px; font-size: .95rem; line-height: 1.45; white-space: pre-wrap; word-wrap: break-word; }
+.bnc-msg--bot { align-self: flex-start; background: #1d1c1a; border-bottom-left-radius: 6px; }
+.bnc-msg--user { align-self: flex-end; background: #ff4a1c; color: #0d0d0c; border-bottom-right-radius: 6px; }
+.bnc-msg a { color: #ff7a52; font-weight: 600; }
+.bnc-msg--user a { color: #0d0d0c; }
+.bnc-msg--typing { display: flex; gap: 4px; align-items: center; }
+.bnc-msg--typing i { width: 6px; height: 6px; border-radius: 50%; background: rgba(237,235,228,.6); animation: bncDot 1s infinite; }
+.bnc-msg--typing i:nth-child(2) { animation-delay: .15s; } .bnc-msg--typing i:nth-child(3) { animation-delay: .3s; }
+@keyframes bncDot { 0%, 80%, 100% { opacity: .25; } 40% { opacity: 1; } }
+.bnc-chat__chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 16px 10px; }
+.bnc-chat__chips button { font: 500 .8rem "Bricolage Grotesque", Arial, sans-serif; color: #ece8dd; background: transparent; border: 1px solid rgba(237,235,228,.22); border-radius: 999px; padding: 7px 11px; cursor: pointer; }
+.bnc-chat__chips button:hover { border-color: #ff4a1c; color: #ff4a1c; }
+.bnc-chat__form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid rgba(237,235,228,.1); }
+.bnc-chat__form textarea { flex: 1; resize: none; height: 44px; max-height: 120px; padding: 11px 14px; border-radius: 14px; border: 1px solid rgba(237,235,228,.18); background: #161514; color: #ece8dd; font: 400 .95rem "Bricolage Grotesque", Arial, sans-serif; }
+.bnc-chat__form textarea:focus { outline: none; border-color: #ff4a1c; }
+.bnc-chat__form button { width: 44px; height: 44px; border-radius: 50%; border: 0; background: #ff4a1c; color: #0d0d0c; font-size: 1.1rem; cursor: pointer; flex-shrink: 0; }
+.bnc-chat__form button:disabled { opacity: .5; cursor: default; }
+.bnc-chat__note { padding: 0 16px 12px; font: 400 .66rem "JetBrains Mono", monospace; color: rgba(237,235,228,.45); text-align: center; }
+.bnc-chat__note a { color: inherit; }
+@media (max-width: 760px) {
+  .bnc-chat-launch { right: 16px; bottom: calc(148px + env(safe-area-inset-bottom, 0px)); }
+  .bnc-chat-launch:hover .bnc-chat-launch__label { max-width: 0; margin: 0; }
+  .bnc-chat-teaser { right: 16px; bottom: calc(204px + env(safe-area-inset-bottom, 0px)); }
+  .bnc-chat { right: 8px; left: 8px; width: auto; bottom: calc(8px + env(safe-area-inset-bottom, 0px)); height: min(640px, calc(100svh - 16px)); }
+}
+/* Pages without the floating WhatsApp/sticky buttons (blog, service pages) */
+.bnc-page .bnc-chat-launch { bottom: calc(20px + env(safe-area-inset-bottom, 0px)); }
+.bnc-page .bnc-chat-teaser { bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
+@media (prefers-reduced-motion: reduce) { .bnc-chat, .bnc-chat-teaser { animation: none; } }

@@ -3,7 +3,6 @@
 // Netlify dashboard (Forms > Form notifications), so the address never appears on the site.
 // Backup address for the "send it by email" link shown only if sending fails:
 const LEAD_EMAIL = ["info", "bncproductionz.com"].join("@");
-const CALENDLY_URL = "https://calendly.com/burhannazir";
 const WHATSAPP_URL = "https://wa.me/17473364515?text=" + encodeURIComponent("Hi BNC, I'd like a free audit for my clothing brand.");
 // ======================
 
@@ -676,16 +675,15 @@ form.addEventListener("submit", async (e) => {
 
   // Funnel step 2: turn the request into a booked call while intent is highest
   const first = escapeHtml((d.name || "").split(" ")[0]);
-  const cal = CALENDLY_URL + "?name=" + encodeURIComponent(d.name || "") + "&email=" + encodeURIComponent(d.email || "");
+  const waLead = "https://wa.me/17473364515?text=" + encodeURIComponent(`Hi BNC, I just requested a free audit for ${d.brand}. My name is ${d.name}.`);
   form.classList.add("form--done");
   form.innerHTML = `
-    <div class="form__steps" aria-hidden="true"><span>1. Your brand</span><span class="on">2. Your audit</span><span>3. Quick call</span></div>
+    <div class="form__steps" aria-hidden="true"><span>1. Your brand</span><span class="on">2. Your audit</span><span>3. Quick chat</span></div>
     <h3>Got it, <em>${first}</em>.</h3>
     <p>I'll review <b>${escapeHtml(d.brand)}</b> and email your top fixes within 48 hours.</p>
-    <p class="muted">Want them faster? Grab a 15 minute slot and I'll walk you through the audit live.</p>
+    <p class="muted">Want them faster? Message me on WhatsApp and I'll walk you through the audit.</p>
     <div class="done__btns">
-      <a class="pill pill--accent pill--lg" href="${cal}" target="_blank" rel="noopener">Book my audit call ↗</a>
-      <a class="pill pill--wa" href="${WHATSAPP_URL}" target="_blank" rel="noopener">WhatsApp instead ↗</a>
+      <a class="pill pill--wa pill--lg" href="${waLead}" target="_blank" rel="noopener" data-wa>WhatsApp me now ↗</a>
     </div>
     <p class="form__note">While you wait: open your homepage on your phone. Can a stranger tell who it's for in 5 seconds?</p>`;
   try { window.dataLayer && window.dataLayer.push({ event: "generate_lead", lead_priority: priority }); } catch (_) {}
@@ -709,3 +707,14 @@ if ("IntersectionObserver" in window) {
   new IntersectionObserver(([en]) => nav.classList.toggle("on-accent", en.isIntersecting), { rootMargin: "0px 0px -92% 0px" })
     .observe(document.getElementById("audit"));
 }
+
+// Analytics events for Google Tag Manager / GA4: WhatsApp clicks and outbound links
+document.addEventListener("click", (e) => {
+  const a = e.target.closest && e.target.closest("a");
+  if (!a) return;
+  try {
+    window.dataLayer = window.dataLayer || [];
+    if (/wa\.me|whatsapp/.test(a.href)) window.dataLayer.push({ event: "whatsapp_click", link_location: a.className || "link" });
+    else if (a.href.includes("behance.net")) window.dataLayer.push({ event: "behance_click" });
+  } catch (_) {}
+});
