@@ -15,7 +15,7 @@
 - 8 service landing pages under /services/ (one per service), each with Service, Breadcrumb and FAQ structured data, related work and internal links
 - Blog at /blog/ with a WordPress-style editor at /admin/, BlogPosting structured data, RSS feed and automatic sitemap entries
 - 3 starter posts: how to start a clothing brand, Printful vs Printify, and launching creator merch (Dream in Defiance case study)
-- Google Tag Manager on every page and the Search Console verification tag
+- Google Tag Manager (GTM-WK4V4SB3 with GA4 G-S37MX6BC9R) on every page and the Search Console verification tag
 - Footer links from the homepage to every service page and the blog, so Google finds them
 
 ## Target keywords

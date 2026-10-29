@@ -1,4 +1,4 @@
-# BNC site: blog, AI chat and tracking setup
+# BNC site: blog and tracking setup
 
 ## 1. Write and publish blog posts (like WordPress)
 
@@ -26,22 +26,16 @@ Each post automatically gets: its own SEO title and description, Google article 
 - Use H2 headings for each section, link to a related service page and to the free audit (`/#audit`).
 - Cover images: about 1600 x 900 px, under 300 KB, with a description (alt text).
 
-## 2. AI chat assistant
+## 2. Google Tag Manager, Analytics and Search Console
 
-The "Ask BNC AI" button opens a chat that answers questions about BNC and guides visitors to the free audit or WhatsApp. It needs an Anthropic API key:
-
-1. Create a key at **https://console.anthropic.com** (Settings > API keys) and add billing.
-2. In Netlify: **Site configuration > Environment variables > Add a variable**: key `ANTHROPIC_API_KEY`, value = your key.
-3. **Deploys > Trigger deploy**.
-
-Until the key is added, the chat shows a friendly message with the WhatsApp link instead of an answer. The assistant uses Claude Opus 5.5 at low effort for fast replies. What it knows about BNC is in `netlify/functions/chat.js` (the SYSTEM text), so edit it there when services change.
-
-## 3. Google Tag Manager, Analytics and Search Console
-
-- **Tag Manager**: containers `GTM-T6ZBT4ZS` and `GTM-WK4V4SB3` are on every page.
-- **Google Analytics 4**: add it inside Tag Manager. In one container: **Tags > New > Google tag**, enter your GA4 Measurement ID (starts with `G-`), trigger **All Pages**, then **Submit > Publish**. Add GA4 to only one of the two containers, otherwise every visit is counted twice.
-- **Conversion events** already sent to Tag Manager: `generate_lead` (audit form sent, with `lead_priority` HOT/WARM/COLD), `whatsapp_click`, `ai_chat_open`, `ai_chat_start`, `ai_chat_message`, `behance_click`. In GTM create a **Custom Event** trigger for each and a GA4 event tag, then mark `generate_lead` as a key event in GA4.
+- **Tag Manager**: container `GTM-WK4V4SB3` is on every page (homepage, blog, service pages, 404). It already contains your GA4 Google tag (`G-S37MX6BC9R`) with page views, scrolls, site search and video tracking, so Analytics works as soon as the site is live.
+- The second container `GTM-T6ZBT4ZS` was removed because it was published with no tags (it tracked nothing but added about 330 KB to every page). If you add tags to it later, ask to put it back.
+- **Conversion events** already sent to Tag Manager: `generate_lead` (audit form sent, with `lead_priority` HOT/WARM/COLD), `whatsapp_click`, `behance_click`. To see them in GA4: in GTM-WK4V4SB3 create a **Custom Event** trigger for each name and a **Google Analytics: GA4 Event** tag (Measurement ID `G-S37MX6BC9R`, same event name), publish, then mark `generate_lead` as a key event in GA4.
 - **Search Console**: the verification tag is on the homepage. In Search Console use **URL prefix** `https://www.bncapparel.site/`, method **HTML tag**, click **Verify**, then submit `sitemap.xml` under **Sitemaps**.
 
-## 4. How the site is built
+## 3. How the site is built
 Netlify runs `npm run build` (see `build.mjs`), which copies the homepage and assets unchanged and generates `/blog/`, `/services/`, the sitemap and the RSS feed into `dist/`. Content lives in `content/blog/` and `content/services/` as Markdown files.
+
+## 4. Uploading by hand (Netlify drag and drop)
+Upload the contents of the `dist` folder (or the zip of it) at Netlify: **Deploys > drag and drop**. Redirects and headers are included as `_redirects` and `_headers`.
+Note: with manual uploads, posts published in `/admin/` are saved to GitHub but only appear on the site after the next build and upload. To publish posts instantly, connect the site to GitHub in Netlify (**Site configuration > Build & deploy > Link repository**, branch `claude/bnc-apparel-site-recreation-ni25ng`); Netlify then rebuilds on every publish.

@@ -48,7 +48,7 @@ function copyRecursive(src, dest) {
 }
 
 // ---------- shared page parts ----------
-const GTM_IDS = ["GTM-T6ZBT4ZS", "GTM-WK4V4SB3"];
+const GTM_IDS = ["GTM-WK4V4SB3"]; // contains the GA4 Google tag (G-S37MX6BC9R)
 const gtmHead = GTM_IDS.map((id) => `<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${id}');</script>`).join("\n  ");
 const gtmBody = GTM_IDS.map((id) => `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${id}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`).join("\n  ");
 
@@ -60,7 +60,7 @@ function head({ title, description, url, image = "/og.jpg", type = "website", sc
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <!-- Google Tag Manager -->
   ${gtmHead}
-  <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}</script>
+  <script>window.dataLayer = window.dataLayer || [];</script>
   <!-- End Google Tag Manager -->
   <meta name="google-site-verification" content="6CzrClzx4_GC6DPjvTPrEUib2yooQpFdynJm1dM9h_I" />
   <title>${esc(title)}</title>
@@ -91,7 +91,6 @@ function head({ title, description, url, image = "/og.jpg", type = "website", sc
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
   <link rel="stylesheet" href="/blog.css" />
-  <link rel="stylesheet" href="/chat.css" />
   ${schema.map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`).join("\n  ")}
 </head>
 <body class="bnc-page">
@@ -142,7 +141,6 @@ ${services.map((s) => `      <a href="/services/${s.slug}/">${esc(s.nav_label ||
       <a href="/blog/">Blog</a>
     </nav>
   </footer>
-  <script src="/chat.js" defer></script>
   <script>
     document.addEventListener("click", function (e) {
       var a = e.target.closest && e.target.closest("a"); if (!a) return;
@@ -401,6 +399,27 @@ ${[
   ...posts.map((p) => urlEntry(`${SITE}/blog/${p.slug}/`, isoDate(p.updated || p.date), "0.7", p.cover ? [[p.cover, p.title]] : [])),
 ].filter(Boolean).join("\n")}
 </urlset>
+`);
+
+// 7. Netlify rules as files, so they also apply when the dist folder is uploaded by drag and drop
+write(path.join(OUT, "_redirects"), `# Serve one canonical address
+https://bncapparel.site/* https://www.bncapparel.site/:splat 301!
+http://bncapparel.site/* https://www.bncapparel.site/:splat 301!
+`);
+write(path.join(OUT, "_headers"), `/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+
+/images/work/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/case/*
+  Cache-Control: public, max-age=31536000, immutable
 `);
 
 console.log(`Built ${services.length} service pages and ${posts.length} blog posts into ${OUT}/`);

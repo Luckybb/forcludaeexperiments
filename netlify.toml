@@ -6,28 +6,12 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# AI chat assistant (needs ANTHROPIC_API_KEY in Netlify environment variables)
-[functions]
-  directory = "netlify/functions"
-  node_bundler = "esbuild"
-
-[[redirects]]
-  from = "/api/chat"
-  to = "/.netlify/functions/chat"
-  status = 200
-  force = true
-
 # Always serve the canonical https://www. address
 [[redirects]]
   from = "https://bncapparel.site/*"
   to = "https://www.bncapparel.site/:splat"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/index.html"
-  to = "/"
-  status = 301
 
 # Security headers (a trust signal for browsers and search engines)
 [[headers]]
