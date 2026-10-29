@@ -1,7 +1,6 @@
 // Builds the deployable site into dist/:
 //  - copies the existing site files untouched (homepage, styles, scripts, images, icons)
 //  - turns content/blog/*.md into /blog/ and /blog/<slug>/ pages
-//  - turns content/services/*.md into /services/ and /services/<slug>/ pages
 //  - writes sitemap.xml and /blog/rss.xml
 // Run locally with: npm install && npm run build
 import fs from "node:fs";
@@ -48,7 +47,7 @@ function copyRecursive(src, dest) {
 }
 
 // ---------- shared page parts ----------
-const GTM_IDS = ["GTM-WK4V4SB3"]; // contains the GA4 Google tag (G-S37MX6BC9R)
+const GTM_IDS = ["GTM-T6ZBT4ZS", "GTM-WK4V4SB3"]; // same Google Tag Manager containers as the homepage
 const gtmHead = GTM_IDS.map((id) => `<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${id}');</script>`).join("\n  ");
 const gtmBody = GTM_IDS.map((id) => `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${id}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>`).join("\n  ");
 
@@ -60,7 +59,11 @@ function head({ title, description, url, image = "/og.jpg", type = "website", sc
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <!-- Google Tag Manager -->
   ${gtmHead}
-  <script>window.dataLayer = window.dataLayer || [];</script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
   <!-- End Google Tag Manager -->
   <meta name="google-site-verification" content="6CzrClzx4_GC6DPjvTPrEUib2yooQpFdynJm1dM9h_I" />
   <title>${esc(title)}</title>
@@ -123,7 +126,7 @@ const ctaBand = (title, sub) => `
       </div>
     </div>`;
 
-function foot(services) {
+function foot() {
   return `
   <footer class="footer">
     <a href="/#audit" class="footer__cta">
@@ -134,19 +137,8 @@ function foot(services) {
       <span>© ${new Date().getFullYear()} BNC Designs</span>
       <span>Growth marketing for apparel brands</span>
       <a href="${WA}" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="https://www.behance.net/burhanbnc" target="_blank" rel="noopener">Behance</a>
     </div>
-    <nav class="footer__row" aria-label="Services">
-${services.map((s) => `      <a href="/services/${s.slug}/">${esc(s.nav_label || s.title)}</a>`).join("\n")}
-      <a href="/blog/">Blog</a>
-    </nav>
   </footer>
-  <script>
-    document.addEventListener("click", function (e) {
-      var a = e.target.closest && e.target.closest("a"); if (!a) return;
-      try { if (/wa\\.me/.test(a.href)) (window.dataLayer = window.dataLayer || []).push({ event: "whatsapp_click", link_location: location.pathname }); } catch (_) {}
-    });
-  </script>
 </body>
 </html>
 `;
@@ -171,107 +163,13 @@ copyRecursive("images", path.join(OUT, "images"));
 copyRecursive("admin", path.join(OUT, "admin"));
 
 // 2. Content
-const services = loadCollection("content/services").sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
 const posts = loadCollection("content/blog").sort((a, b) => new Date(b.date) - new Date(a.date));
-const serviceBySlug = Object.fromEntries(services.map((s) => [s.slug, s]));
-
-// 3. Service pages
-for (const s of services) {
-  const url = `${SITE}/services/${s.slug}/`;
-  const faq = Array.isArray(s.faq) ? s.faq.filter((f) => f && f.q && f.a) : [];
-  const related = posts.filter((p) => (p.services || []).includes(s.slug)).slice(0, 3);
-  const work = Array.isArray(s.work) ? s.work : [];
-  const schema = [
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      name: s.title,
-      serviceType: s.title,
-      description: s.description,
-      url,
-      provider: { "@type": "ProfessionalService", name: "BNC", url: SITE + "/", ...orgRef },
-      areaServed: [{ "@type": "Country", name: "United States" }, "Worldwide"],
-      offers: { "@type": "Offer", name: "Free site and business audit", price: "0", priceCurrency: "USD", url: SITE + "/#audit" },
-    },
-    breadcrumb([["Home", SITE + "/"], ["Services", SITE + "/services/"], [s.title, url]]),
-  ];
-  if (faq.length) schema.push({
-    "@context": "https://schema.org", "@type": "FAQPage",
-    mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
-  });
-  const html = head({ title: s.seo_title || `${s.title} | BNC`, description: s.description, url, image: s.image || "/og.jpg", schema })
-    + `
-  <main class="bp">
-    <section class="bp-hero">
-      <nav class="bp-crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/services/">Services</a> / <span>${esc(s.title)}</span></nav>
-      <div class="tag tag--light">[ SERVICE ]</div>
-      <h1 class="bp-title">${esc(s.h1 || s.title)}</h1>
-      <p class="bp-lead">${esc(s.lead || s.description)}</p>
-      <div class="bp-hero__cta">
-        <a href="/#audit" class="pill pill--accent pill--lg">Get my free audit ↗</a>
-        <a href="${WA}" target="_blank" rel="noopener" class="pill pill--ghost" data-wa>WhatsApp me</a>
-      </div>
-    </section>
-    <div class="bp-wrap">
-      <article class="prose">
-${s.html}
-      </article>
-${work.length ? `      <section class="bp-work">
-        <div class="tag">[ RELATED WORK ]</div>
-        <div class="bp-work__grid">
-${work.map((w) => `          <a class="bp-work__card" href="/#work"><img src="/images/work/${esc(w)}.webp" alt="${esc(w.replace(/-/g, " "))} brand design work by BNC" loading="lazy" width="720" height="1080" /><span>${esc(w.replace(/-/g, " "))}</span></a>`).join("\n")}
-        </div>
-      </section>` : ""}
-${faq.length ? `      <section class="bp-faq">
-        <h2>Questions about ${esc(s.title.toLowerCase())}</h2>
-${faq.map((f) => `        <details><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join("\n")}
-      </section>` : ""}
-${related.length ? `      <section class="bp-related">
-        <div class="tag">[ FROM THE BLOG ]</div>
-        <ul>${related.map((p) => `<li><a href="/blog/${p.slug}/">${esc(p.title)}</a></li>`).join("")}</ul>
-      </section>` : ""}
-      <section class="bp-more">
-        <div class="tag">[ OTHER SERVICES ]</div>
-        <ul>${services.filter((x) => x.slug !== s.slug).map((x) => `<li><a href="/services/${x.slug}/">${esc(x.title)}</a></li>`).join("")}</ul>
-      </section>
-${ctaBand(s.cta_title || "Want to know where to start?", "Get a free audit with the 3 to 5 fixes that will move your brand first.")}
-    </div>
-  </main>` + foot(services);
-  write(path.join(OUT, "services", s.slug, "index.html"), html);
-}
-
-// Services index
-if (services.length) {
-  const url = `${SITE}/services/`;
-  const html = head({
-    title: "Clothing Brand Services: Design, Shopify, POD, SEO & Ads | BNC",
-    description: "Everything a clothing brand needs to launch and grow: T-shirt design, brand identity, print on demand setup, Shopify stores, SEO, ad creatives and social media.",
-    url,
-    schema: [breadcrumb([["Home", SITE + "/"], ["Services", url]])],
-  }) + `
-  <main class="bp">
-    <section class="bp-hero">
-      <nav class="bp-crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span>Services</span></nav>
-      <div class="tag tag--light">[ SERVICES / ${String(services.length).padStart(2, "0")} ]</div>
-      <h1 class="bp-title">Everything between <em>great product</em> and consistent sales.</h1>
-      <p class="bp-lead">Design, store, launch and growth for clothing brands, from first sketch to sold out drop.</p>
-    </section>
-    <div class="bp-wrap">
-      <div class="bp-cards">
-${services.map((s) => `        <a class="bp-card" href="/services/${s.slug}/"><span class="tag">${esc(s.nav_label || "")}</span><h2>${esc(s.title)}</h2><p>${esc(s.description)}</p><span class="bp-card__more">Learn more ↗</span></a>`).join("\n")}
-      </div>
-${ctaBand("Not sure which of these you need?", "The free audit tells you exactly where to start, in priority order.")}
-    </div>
-  </main>` + foot(services);
-  write(path.join(OUT, "services", "index.html"), html);
-}
 
 // 4. Blog posts
 for (const [i, p] of posts.entries()) {
   const url = `${SITE}/blog/${p.slug}/`;
   const cover = p.cover || "";
   const tags = Array.isArray(p.tags) ? p.tags : [];
-  const relatedServices = (p.services || []).map((x) => serviceBySlug[x]).filter(Boolean);
   const others = posts.filter((x) => x.slug !== p.slug).slice(0, 3);
   const schema = [
     {
@@ -306,17 +204,13 @@ for (const [i, p] of posts.entries()) {
       <article class="prose">
 ${p.html}
       </article>
-${relatedServices.length ? `      <section class="bp-related">
-        <div class="tag">[ RELATED SERVICES ]</div>
-        <ul>${relatedServices.map((s) => `<li><a href="/services/${s.slug}/">${esc(s.title)}</a></li>`).join("")}</ul>
-      </section>` : ""}
 ${ctaBand("Want this applied to your brand?", "Get a free audit with the 3 to 5 fixes I'd make first on your store and marketing.")}
 ${others.length ? `      <section class="bp-more">
         <div class="tag">[ KEEP READING ]</div>
         <ul>${others.map((x) => `<li><a href="/blog/${x.slug}/">${esc(x.title)}</a></li>`).join("")}</ul>
       </section>` : ""}
     </div>
-  </main>` + foot(services);
+  </main>` + foot();
   write(path.join(OUT, "blog", p.slug, "index.html"), html);
 }
 
@@ -346,7 +240,7 @@ ${posts.map((p) => `        <a class="bp-card" href="/blog/${p.slug}/">${p.cover
       </div>` : `<p class="bp-empty">New posts are on the way.</p>`}
 ${ctaBand("Rather have it done for you?", "Get a free audit with the 3 to 5 fixes that will move your brand first.")}
     </div>
-  </main>` + foot(services);
+  </main>` + foot();
   write(path.join(OUT, "blog", "index.html"), html);
 }
 
@@ -370,7 +264,7 @@ ${posts.map((p) => `  <item>
 </rss>
 `);
 
-// 6. Sitemap (homepage with its image entries, services, blog)
+// 6. Sitemap (homepage with its image entries, blog)
 const homeImages = [
   ["images/work/dream-in-defiance-full.webp", "Dream in Defiance clothing brand design and Shopify launch"],
   ["images/work/hamrah-full.webp", "Hamrah streetwear brand identity and T-shirt design"],
@@ -393,8 +287,6 @@ write(path.join(OUT, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${[
   urlEntry(SITE + "/", today, "1.0", homeImages),
-  services.length ? urlEntry(SITE + "/services/", today, "0.9") : "",
-  ...services.map((s) => urlEntry(`${SITE}/services/${s.slug}/`, isoDate(s.updated), "0.9")),
   urlEntry(SITE + "/blog/", posts[0] ? isoDate(posts[0].date) : today, "0.8"),
   ...posts.map((p) => urlEntry(`${SITE}/blog/${p.slug}/`, isoDate(p.updated || p.date), "0.7", p.cover ? [[p.cover, p.title]] : [])),
 ].filter(Boolean).join("\n")}
@@ -422,4 +314,4 @@ write(path.join(OUT, "_headers"), `/*
   Cache-Control: public, max-age=31536000, immutable
 `);
 
-console.log(`Built ${services.length} service pages and ${posts.length} blog posts into ${OUT}/`);
+console.log(`Built the blog with ${posts.length} posts into ${OUT}/`);

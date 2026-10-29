@@ -7,7 +7,6 @@ author: "BNC"
 cover: "/images/case/love.webp"
 cover_alt: "Dream in Defiance merch launch photoshoot"
 tags: [Creator merch, YouTube, Case study, Shopify]
-services: [t-shirt-design-services, print-on-demand-store-setup, shopify-clothing-store-design]
 ---
 
 Launching merch as a creator looks simple: put your logo on a hoodie and post a link. The creators whose merch actually sells treat it like launching a real clothing brand. Here's what we learned building the launch for Dream in Defiance, a clothing brand for a YouTube creator with 300,000 subscribers.

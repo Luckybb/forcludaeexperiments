@@ -11,12 +11,10 @@
 - netlify.toml: redirects bncapparel.site to https://www., long image caching, security headers
 - All scripts deferred, images compressed to WebP and lazy loaded
 
-## Added: service pages, blog and tracking
-- 8 service landing pages under /services/ (one per service), each with Service, Breadcrumb and FAQ structured data, related work and internal links
+## Added: blog and tracking
 - Blog at /blog/ with a WordPress-style editor at /admin/, BlogPosting structured data, RSS feed and automatic sitemap entries
 - 3 starter posts: how to start a clothing brand, Printful vs Printify, and launching creator merch (Dream in Defiance case study)
-- Google Tag Manager (GTM-WK4V4SB3 with GA4 G-S37MX6BC9R) on every page and the Search Console verification tag
-- Footer links from the homepage to every service page and the blog, so Google finds them
+- Google Tag Manager (GTM-T6ZBT4ZS and GTM-WK4V4SB3) on every page and the Search Console verification tag
 
 ## Target keywords
 Primary (homepage, US): clothing brand design agency, t-shirt design services, apparel brand identity, streetwear brand design, merch design for creators
@@ -43,9 +41,8 @@ Long tail (future blog posts): how to start a clothing brand, how to launch merc
 6. Guest posts or podcast mentions in creator merch and streetwear communities
 
 ## Content plan
-Service pages and the blog are live. Next:
+The blog is live. Next:
 - Publish 1 to 2 posts a month on the long tail keywords above (sitemap and RSS update automatically)
-- Link each new post to its related service pages using the Related services field
 - Later: one page per case study (for example /work/dream-in-defiance/)
 
 ## Things to keep consistent

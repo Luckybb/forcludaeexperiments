@@ -7,7 +7,6 @@ author: "BNC"
 cover: "/images/work/streetwear-graphics.webp"
 cover_alt: "Streetwear graphic T-shirt designs for a print on demand brand"
 tags: [Print on demand, Printful, Printify, Shopify]
-services: [print-on-demand-store-setup, t-shirt-design-services]
 ---
 
 Print on demand is the fastest way to launch a clothing brand without buying inventory. The first big decision is usually Printful or Printify. Both connect to Shopify, both print and ship for you, and both can work well. They're built differently, though, and that difference matters for your brand.

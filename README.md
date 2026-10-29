@@ -1,6 +1,6 @@
 # BNC Apparel website
 
-Static site for www.bncapparel.site with a real-time cloth simulation T-shirt hero, smooth scroll, parallax, a horizontal portfolio with full-size board viewer, the Dream in Defiance case study and a free audit call to action. Netlify runs `npm run build`, which copies the site unchanged and generates the blog and service pages into `dist/`. See `BLOG-GUIDE.md` for the blog admin and tracking setup.
+Static site for www.bncapparel.site with a real-time cloth simulation T-shirt hero, smooth scroll, parallax, a horizontal portfolio with full-size board viewer, the Dream in Defiance case study and a free audit call to action. Netlify runs `npm run build`, which copies the site unchanged and generates the blog pages into `dist/`. See `BLOG-GUIDE.md` for the blog admin and tracking setup.
 
 ## Leads and contact
 - The audit form uses Netlify Forms. In Netlify: Site configuration > Forms > Enable form detection, redeploy, then Forms > Form notifications > Add notification > Email notification, and enter the inbox that should receive leads. The address stays private in Netlify and never appears on the site.

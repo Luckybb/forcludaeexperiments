@@ -7,7 +7,6 @@ author: "BNC"
 cover: "/images/case/lifestyle.webp"
 cover_alt: "Founders wearing a new clothing brand's hoodies and tees"
 tags: [Start a clothing brand, Launch, Strategy]
-services: [clothing-brand-marketing-strategy, clothing-brand-identity-design, print-on-demand-store-setup]
 ---
 
 I've worked with apparel brands for years, and the brands that struggle rarely have bad products. They usually skip the steps that make people care about the product in the first place. Here is the checklist I'd follow if I were starting a clothing brand today.
