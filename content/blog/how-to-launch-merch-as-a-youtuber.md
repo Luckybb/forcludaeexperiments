@@ -1,6 +1,6 @@
 ---
 title: "How to Launch Merch as a YouTuber: Lessons From a 300K Subscriber Launch"
-seo_title: "How to Launch Merch as a YouTuber or Creator: A Real Case Study | BNC"
+seo_title: "How to Launch YouTube Merch: A 300K Creator Case Study | BNC"
 description: "What it takes to launch creator merch that actually sells, from design and Printful setup to a Shopify store and launch day, based on a real 300K subscriber launch."
 date: 2026-10-29
 author: "BNC"

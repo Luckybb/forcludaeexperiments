@@ -1,6 +1,6 @@
 ---
 title: "How to Start a Clothing Brand: A Launch Checklist That Actually Sells"
-seo_title: "How to Start a Clothing Brand in 2026: Step by Step Launch Checklist | BNC"
+seo_title: "How to Start a Clothing Brand: 2026 Launch Checklist | BNC"
 description: "A practical, step by step checklist for starting a clothing brand, from positioning and design to your store, launch plan and first customers."
 date: 2026-10-29
 author: "BNC"
