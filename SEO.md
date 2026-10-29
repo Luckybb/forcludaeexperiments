@@ -16,6 +16,32 @@
 - 3 starter posts: how to start a clothing brand, Printful vs Printify, and launching creator merch (Dream in Defiance case study)
 - Google Tag Manager (GTM-T6ZBT4ZS and GTM-WK4V4SB3) on every page and the Search Console verification tag
 
+## Keyword plan (researched October 2026)
+
+Goal: rank for searches made by founders who are ready to pay for help, not people looking for $10 gigs.
+
+### Priority 1: money keywords you can win
+| Keyword | Why | Where it's targeted |
+|---|---|---|
+| merch design for youtubers / youtube merch design / creator merch agency | Weak competition (a small UK studio and DIY tools rank) and BNC has a real 300K subscriber launch | Blog: youtube-merch-design-guide, how-to-launch-merch-as-a-youtuber |
+| clothing brand design agency / clothing brand designer | Small boutique agencies rank, winnable over time | Homepage title, blog: clothing-brand-design-agency-vs-freelancer |
+| streetwear brand identity / clothing brand logo design | Brand work is BNC's strongest portfolio | Future posts with Hamrah, Paragon, Apex examples |
+
+### Priority 2: founder questions (bring the right people to the blog)
+- how to start a clothing brand (published)
+- printful vs printify (published)
+- how to start a streetwear brand
+- how much does it cost to start a clothing brand
+- how to price t-shirts for a clothing brand
+- best shopify setup for a clothing brand
+- how to launch a clothing line / first drop
+
+### Skip (marketplace territory, cheap buyers)
+- print on demand store setup service, hire streetwear designer, t-shirt design service: Fiverr and Upwork dominate at $5 to $190 per gig
+
+### Measure
+After Search Console is verified, check **Performance > Queries** every 2 to 4 weeks. Write the next posts around queries where the site appears on page 2 (positions 11 to 20).
+
 ## Target keywords
 Primary (homepage, US): clothing brand design agency, t-shirt design services, apparel brand identity, streetwear brand design, merch design for creators
 Secondary: print on demand store setup, Shopify clothing store design, clothing brand marketing agency, Printful Shopify setup, custom hoodie design, merch design for creators
