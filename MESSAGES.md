@@ -42,6 +42,43 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Oct 12, 2026
+
+Sent by this session: 1 warm reply and 30 final follow ups (2 of 2) to the Oct 7 group. All in the same Gmail thread, "Re: original subject". Each follow up uses the same wording as the angle templates logged on earlier days, with the brand name and first names filled in.
+
+### Warm reply: Skully (John Sexton, hello@wearskully.com)
+
+Their reply (Oct 10):
+
+Hey Ben, Thanks for the heads up! Good catch. Turns out the Snow banner had the same issue. All fixed now! I'm actually a web and graphic designer myself, and Skully is pretty much a one man show right now. Just having fun building the brand and seeing where it goes. Really appreciate you checking out the site and looking out!
+
+Our reply:
+
+Hey John,
+
+Love that, and nice catch on the Snow banner too. Fixing it the same day is exactly the kind of attention to detail that shows up in the brand.
+
+Surf, street and snow under one name is a fun lane to build, and as a designer you've clearly got the look covered. If you ever want a second set of eyes on the growth side, like search, email or turning visitors into buyers, the free audit offer stands, no strings attached. bncapparel.site
+
+And if you know any other founders building a clothing brand who could use the same kind of heads up, I'd be grateful for an intro.
+
+Keep it rolling 🤙
+
+Ben | BNC Group | bncapparel.site
+
+### Final follow ups (2 of 2)
+
+- D, one useful insight ("Last note from me on this. Most first time visitors decide in a few seconds..."): Ditale, Soča, FunLuvin', AIEA Golf, LOHLA SPORT, GWG Clothing, 40 Lime, Apostles Apparel, Yeci, Five Tides
+- E, close the loop ("I'll leave it here so I don't crowd your inbox. If you ever want a fresh set of eyes on [brand], the free audit with the 3 to 5 things I'd look at first is still..."): UNDRGRND GOLF, Reel Girl, Miss Mayfly, PEP Pickleball, The Garde, Meraki Hunt, ALYN Golf, CXXII, FOXYLAB
+- F, common pattern ("One last thought on [brand]. What I mentioned in my first email is one of the most common things I see on growing apparel brands..."): Putt Snipe Celly, Five12, Mumford Golf, Honors, 40 Love Tennis, Ellie Arbee, Honor His House, Tordrobes, To Him Be
+- Six Zero Pickleball, custom close:
+
+Hi there,
+
+I'll leave it here so I don't crowd your inbox. If the role is still open later, or you want help with a capsule on a project basis, I'm happy to put together a few concept directions for Six Zero.
+
+Ben | BNC Group | bncapparel.site
+
 ## Oct 9, 2026
 
 ### Warm

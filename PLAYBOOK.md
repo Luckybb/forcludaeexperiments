@@ -19,6 +19,7 @@ This is our second brain. Every reply, booking and objection gets added here, so
 | Reign Gear LLC | Website audit form | n/a (inbound) | Launched, few sales, under $300 budget | Problems sent, call offered |
 | 787 Raíces | Instagram DM | Free audit offer | Pre launch, waitlist | "I would love that" |
 | JAP Apparel | Instagram DM | Free audit offer | Selling | Rescheduling the call |
+| Skully | Cold email (second session) | Homepage banner links to the wrong collection | Selling, founder is a web designer | Fixed it same day, thanked us, low intent |
 
 ## Patterns so far
 - The quick question follow up (B) got the first reply from a follow up: easy to answer in one line, so founders answer it.
@@ -35,9 +36,10 @@ This is our second brain. Every reply, booking and objection gets added here, so
 | FU A: short bump with stake | 37 | 0 | Oct 6 to 8 |
 | FU B: quick question | 40 | 1 | Oct 5 to 8. Hood T'z answered "I run it myself" within 2 minutes |
 | FU C: timing on a new drop | 0 | 0 | New |
-| FU D: one useful insight | 43 | 0 | Oct 5 to 9, was the old FU2 |
-| FU E: close the loop | 44 | 0 | Oct 5 to 9 |
-| FU F: common pattern | 41 | 0 | Oct 5 to 9 |
+| FU D: one useful insight | 53 | 0 | Oct 5 to 12, was the old FU2 |
+| FU E: close the loop | 54 | 0 | Oct 5 to 12 |
+| FU F: common pattern | 50 | 0 | Oct 5 to 12 |
 
 ## Objections heard
+- "I'm a designer myself" (Skully). Founders who build their own site fix the specific bug and move on. Lead with growth gaps (search, email, conversion), not visual bugs, for designer founders.
 - Low budget (Reign Gear, under $300). Still worth a call only if they're selling and the call sells them on a starter scope. Ben decides.
