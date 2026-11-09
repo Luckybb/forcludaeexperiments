@@ -381,6 +381,9 @@ No working email, Ben sends these by hand.
 
 | Brand | Contact | Channel | Golden nugget | Heat |
 | --- | --- | --- | --- | --- |
+| SEOFON (Nell, u/nellyville13) | @seofon.co, seofonllc@gmail.com | Instagram DM (Reddit Nov 8, first drop, 100 upvotes) | Genesis story from the Reddit post is not on the site, homepage headline is only the email signup, Google title just SEOFON | Warm |
+| BLCKAPEX | @blckapex.official, contact@blckapex.com | Instagram DM (Reddit Nov 8, 30 days in) | Catalog pulls two ways: $85 dragon art tee next to God's Favorite Child faith tee, unclear who it's for | Warm |
+| LUNUR Collective (Chicago) | Instagram handle not found yet, lunurcollective@gmail.com | Instagram DM (running Reddit ads) | Homepage says the drop design is October's Scorpius, Beaver Moon piece described as Sagittarius. Drop Nov 24 | Warm |
 | Naked Sewist | Doug Chinery, Denver (IG or phone 312-905-3580) | Instagram DM | Google title reads "Naked Sewist Homepage, Naked Sewist". Launching online store with LA Fashion Week in October | Hot |
 | Draw & Fade Modern | Taylor Olson Freed, Austin | Instagram DM | Brand called Draw & Fade, Draw & Fade Modern and D&F Modern, story page URL ends in "1" | Warm |
 | Erne + Ace | Farah Liem, NYC | Instagram DM | Name collides with ERNE Pickleball, a big paddle brand. Second collection just dropped | Warm |
