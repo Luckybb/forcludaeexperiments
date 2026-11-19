@@ -40,6 +40,7 @@ Last updated: 2026-10-04. A second session also sends from info@ and sent 83 fol
 | Gene Ivor (IVOR, UK) | LinkedIn | LinkedIn DM | Replied | Pre launch, Feb launch, waitlist goal 150, mystery campaign. Asked what we think of the waitlist page | Reply drafted Oct 6: countdown shows "This offer has ended", title "– Ivor", no join reason. Free call offer |
 | Hood T'z Apparel | hoodtz2026@yahoo.com | Email | Replied Oct 8 | Founder runs the site himself. Second session replied Oct 8 asking if the bigger headache is traffic or conversion | Waiting on his answer, then warm reply with 2 to 3 problems and the free call |
 | Skully (John Sexton) | hello@wearskully.com | Email | Replied Oct 10, low intent | Fixed the Street and Snow banners same day. He's a web and graphic designer, one man show, building for fun. Second session sent the cold email Oct 10 | Friendly reply sent Oct 12, audit offer stands plus referral ask. No more follow ups |
+| Wagtee (Oddkjell Volle) | support@wagtee.com | Email | Invoice sent Nov 19 | Cold email Nov 13 (Corleone page link), free audit Nov 14, $300 sprint quoted Nov 17, said go Nov 19. Invoice BNC-2026-005, $150 now, $150 on approval | Waiting on payment and Shopify staff access, then 7 to 10 business days |
 
 ## Email leads
 

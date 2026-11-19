@@ -42,6 +42,24 @@ You can see our work at bncapparel.site. Happy to put together a few concept dir
 
 Ben | BNC Group | bncapparel.site
 
+## Nov 19, 2026
+
+### Wagtee (Oddkjell Volle, support@wagtee.com), invoice sent in the "Corleone or snoring?" thread
+
+Hi Oddkjell,
+
+Thanks for the trust, I'm glad to have Wagtee on board.
+
+Attached is the invoice for the first half, $150. You can pay by card here: https://www.pmny.link/p/MUYR5H
+
+Once it comes through, please add info@bncproductionz.com as a staff member in Shopify with access to Themes, Products and Online Store. I'll start right away on a duplicate theme, so your live store stays untouched until you approve everything.
+
+Best,
+Burhan (Ben)
+BNC Group | bncapparel.site
+
+Attachment: Wagtee-Invoice-BNC-2026-005.pdf ($300 sprint, $150 due now)
+
 ## Oct 12, 2026
 
 Sent by this session: 1 warm reply and 30 final follow ups (2 of 2) to the Oct 7 group. All in the same Gmail thread, "Re: original subject". Each follow up uses the same wording as the angle templates logged on earlier days, with the brand name and first names filled in.
