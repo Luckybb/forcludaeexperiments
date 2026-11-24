@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Gmail__send_message",
+      "mcp__Gmail__search_threads",
+      "mcp__Gmail__get_thread",
+      "mcp__Gmail__create_draft",
+      "mcp__Slack__slack_read_list",
+      "mcp__Slack__slack_add_list_record",
+      "mcp__Slack__slack_update_list_record",
+      "WebSearch",
+      "mcp__Claude_Code_Remote__send_later",
+      "mcp__Claude_Code_Remote__update_trigger",
+      "mcp__Claude_Code_Remote__get_trigger"
+    ]
+  }
+}
